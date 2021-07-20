@@ -1,0 +1,86 @@
+{
+  "uid" : "cc042034c696f7a6",
+  "name" : "Submit_009-签名错误(apikey 错误)",
+  "fullName" : "TestCase.test_order.TestCredit#test_credit",
+  "historyId" : "2fd62fddb14ebd2ef2659033ef46d4d9",
+  "time" : {
+    "start" : 1625818459398,
+    "stop" : 1625818459422,
+    "duration" : 24
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "话费订单用例"
+  }, {
+    "name" : "feature",
+    "value" : "话费管理用例"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=3)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_order"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCredit"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-M7394K0"
+  }, {
+    "name" : "thread",
+    "value" : "190652-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "id",
+    "value" : "'Submit_009'"
+  }, {
+    "name" : "method",
+    "value" : "'POST'"
+  }, {
+    "name" : "name",
+    "value" : "'签名错误(apikey 错误)'"
+  }, {
+    "name" : "reqbody",
+    "value" : "'{\"ApiAccount\":\"InterceptTestApi\",\"ProductCode\":\"ALL_LT_01_000100_0001\",\"ChargeNum\":\"18884178456\",\"Quantity\":\"1\",\"ApiKey\": \"A3FDA\"}'"
+  }, {
+    "name" : "respdata",
+    "value" : "'{\"Request\":{\"ApiAccount\":\"InterceptTestApi\",\"MOrderID\":\"1625550274993\",\"ProductCode\":\"ALL_LT_01_000100_0001\",\"ChargeNum\":\"18884178456\",\"ParValue\":\"null\",\"ProductType\":\"null\",\"Quantity\":1,\"TimesTamp\":\"20210706134434\",\"CustomIP\":\"null\",\"CallbackUrl\":\"null\",\"Sign\":\"48286716F403A11FB41FBB44B3851D03\",\"ApiRequestIP\":\"125.70.76.207\"},\"Response\":{\"ResponseCode\":\"100010\",\"ResponseMessage\":\"签名错误\",\"ResponseData\":\"null\"}}'"
+  }, {
+    "name" : "url",
+    "value" : "'/SubmitOrder.ashx'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=3)" ]
+  },
+  "source" : "cc042034c696f7a6.json",
+  "parameterValues" : [ "'Submit_009'", "'POST'", "'签名错误(apikey 错误)'", "'{\"ApiAccount\":\"InterceptTestApi\",\"ProductCode\":\"ALL_LT_01_000100_0001\",\"ChargeNum\":\"18884178456\",\"Quantity\":\"1\",\"ApiKey\": \"A3FDA\"}'", "'{\"Request\":{\"ApiAccount\":\"InterceptTestApi\",\"MOrderID\":\"1625550274993\",\"ProductCode\":\"ALL_LT_01_000100_0001\",\"ChargeNum\":\"18884178456\",\"ParValue\":\"null\",\"ProductType\":\"null\",\"Quantity\":1,\"TimesTamp\":\"20210706134434\",\"CustomIP\":\"null\",\"CallbackUrl\":\"null\",\"Sign\":\"48286716F403A11FB41FBB44B3851D03\",\"ApiRequestIP\":\"125.70.76.207\"},\"Response\":{\"ResponseCode\":\"100010\",\"ResponseMessage\":\"签名错误\",\"ResponseData\":\"null\"}}'", "'/SubmitOrder.ashx'" ]
+}

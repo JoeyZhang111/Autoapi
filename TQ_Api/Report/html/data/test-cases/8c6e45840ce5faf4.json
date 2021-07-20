@@ -1,0 +1,86 @@
+{
+  "uid" : "8c6e45840ce5faf4",
+  "name" : "Submit_001-提交成功",
+  "fullName" : "TestCase.test_order.TestCredit#test_credit",
+  "historyId" : "09e82b0e20c442cd7468378e43d554fd",
+  "time" : {
+    "start" : 1625818457079,
+    "stop" : 1625818458115,
+    "duration" : 1036
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "话费订单用例"
+  }, {
+    "name" : "feature",
+    "value" : "话费管理用例"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=3)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_order"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCredit"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-M7394K0"
+  }, {
+    "name" : "thread",
+    "value" : "190652-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "id",
+    "value" : "'Submit_001'"
+  }, {
+    "name" : "method",
+    "value" : "'POST'"
+  }, {
+    "name" : "name",
+    "value" : "'提交成功'"
+  }, {
+    "name" : "reqbody",
+    "value" : "'{\"ApiAccount\":\"TestApi\",\"ProductCode\":\"ALL_DX_01_000100_0001\",\"ChargeNum\":\"18884178456\",\"Quantity\":\"1\",\"ApiKey\": \"A3CD52180AF4EC928465B45FEF15E268\"}'"
+  }, {
+    "name" : "respdata",
+    "value" : "'{\"Request\":{\"ApiAccount\":\"TestApi\",\"MOrderID\":\"1605147960268\",\"ProductCode\":\"SCC_YD_01_001000_0001\",\"ChargeNum\":\"18888888888\",\"ParValue\":\"null\",\"ProductType\":\"null\",\"Quantity\":1,\"TimesTamp\":\"20201112102600\",\"CustomIP\":\"null\",\"CallbackUrl\":\"null\",\"Sign\":\"B24F98183782FAB71459DD873FE0A94B\",\"ApiRequestIP\":\"118.112.58.79\"},\"Response\":{\"ResponseCode\":\"000000\",\"ResponseMessage\":\"提交成功\",\"ResponseData\":{\"CapitalAccountID\":\"1000000000000001\",\"CreditAmount\":0.0,\"AccountBalance\":863185003.374,\"AvailableBalance\":863185003.374,\"OrderID\":\"20201112000000084525\",\"Quantity\":1,\"SellPrice\":10.0,\"SellAmounts\":10.0}}}'"
+  }, {
+    "name" : "url",
+    "value" : "'/SubmitOrder.ashx'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=3)" ]
+  },
+  "source" : "8c6e45840ce5faf4.json",
+  "parameterValues" : [ "'Submit_001'", "'POST'", "'提交成功'", "'{\"ApiAccount\":\"TestApi\",\"ProductCode\":\"ALL_DX_01_000100_0001\",\"ChargeNum\":\"18884178456\",\"Quantity\":\"1\",\"ApiKey\": \"A3CD52180AF4EC928465B45FEF15E268\"}'", "'{\"Request\":{\"ApiAccount\":\"TestApi\",\"MOrderID\":\"1605147960268\",\"ProductCode\":\"SCC_YD_01_001000_0001\",\"ChargeNum\":\"18888888888\",\"ParValue\":\"null\",\"ProductType\":\"null\",\"Quantity\":1,\"TimesTamp\":\"20201112102600\",\"CustomIP\":\"null\",\"CallbackUrl\":\"null\",\"Sign\":\"B24F98183782FAB71459DD873FE0A94B\",\"ApiRequestIP\":\"118.112.58.79\"},\"Response\":{\"ResponseCode\":\"000000\",\"ResponseMessage\":\"提交成功\",\"ResponseData\":{\"CapitalAccountID\":\"1000000000000001\",\"CreditAmount\":0.0,\"AccountBalance\":863185003.374,\"AvailableBalance\":863185003.374,\"OrderID\":\"20201112000000084525\",\"Quantity\":1,\"SellPrice\":10.0,\"SellAmounts\":10.0}}}'", "'/SubmitOrder.ashx'" ]
+}

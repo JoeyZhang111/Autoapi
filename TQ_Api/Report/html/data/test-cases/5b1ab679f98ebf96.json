@@ -1,0 +1,92 @@
+{
+  "uid" : "5b1ab679f98ebf96",
+  "name" : "Card_002-收单成功（无回调）",
+  "fullName" : "TestCase.test_order.TestCardOrder#test_Order",
+  "historyId" : "dbcb29a7280abd3a36d0635c63eef03f",
+  "time" : {
+    "start" : 1625818452213,
+    "stop" : 1625818452214,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "statusMessage" : "KeyError: 'CallBackUrl'",
+  "statusTrace" : "self = <test_order.TestCardOrder object at 0x000002E7D0EFD608>, id = 'Card_002'\nname = '收单成功（无回调）', url = '/Order/CardOrder', method = 'post'\nreqbody = '{\"AppKey\":\"211394680\",\"ProductCode\":\"PLM100016\",\"BuyCount\":\"1\",\"ChargeAccount\":\"18888888888\",\"ChargeAccountType\":\"1\",...0ARLm76OISoDux6jFkWM6mHAupA9sVDeFVKVkbWJP1fU%2BYSjezKEq0ujQ5e%2BHPaRAg%0ADQIBAw%3D%3D%0A-----END%20PUBLIC%20KEY-----\"}'\nrespdata = '{\"Msg\": \"收单成功\",\"ExtendParam\":\"null\",\"AppKey\": \"211394680\",\"TimesTamp\":\"1605883722957\",\"Sign\": \"1791B02F2893A70D26A07F865239F41B\",\"OrderModel\":\"{\\'SellPrice\\':\\'10.0\\',\\'OrderId\\': \\'201120144842951001\\'}\",\"Code\":\"999\"}'\nrandomnum = '1307538562'\n\n>   ???\nE   KeyError: 'CallBackUrl'\n\nD:\\TqApi\\TestCase\\test_order.py:101: KeyError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "卡密订单用例"
+  }, {
+    "name" : "feature",
+    "value" : "订单管理用例"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=2)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_order"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCardOrder"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-M7394K0"
+  }, {
+    "name" : "thread",
+    "value" : "190652-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "id",
+    "value" : "'Card_002'"
+  }, {
+    "name" : "method",
+    "value" : "'post'"
+  }, {
+    "name" : "name",
+    "value" : "'收单成功（无回调）'"
+  }, {
+    "name" : "reqbody",
+    "value" : "'{\"AppKey\":\"211394680\",\"ProductCode\":\"PLM100016\",\"BuyCount\":\"1\",\"ChargeAccount\":\"18888888888\",\"ChargeAccountType\":\"1\",\"CustomerIP\":\"121.43.39.80\",\"Version\":\"1.0\",\"IsCallback\":\"0\",\"AppSecret\":\"lOqVb8XGUkm1O/ppIxKhsg==\",\"PublicKey\":\"-----BEGIN%20PUBLIC%20KEY-----%0AMIIBIDANBgkqhkiG9w0BAQEFAAOCAQ0AMIIBCAKCAQEAliMd9tgh%2F%2Fgi8gE%2F2%2FCR%0ACby3oIshRJWMVvTxZbu5guy53k7tF3wfktIkMveV9ytiLxWnlI9VlV7KB%2FsSAxpt%0A1zs64zOCpX1u4XQKJkvTVmEPOH7%2F36VAHzmCw17mUIterqk8oX7fYWHTHSPMyuii%0AB%2FtqTOvYKOIUOmI1WmnX%2FEZxenBQ9DbEQaccDU2%2B4kJkjvefpEeEpg6ZJpS5pk%2F%2F%0A9GqClOEo0bpCsnjzgcoeuPimLepH6%2FInl14UfczdWFHfTzd%2FZ%2B%2F0LwTk7Da8Jx88%0ARLm76OISoDux6jFkWM6mHAupA9sVDeFVKVkbWJP1fU%2BYSjezKEq0ujQ5e%2BHPaRAg%0ADQIBAw%3D%3D%0A-----END%20PUBLIC%20KEY-----\"}'"
+  }, {
+    "name" : "respdata",
+    "value" : "'{\"Msg\": \"收单成功\",\"ExtendParam\":\"null\",\"AppKey\": \"211394680\",\"TimesTamp\":\"1605883722957\",\"Sign\": \"1791B02F2893A70D26A07F865239F41B\",\"OrderModel\":\"{'SellPrice':'10.0','OrderId': '201120144842951001'}\",\"Code\":\"999\"}'"
+  }, {
+    "name" : "url",
+    "value" : "'/Order/CardOrder'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "run(order=2)" ]
+  },
+  "source" : "5b1ab679f98ebf96.json",
+  "parameterValues" : [ "'Card_002'", "'post'", "'收单成功（无回调）'", "'{\"AppKey\":\"211394680\",\"ProductCode\":\"PLM100016\",\"BuyCount\":\"1\",\"ChargeAccount\":\"18888888888\",\"ChargeAccountType\":\"1\",\"CustomerIP\":\"121.43.39.80\",\"Version\":\"1.0\",\"IsCallback\":\"0\",\"AppSecret\":\"lOqVb8XGUkm1O/ppIxKhsg==\",\"PublicKey\":\"-----BEGIN%20PUBLIC%20KEY-----%0AMIIBIDANBgkqhkiG9w0BAQEFAAOCAQ0AMIIBCAKCAQEAliMd9tgh%2F%2Fgi8gE%2F2%2FCR%0ACby3oIshRJWMVvTxZbu5guy53k7tF3wfktIkMveV9ytiLxWnlI9VlV7KB%2FsSAxpt%0A1zs64zOCpX1u4XQKJkvTVmEPOH7%2F36VAHzmCw17mUIterqk8oX7fYWHTHSPMyuii%0AB%2FtqTOvYKOIUOmI1WmnX%2FEZxenBQ9DbEQaccDU2%2B4kJkjvefpEeEpg6ZJpS5pk%2F%2F%0A9GqClOEo0bpCsnjzgcoeuPimLepH6%2FInl14UfczdWFHfTzd%2FZ%2B%2F0LwTk7Da8Jx88%0ARLm76OISoDux6jFkWM6mHAupA9sVDeFVKVkbWJP1fU%2BYSjezKEq0ujQ5e%2BHPaRAg%0ADQIBAw%3D%3D%0A-----END%20PUBLIC%20KEY-----\"}'", "'{\"Msg\": \"收单成功\",\"ExtendParam\":\"null\",\"AppKey\": \"211394680\",\"TimesTamp\":\"1605883722957\",\"Sign\": \"1791B02F2893A70D26A07F865239F41B\",\"OrderModel\":\"{'SellPrice':'10.0','OrderId': '201120144842951001'}\",\"Code\":\"999\"}'", "'/Order/CardOrder'" ]
+}

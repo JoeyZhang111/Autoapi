@@ -1,0 +1,269 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "TestCase.test_dep",
+    "children" : [ {
+      "name" : "Create_001-部门添加正确",
+      "uid" : "794defdcf8f283da",
+      "parentUid" : "345688dba9d1debaf4a836fca465bd5d",
+      "status" : "failed",
+      "time" : {
+        "start" : 1624419697072,
+        "stop" : 1624419697259,
+        "duration" : 187
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"errcode\": \"0\", \"errmsg\": \"created\", \"id\": \"4\"}'", "'Create_001'", "'post'", "'部门添加正确'", "'{\"name\": \"技术部\",\"name_en\": \"JSB\",\"parentid\":\"1\",\"order\": \"1\",\"id\": \"2\"}'", "'https://qyapi.weixin.qq.com/cgi-bin/department/create'" ]
+    }, {
+      "name" : "Create_002-部门添加正确--包含子部门",
+      "uid" : "d20dfea05fea57b7",
+      "parentUid" : "345688dba9d1debaf4a836fca465bd5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624419697290,
+        "stop" : 1624419697519,
+        "duration" : 229
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"errcode\": \"0\", \"errmsg\": \"created\", \"id\": \"5\"}'", "'Create_002'", "'post'", "'部门添加正确--包含子部门'", "'{\"name\": \"研发部\",\"name_en\": \"YFB\",\"parentid\":\"2\",\"order\": \"1\",\"id\": \"3\"}'", "'https://qyapi.weixin.qq.com/cgi-bin/department/create'" ]
+    }, {
+      "name" : "Create_003-部门添加正确-只有必填项",
+      "uid" : "9bf807d54468f539",
+      "parentUid" : "345688dba9d1debaf4a836fca465bd5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624419697523,
+        "stop" : 1624419697764,
+        "duration" : 241
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"errcode\": \"0\", \"errmsg\": \"created\", \"id\": \"5\"}'", "'Create_003'", "'post'", "'部门添加正确-只有必填项'", "'{\"name\": \"客服部\",\"parentid\": \"1\"}'", "'https://qyapi.weixin.qq.com/cgi-bin/department/create'" ]
+    }, {
+      "name" : "Create_004-部门已存在",
+      "uid" : "721c47969c9a73b8",
+      "parentUid" : "345688dba9d1debaf4a836fca465bd5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624419697768,
+        "stop" : 1624419697970,
+        "duration" : 202
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"errcode\": \"60008\", \"errmsg\": \"department existed, hint: [1623317833_197_3700c30d164b9569bd6598c725e88a2b], from ip: 118.112.56.90, more info at https://open.work.weixin.qq.com/devtool/query?e=60008\"}'", "'Create_004'", "'post'", "'部门已存在'", "'{\"name\": \"研发部\",\"name_en\": \"YFB\",\"parentid\":\"2\",\"order\": \"1\",\"id\": \"3\"}'", "'https://qyapi.weixin.qq.com/cgi-bin/department/create'" ]
+    }, {
+      "name" : "Create_005-部门长度不符合限制",
+      "uid" : "50f803012a69c77e",
+      "parentUid" : "345688dba9d1debaf4a836fca465bd5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624419697975,
+        "stop" : 1624419698168,
+        "duration" : 193
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"errcode\": \"60001\", \"errmsg\": \"department invalid length, hint: [1622451312_197_ba955f53357714b529048ad9f556ecf0], from ip: 125.70.178.38, more info at https://open.work.weixin.qq.com/devtool/query?e=60001\"}'", "'Create_005'", "'post'", "'部门长度不符合限制'", "'{\"name\": \"部门名称。同一个层级的部门名称不能重复，同一个层级的部门名称不能重复\",\"name_en\": \"YFB\",\"parentid\": \"1\",\"order\": \"1\",\"id\": \"8\"}'", "'https://qyapi.weixin.qq.com/cgi-bin/department/create'" ]
+    }, {
+      "name" : "Create_006-不合法的参数",
+      "uid" : "1a733aaa97b40614",
+      "parentUid" : "345688dba9d1debaf4a836fca465bd5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624419698168,
+        "stop" : 1624419698352,
+        "duration" : 184
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"errcode\": \"40058\", \"errmsg\": \"name exceed min utf8 words 1. Invalid input invalid Request Parameter, hint: [1622451958_197_0aca7aba386ecc6c14c5b735123e18de], from ip: , more info at https://open.work.weixin.qq.com/devtool/query?e=40058\"}'", "'Create_006'", "'post'", "'不合法的参数'", "'{\"name\": \"\",\"name_en\": \"JSB\",\"parentid\": \"1\",\"order\": \"1\",\"id\": \"2\"}'", "'https://qyapi.weixin.qq.com/cgi-bin/department/create'" ]
+    }, {
+      "name" : "Create_007-部门名称重复",
+      "uid" : "ea33fd9bfa9eef64",
+      "parentUid" : "345688dba9d1debaf4a836fca465bd5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624419698356,
+        "stop" : 1624419698544,
+        "duration" : 188
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"errcode\": \"60008\", \"errmsg\": \"department existed, hint: [1622450191_197_935c91af9eea420836c49843917d1f62], from ip: 125.70.178.38, more info at https://open.work.weixin.qq.com/devtool/query?e=60008\"}'", "'Create_007'", "'post'", "'部门名称重复'", "'{\"name\": \"技术部\",\"name_en\": \"RDGZ1\",\"parentid\": \"1\",\"order\": \"1\",\"id\": \"3\"}'", "'https://qyapi.weixin.qq.com/cgi-bin/department/create'" ]
+    }, {
+      "name" : "Create_008-部门名称包含特殊字符串",
+      "uid" : "73652835d83a83c0",
+      "parentUid" : "345688dba9d1debaf4a836fca465bd5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624419698551,
+        "stop" : 1624419698740,
+        "duration" : 189
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"errcode\": \"60009\", \"errmsg\": \"department name include invalid char, hint: [1622450592_197_435ef6a899d694b3b1503ae10f69bcc3], from ip: 125.70.178.38, more info at https://open.work.weixin.qq.com/devtool/query?e=60009\"}'", "'Create_008'", "'post'", "'部门名称包含特殊字符串'", "'{\"name\": \"采购:部\",\"name_en\": \"CGB\",\"parentid\": \"1\",\"order\": \"1\",\"id\": \"3\"}'", "'https://qyapi.weixin.qq.com/cgi-bin/department/create'" ]
+    }, {
+      "name" : "Create_009-部门英文名称重复",
+      "uid" : "b035bfa353d9c682",
+      "parentUid" : "345688dba9d1debaf4a836fca465bd5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624419698744,
+        "stop" : 1624419698925,
+        "duration" : 181
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"errcode\": \"60008\", \"errmsg\": \"department existed, hint: [1622450312_197_6744121a91370b82de8076a794edfbde], from ip: 125.70.178.38, more info at https://open.work.weixin.qq.com/devtool/query?e=60008\"}'", "'Create_009'", "'post'", "'部门英文名称重复'", "'{\"name\": \"运营部\",\"name_en\": \"JSB\",\"parentid\": \"1\",\"order\": \"1\",\"id\": \"4\"}'", "'https://qyapi.weixin.qq.com/cgi-bin/department/create'" ]
+    }, {
+      "name" : "Create_010-部门英文名称包含特殊字符串",
+      "uid" : "9bb510259653a59f",
+      "parentUid" : "345688dba9d1debaf4a836fca465bd5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624419698930,
+        "stop" : 1624419699102,
+        "duration" : 172
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"errcode\": \"60009\", \"errmsg\": \"department name include invalid char, hint: [1622450592_197_435ef6a899d694b3b1503ae10f69bcc3], from ip: 125.70.178.38, more info at https://open.work.weixin.qq.com/devtool/query?e=60009\"}'", "'Create_010'", "'post'", "'部门英文名称包含特殊字符串'", "'{\"name\": \"业务部\",\"name_en\": \"YW:B\",\"parentid\": \"0\",\"order\":\"1\",\"id\": \"2\"}'", "'https://qyapi.weixin.qq.com/cgi-bin/department/create'" ]
+    }, {
+      "name" : "Create_011-部门英文长度不符合限制",
+      "uid" : "29c3e10fc2ed3798",
+      "parentUid" : "345688dba9d1debaf4a836fca465bd5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624419699108,
+        "stop" : 1624419699279,
+        "duration" : 171
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"errcode\": \"60001\", \"errmsg\": \"department invalid length, hint: [1622529169_197_6c5dc14be4e70539f7065e6c84a2d62b], from ip: 125.70.178.38, more info at https://open.work.weixin.qq.com/devtool/query?e=60001\"}'", "'Create_011'", "'post'", "'部门英文长度不符合限制'", "'{\"name\": \"业务部\",\"name_en\": \"\",\"parentid\": \"0\",\"order\": \"1\",\"id\": \"2\"}'", "'https://qyapi.weixin.qq.com/cgi-bin/department/create'" ]
+    }, {
+      "name" : "Create_012-parentid参数是部门id",
+      "uid" : "5df48ff7c294404d",
+      "parentUid" : "345688dba9d1debaf4a836fca465bd5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624419699284,
+        "stop" : 1624419699459,
+        "duration" : 175
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"errcode\": \"60010\", \"errmsg\": \"parent department id make loop, hint: [1622450951_197_7c3c7093d403806f0cfec4faae624720], from ip: 125.70.178.38, more info at https://open.work.weixin.qq.com/devtool/query?e=60010\"}'", "'Create_012'", "'post'", "'parentid参数是部门id'", "'{\"name\": \"研发部\",\"name_en\": \"YFB\",\"parentid\": \"5\",\"order\":\"1\",\"id\":\"5\"}'", "'https://qyapi.weixin.qq.com/cgi-bin/department/create'" ]
+    }, {
+      "name" : "Create_013-父级部门格式无效",
+      "uid" : "c2cf35c52cde8283",
+      "parentUid" : "345688dba9d1debaf4a836fca465bd5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624419699463,
+        "stop" : 1624419699622,
+        "duration" : 159
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"errcode\": \"60009\", \"errmsg\": \"Warning: wrong json format. department name include invalid char, hint: [1622452140_197_9985b5d9d168b9df1db160b2cab5a43c], from ip: 125.70.178.38, more info at https://open.work.weixin.qq.com/devtool/query?e=60009\"}'", "'Create_013'", "'post'", "'父级部门格式无效'", "'{\"name\": \"营销部\",\"name_en\": \"YXB\",\"parentid\": \"1.5\",\"order\": \"1\",\"id\": \"10\"}'", "'https://qyapi.weixin.qq.com/cgi-bin/department/create'" ]
+    }, {
+      "name" : "Create_014-父级部门不存在",
+      "uid" : "3bbc46cee9d3e0bc",
+      "parentUid" : "345688dba9d1debaf4a836fca465bd5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624419699637,
+        "stop" : 1624419699793,
+        "duration" : 156
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"errcode\": \"60004\", \"errmsg\": \"parent department not found, hint: [1622451476_197_3cc58102650d4e416c67c5a0474643c6], from ip: 125.70.178.38, more info at https://open.work.weixin.qq.com/devtool/query?e=60004\"}'", "'Create_014'", "'post'", "'父级部门不存在'", "'{\"name\": \"行政部\",\"name_en\": \"XZB\",\"parentid\": \"0\",\"order\": \"1\",\"id\": \"5\"}'", "'https://qyapi.weixin.qq.com/cgi-bin/department/create'" ]
+    }, {
+      "name" : "Create_015-部门id重复",
+      "uid" : "4cdf0597d55bd0de",
+      "parentUid" : "345688dba9d1debaf4a836fca465bd5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624419699809,
+        "stop" : 1624419699981,
+        "duration" : 172
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"errcode\": \"60008\", \"errmsg\": \"department existed, hint: [1622450488_197_103b9398b6b512a3fd616bc4eda4da0d], from ip: 125.70.178.38, more info at https://open.work.weixin.qq.com/devtool/query?e=60008\"}'", "'Create_015'", "'post'", "'部门id重复'", "'{\"name\": \"市场部\",\"name_en\": \"SCB\",\"parentid\": \"1\",\"order\": \"1\",\"id\": \"2\"}'", "'https://qyapi.weixin.qq.com/cgi-bin/department/create'" ]
+    }, {
+      "name" : "Create_016-无效的部门id",
+      "uid" : "b20687e89cfaa0d5",
+      "parentUid" : "345688dba9d1debaf4a836fca465bd5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624419699996,
+        "stop" : 1624419700185,
+        "duration" : 189
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"errcode\": \"60123\", \"errmsg\": \"invalid party id, hint: [1622451633_197_40297a0568bdd210d62e2ecaaa8a7dcb], from ip: 125.70.178.38, more info at https://open.work.weixin.qq.com/devtool/query?e=60123\"}'", "'Create_016'", "'post'", "'无效的部门id'", "'{\"name\": \"研发部\",\"name_en\": \"YFB\",\"parentid\": \"1\",\"order\": \"1\",\"id\": \"0\"}'", "'https://qyapi.weixin.qq.com/cgi-bin/department/create'" ]
+    }, {
+      "name" : "delete_001-删除成功",
+      "uid" : "cae0177626093e8a",
+      "parentUid" : "345688dba9d1debaf4a836fca465bd5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624419700419,
+        "stop" : 1624419700653,
+        "duration" : 234
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"errcode\":0,\"errmsg\":\"deleted\"}'", "'delete_001'", "'get'", "'删除成功'", "'{\"id\":\"4\"}'", "'https://qyapi.weixin.qq.com/cgi-bin/department/delete'" ]
+    }, {
+      "name" : "delete_002-删除无效部门",
+      "uid" : "ebbaed254bca2e23",
+      "parentUid" : "345688dba9d1debaf4a836fca465bd5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624419700669,
+        "stop" : 1624419700872,
+        "duration" : 203
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"errcode\":60123,\"errmsg\":\"invalid party id, hint: [1623312263_197_23e732a8ee307e7b25b2e8032a62ef60], from ip: 118.112.56.90, more info at https://open.work.weixin.qq.com/devtool/query?e=60123\"}'", "'delete_002'", "'get'", "'删除无效部门'", "'{\"id\":\"15\"}'", "'https://qyapi.weixin.qq.com/cgi-bin/department/delete'" ]
+    }, {
+      "name" : "delete_003-删除含子部门的部门",
+      "uid" : "abd03284cc072047",
+      "parentUid" : "345688dba9d1debaf4a836fca465bd5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624419700872,
+        "stop" : 1624419701075,
+        "duration" : 203
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"errcode\":60006,\"errmsg\":\"department contains sub-department, hint: [1623312421_197_0a5c7de05a9be9124f10ed5c8b8e704f], from ip: 118.112.56.90, more info at https://open.work.weixin.qq.com/devtool/query?e=60006\"}'", "'delete_003'", "'get'", "'删除含子部门的部门'", "'{\"id\":\"2\"}'", "'https://qyapi.weixin.qq.com/cgi-bin/department/delete'" ]
+    }, {
+      "name" : "delete_004-删除部门包含成员",
+      "uid" : "f89516138beefb4d",
+      "parentUid" : "345688dba9d1debaf4a836fca465bd5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624419701075,
+        "stop" : 1624419701279,
+        "duration" : 204
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"errcode\":60005,\"errmsg\":\"department contains user, hint: [1623312736_197_a57b94fb809892e6db66afc56f7f6746], from ip: 118.112.56.90, more info at https://open.work.weixin.qq.com/devtool/query?e=60005\"}'", "'delete_004'", "'get'", "'删除部门包含成员'", "'{\"id\":\"1\"}'", "'https://qyapi.weixin.qq.com/cgi-bin/department/delete'" ]
+    } ],
+    "uid" : "TestCase.test_dep"
+  } ]
+}

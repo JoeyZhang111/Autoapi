@@ -1,0 +1,98 @@
+{
+  "uid" : "f5a9ff555d4f440c",
+  "name" : "login0002-登录接口_1002",
+  "fullName" : "test_case.test_login.TestLogin#test_login",
+  "historyId" : "8b7ba645719cd47995afd2ef6a3259c5",
+  "time" : {
+    "start" : 1626766552112,
+    "stop" : 1626766552221,
+    "duration" : 109
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_token",
+    "time" : {
+      "start" : 1626766551877,
+      "stop" : 1626766552002,
+      "duration" : 125
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录用例"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "登录用例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-M7394K0"
+  }, {
+    "name" : "thread",
+    "value" : "103944-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "body",
+    "value" : "'{\"username\":\"\",\"password\":\"123456\"}'"
+  }, {
+    "name" : "id",
+    "value" : "'login0002'"
+  }, {
+    "name" : "method",
+    "value" : "'POST'"
+  }, {
+    "name" : "name",
+    "value" : "'登录接口_1002'"
+  }, {
+    "name" : "res",
+    "value" : "'{\"flag\":\"松勤教育\",\"code\":400,\"message\":\"用户名不存在\",\"data\":\"null\",\"token\":\"null\"}'"
+  }, {
+    "name" : "url",
+    "value" : "'/api/loginS'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f5a9ff555d4f440c.json",
+  "parameterValues" : [ "'{\"username\":\"\",\"password\":\"123456\"}'", "'login0002'", "'POST'", "'登录接口_1002'", "'{\"flag\":\"松勤教育\",\"code\":400,\"message\":\"用户名不存在\",\"data\":\"null\",\"token\":\"null\"}'", "'/api/loginS'" ]
+}

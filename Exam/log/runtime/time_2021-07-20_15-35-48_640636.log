@@ -1,0 +1,67 @@
+2021-07-20 15:35:49.221 | INFO     | log.get_log:info:19 - 执行用例msg_add0001增加留言_2001
+2021-07-20 15:35:49.345 | INFO     | log.get_log:info:19 - 用例执行成功
+2021-07-20 15:35:49.361 | INFO     | log.get_log:info:19 - 执行用例msg_add0002增加留言_2002
+2021-07-20 15:35:49.471 | INFO     | log.get_log:info:19 - 用例执行成功
+2021-07-20 15:35:49.477 | INFO     | log.get_log:info:19 - 执行用例msg_add0003增加留言_2003
+2021-07-20 15:35:49.581 | INFO     | log.get_log:info:19 - 用例执行成功
+2021-07-20 15:35:49.581 | INFO     | log.get_log:info:19 - 执行用例msg_add0004增加留言_2004
+2021-07-20 15:35:49.680 | INFO     | log.get_log:info:19 - 用例执行成功
+2021-07-20 15:35:49.695 | INFO     | log.get_log:info:19 - 执行用例msg_add0005增加留言_2005
+2021-07-20 15:35:49.801 | INFO     | log.get_log:info:19 - 用例执行成功
+2021-07-20 15:35:49.810 | INFO     | log.get_log:info:19 - 执行用例msg_add0006增加留言_2006
+2021-07-20 15:35:49.932 | INFO     | log.get_log:info:19 - 用例执行成功
+2021-07-20 15:35:49.950 | INFO     | log.get_log:info:19 - 执行用例msg_add0007增加留言_2007
+2021-07-20 15:35:50.048 | INFO     | log.get_log:info:19 - 用例执行成功
+2021-07-20 15:35:50.063 | INFO     | log.get_log:info:19 - 执行用例msg_add0008增加留言_2008
+2021-07-20 15:35:50.173 | ERROR    | log.get_log:error:23 - 用例执行失败:assert '添加成功' == '添加失败'
+  - 添加失败
+  + 添加成功
+2021-07-20 15:35:50.204 | INFO     | log.get_log:info:19 - 执行用例msg_add0009增加留言_2009
+2021-07-20 15:35:50.313 | INFO     | log.get_log:info:19 - 用例执行成功
+2021-07-20 15:35:50.329 | INFO     | log.get_log:info:19 - 执行用例msg_add0010增加留言_2010
+2021-07-20 15:35:50.438 | INFO     | log.get_log:info:19 - 用例执行成功
+2021-07-20 15:35:50.561 | INFO     | log.get_log:info:19 - 执行用例msg_delete0001删除留言_5001
+2021-07-20 15:35:50.783 | INFO     | log.get_log:info:19 - 用例执行成功
+2021-07-20 15:35:50.783 | INFO     | log.get_log:info:19 - 执行用例msg_delete0002删除留言_5002
+2021-07-20 15:35:50.893 | INFO     | log.get_log:info:19 - 用例执行成功
+2021-07-20 15:35:50.908 | INFO     | log.get_log:info:19 - 执行用例msg_delete0003删除留言_5003
+2021-07-20 15:35:51.017 | ERROR    | log.get_log:error:23 - 用例执行失败:Expecting ',' delimiter: line 1 column 255 (char 254)
+2021-07-20 15:35:51.158 | INFO     | log.get_log:info:19 - 执行用例msg_list0002列出留言_3001
+2021-07-20 15:35:51.282 | INFO     | log.get_log:info:19 - 用例执行成功
+2021-07-20 15:35:51.284 | INFO     | log.get_log:info:19 - 执行用例msg_list0003列出留言_3002
+2021-07-20 15:35:51.300 | INFO     | log.get_log:info:19 - 执行用例msg_list0004列出留言_3003
+2021-07-20 15:35:51.425 | INFO     | log.get_log:info:19 - 用例执行成功
+2021-07-20 15:35:51.425 | INFO     | log.get_log:info:19 - 执行用例msg_list0005列出留言_3004
+2021-07-20 15:35:51.547 | INFO     | log.get_log:info:19 - 用例执行成功
+2021-07-20 15:35:51.562 | INFO     | log.get_log:info:19 - 执行用例msg_list0006列出留言_3005
+2021-07-20 15:35:51.687 | ERROR    | log.get_log:error:23 - 用例执行失败:Expecting ',' delimiter: line 1 column 251 (char 250)
+2021-07-20 15:35:51.719 | INFO     | log.get_log:info:19 - 执行用例msg_list0007列出留言_3006
+2021-07-20 15:35:51.862 | ERROR    | log.get_log:error:23 - 用例执行失败:Expecting ',' delimiter: line 1 column 257 (char 256)
+2021-07-20 15:35:52.002 | INFO     | log.get_log:info:19 - 执行用例login0001登录接口_1001
+2021-07-20 15:35:52.096 | INFO     | log.get_log:info:19 - 用例执行成功
+2021-07-20 15:35:52.111 | INFO     | log.get_log:info:19 - 执行用例login0002登录接口_1002
+2021-07-20 15:35:52.221 | INFO     | log.get_log:info:19 - 用例执行成功
+2021-07-20 15:35:52.221 | INFO     | log.get_log:info:19 - 执行用例login0003登录接口_1003
+2021-07-20 15:35:52.314 | INFO     | log.get_log:info:19 - 用例执行成功
+2021-07-20 15:35:52.330 | INFO     | log.get_log:info:19 - 执行用例login0004登录接口_1004
+2021-07-20 15:35:52.424 | INFO     | log.get_log:info:19 - 用例执行成功
+2021-07-20 15:35:52.424 | INFO     | log.get_log:info:19 - 执行用例login0005登录接口_1005
+2021-07-20 15:35:52.530 | INFO     | log.get_log:info:19 - 用例执行成功
+2021-07-20 15:35:52.545 | INFO     | log.get_log:info:19 - 执行用例login0006登录接口_1006
+2021-07-20 15:35:52.639 | INFO     | log.get_log:info:19 - 用例执行成功
+2021-07-20 15:35:52.639 | INFO     | log.get_log:info:19 - 执行用例login0007登录接口_1007
+2021-07-20 15:35:52.749 | INFO     | log.get_log:info:19 - 用例执行成功
+2021-07-20 15:35:52.862 | INFO     | log.get_log:info:19 - 执行用例msg_reply0001回复留言_4001
+2021-07-20 15:35:52.971 | ERROR    | log.get_log:error:23 - 用例执行失败:assert '添加失败' == '添加成功'
+  - 添加成功
+  + 添加失败
+2021-07-20 15:35:52.987 | INFO     | log.get_log:info:19 - 执行用例msg_reply0002回复留言_4002
+2021-07-20 15:35:53.081 | INFO     | log.get_log:info:19 - 用例执行成功
+2021-07-20 15:35:53.096 | INFO     | log.get_log:info:19 - 执行用例msg_reply0003回复留言_4003
+2021-07-20 15:35:53.190 | INFO     | log.get_log:info:19 - 用例执行成功
+2021-07-20 15:35:53.205 | INFO     | log.get_log:info:19 - 执行用例msg_reply0004回复留言_4004
+2021-07-20 15:35:53.315 | INFO     | log.get_log:info:19 - 用例执行成功
+2021-07-20 15:35:53.315 | INFO     | log.get_log:info:19 - 执行用例msg_reply0005回复留言_4005
+2021-07-20 15:35:53.424 | INFO     | log.get_log:info:19 - 用例执行成功
+2021-07-20 15:35:53.455 | INFO     | log.get_log:info:19 - 执行用例msg_reply0006回复留言_4006
+2021-07-20 15:35:53.561 | ERROR    | log.get_log:error:23 - 用例执行失败:Expecting ',' delimiter: line 1 column 177 (char 176)

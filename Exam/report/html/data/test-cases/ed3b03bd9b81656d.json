@@ -1,0 +1,98 @@
+{
+  "uid" : "ed3b03bd9b81656d",
+  "name" : "msg_add0004-增加留言_2004",
+  "fullName" : "test_case.test_add.TestAdd#test_login",
+  "historyId" : "98bf6b8b5bbb7a355c35cc58bc573342",
+  "time" : {
+    "start" : 1626766549581,
+    "stop" : 1626766549681,
+    "duration" : 100
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_token",
+    "time" : {
+      "start" : 1626766549096,
+      "stop" : 1626766549221,
+      "duration" : 125
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "新增留言用例"
+  }, {
+    "name" : "feature",
+    "value" : "留言板块用例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_add"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAdd"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-M7394K0"
+  }, {
+    "name" : "thread",
+    "value" : "103944-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_add"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "body",
+    "value" : "'{\"title\": \"\", \"content\": \"\"}'"
+  }, {
+    "name" : "id",
+    "value" : "'msg_add0004'"
+  }, {
+    "name" : "method",
+    "value" : "'POST'"
+  }, {
+    "name" : "name",
+    "value" : "'增加留言_2004'"
+  }, {
+    "name" : "res",
+    "value" : "'{\"flag\":\"松勤教育\",\"code\":\"400\",\"message\":\"添加失败\",\"data\":\"标题必须是2-50个字符，可以是汉字字母数字下划线\"}'"
+  }, {
+    "name" : "url",
+    "value" : "'/api/message'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ed3b03bd9b81656d.json",
+  "parameterValues" : [ "'{\"title\": \"\", \"content\": \"\"}'", "'msg_add0004'", "'POST'", "'增加留言_2004'", "'{\"flag\":\"松勤教育\",\"code\":\"400\",\"message\":\"添加失败\",\"data\":\"标题必须是2-50个字符，可以是汉字字母数字下划线\"}'", "'/api/message'" ]
+}

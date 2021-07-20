@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 60008 == 0\n  +60008\n  -0",
+      "children" : [ {
+        "name" : "Create_001-部门添加正确",
+        "uid" : "794defdcf8f283da",
+        "parentUid" : "109f5e8f390b2858d57e5b232f5f3bf4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1624419697072,
+          "stop" : 1624419697259,
+          "duration" : 187
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"errcode\": \"0\", \"errmsg\": \"created\", \"id\": \"4\"}'", "'Create_001'", "'post'", "'部门添加正确'", "'{\"name\": \"技术部\",\"name_en\": \"JSB\",\"parentid\":\"1\",\"order\": \"1\",\"id\": \"2\"}'", "'https://qyapi.weixin.qq.com/cgi-bin/department/create'" ]
+      } ],
+      "uid" : "109f5e8f390b2858d57e5b232f5f3bf4"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

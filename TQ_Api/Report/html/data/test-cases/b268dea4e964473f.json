@@ -1,0 +1,92 @@
+{
+  "uid" : "b268dea4e964473f",
+  "name" : "Card_013-MOrderID不能为空",
+  "fullName" : "TestCase.test_order.TestCardOrder#test_Order",
+  "historyId" : "25cf1bf927e15f9b760ae6612474ff4c",
+  "time" : {
+    "start" : 1625818454571,
+    "stop" : 1625818454597,
+    "duration" : 26
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '收单成功' == 'MOrderID不能为空'\n  - MOrderID不能为空\n  + 收单成功",
+  "statusTrace" : "self = <test_order.TestCardOrder object at 0x000002E7D1043BC8>, id = 'Card_013'\nname = 'MOrderID不能为空', url = '/Order/CardOrder', method = 'post'\nreqbody = '{\"AppKey\":\"211394680\",\"ProductCode\":\"PLM100016\",\"BuyCount\":\"1\",\"MOrderID\":\"\",\"ChargeAccount\":\"18888888888\",\"ChargeAcc...Whayw1mYSmXW2Lbn84vysCZrxXiL0OqUCnVo/IMCRl7Ir6YcAYdS/YAS28XTRUje0LVJuYfReTLvwN2uqxPzqQIBAw==-----END PUBLIC KEY-----\"}'\nrespdata = '{\"AppKey\":\"211394680\",\"TimesTamp\":\"1601449704850\",\"Sign\":\"null\",\"Code\":\"6\",\"Msg\":\"MOrderID不能为空\",\"ExtendParam\":\"null\",\"OrderModel\":\"null\"}'\nrandomnum = '3385882633'\n\n>   ???\nE   AssertionError: assert '收单成功' == 'MOrderID不能为空'\nE     - MOrderID不能为空\nE     + 收单成功\n\nD:\\TqApi\\TestCase\\test_order.py:110: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "卡密订单用例"
+  }, {
+    "name" : "feature",
+    "value" : "订单管理用例"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=2)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_order"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCardOrder"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-M7394K0"
+  }, {
+    "name" : "thread",
+    "value" : "190652-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "id",
+    "value" : "'Card_013'"
+  }, {
+    "name" : "method",
+    "value" : "'post'"
+  }, {
+    "name" : "name",
+    "value" : "'MOrderID不能为空'"
+  }, {
+    "name" : "reqbody",
+    "value" : "'{\"AppKey\":\"211394680\",\"ProductCode\":\"PLM100016\",\"BuyCount\":\"1\",\"MOrderID\":\"\",\"ChargeAccount\":\"18888888888\",\"ChargeAccountType\":\"1\",\"CustomerIP\":\"121.43.39.80\",\"Version\":\"1.0\",\"IsCallback\":\"1\",\"CallBackUrl\":\"http://192.168.0.198:8033/CallBack/Test\",\"AppSecret\":\"lOqVb8XGUkm1O/ppIxKhsg==\",\"PublicKey\":\"-----BEGIN PUBLIC KEY-----MIIBIDANBgkqhkiG9w0BAQEFAAOCAQ0AMIIBCAKCAQEAsKbGhe8NssamZeIczxH9TmDE/rbG+2Bgp9eFhNi9dPVjJUe1hua1Pbxj2hzGrViMBm5fKyYFoPBo5GRRNHud2w4+jLcrtHEnNWhOpR702yxrJdX525hiBm4Uky69RGLkKG6TtpnJryw10r2qD/w2GM5JaWlToBCSL28l3Yd2miE6faL7b9hu9537GiA1jN126TqcK3UD9rSp6IGG4E0QF3fpZKwtwbO2BCVA0yWPZU5Np2EYtYdZ5i/kkooKeRkvWhayw1mYSmXW2Lbn84vysCZrxXiL0OqUCnVo/IMCRl7Ir6YcAYdS/YAS28XTRUje0LVJuYfReTLvwN2uqxPzqQIBAw==-----END PUBLIC KEY-----\"}'"
+  }, {
+    "name" : "respdata",
+    "value" : "'{\"AppKey\":\"211394680\",\"TimesTamp\":\"1601449704850\",\"Sign\":\"null\",\"Code\":\"6\",\"Msg\":\"MOrderID不能为空\",\"ExtendParam\":\"null\",\"OrderModel\":\"null\"}'"
+  }, {
+    "name" : "url",
+    "value" : "'/Order/CardOrder'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "run(order=2)" ]
+  },
+  "source" : "b268dea4e964473f.json",
+  "parameterValues" : [ "'Card_013'", "'post'", "'MOrderID不能为空'", "'{\"AppKey\":\"211394680\",\"ProductCode\":\"PLM100016\",\"BuyCount\":\"1\",\"MOrderID\":\"\",\"ChargeAccount\":\"18888888888\",\"ChargeAccountType\":\"1\",\"CustomerIP\":\"121.43.39.80\",\"Version\":\"1.0\",\"IsCallback\":\"1\",\"CallBackUrl\":\"http://192.168.0.198:8033/CallBack/Test\",\"AppSecret\":\"lOqVb8XGUkm1O/ppIxKhsg==\",\"PublicKey\":\"-----BEGIN PUBLIC KEY-----MIIBIDANBgkqhkiG9w0BAQEFAAOCAQ0AMIIBCAKCAQEAsKbGhe8NssamZeIczxH9TmDE/rbG+2Bgp9eFhNi9dPVjJUe1hua1Pbxj2hzGrViMBm5fKyYFoPBo5GRRNHud2w4+jLcrtHEnNWhOpR702yxrJdX525hiBm4Uky69RGLkKG6TtpnJryw10r2qD/w2GM5JaWlToBCSL28l3Yd2miE6faL7b9hu9537GiA1jN126TqcK3UD9rSp6IGG4E0QF3fpZKwtwbO2BCVA0yWPZU5Np2EYtYdZ5i/kkooKeRkvWhayw1mYSmXW2Lbn84vysCZrxXiL0OqUCnVo/IMCRl7Ir6YcAYdS/YAS28XTRUje0LVJuYfReTLvwN2uqxPzqQIBAw==-----END PUBLIC KEY-----\"}'", "'{\"AppKey\":\"211394680\",\"TimesTamp\":\"1601449704850\",\"Sign\":\"null\",\"Code\":\"6\",\"Msg\":\"MOrderID不能为空\",\"ExtendParam\":\"null\",\"OrderModel\":\"null\"}'", "'/Order/CardOrder'" ]
+}

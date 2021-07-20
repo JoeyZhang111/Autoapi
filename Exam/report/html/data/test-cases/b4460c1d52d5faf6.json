@@ -1,0 +1,98 @@
+{
+  "uid" : "b4460c1d52d5faf6",
+  "name" : "msg_delete0002-删除留言_5002",
+  "fullName" : "test_case.test_delete.TestAdd#test_login",
+  "historyId" : "86cb461e0d186e78f3b1f533a7c45851",
+  "time" : {
+    "start" : 1626766550784,
+    "stop" : 1626766550893,
+    "duration" : 109
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_token",
+    "time" : {
+      "start" : 1626766550454,
+      "stop" : 1626766550562,
+      "duration" : 108
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "回复留言用例"
+  }, {
+    "name" : "feature",
+    "value" : "留言板块用例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_delete"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAdd"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-M7394K0"
+  }, {
+    "name" : "thread",
+    "value" : "103944-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_delete"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "body",
+    "value" : "'{\"id\":\"1\"}'"
+  }, {
+    "name" : "id",
+    "value" : "'msg_delete0002'"
+  }, {
+    "name" : "method",
+    "value" : "'DELETE'"
+  }, {
+    "name" : "name",
+    "value" : "'删除留言_5002'"
+  }, {
+    "name" : "res",
+    "value" : "'{\"flag\":\"松勤教育\",\"code\":\"400\",\"message\":\"删除失败，该留言不存在\"}'"
+  }, {
+    "name" : "url",
+    "value" : "'/api/message/'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b4460c1d52d5faf6.json",
+  "parameterValues" : [ "'{\"id\":\"1\"}'", "'msg_delete0002'", "'DELETE'", "'删除留言_5002'", "'{\"flag\":\"松勤教育\",\"code\":\"400\",\"message\":\"删除失败，该留言不存在\"}'", "'/api/message/'" ]
+}

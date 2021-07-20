@@ -1,0 +1,81 @@
+2021-07-09 15:24:58.341 | INFO     | Log.get_log:info:20 - ---积分卡提取用例开始执行---
+2021-07-09 15:24:58.342 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_001所有字段正常传入
+2021-07-09 15:24:58.887 | ERROR    | Log.get_log:error:32 - 用例执行失败:Expecting ',' delimiter: line 1 column 51 (char 50)
+2021-07-09 15:24:58.928 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_002渠道账号为空
+2021-07-09 15:24:58.934 | ERROR    | Log.get_log:error:32 - 用例执行失败:Expecting value: line 1 column 1 (char 0)
+2021-07-09 15:24:58.959 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_003
+传入不存在的渠道账号
+2021-07-09 15:24:58.964 | ERROR    | Log.get_log:error:32 - 用例执行失败:Expecting value: line 1 column 1 (char 0)
+2021-07-09 15:24:58.990 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_004后台渠道提取帐号禁用
+2021-07-09 15:24:58.995 | ERROR    | Log.get_log:error:32 - 用例执行失败:Expecting value: line 1 column 1 (char 0)
+2021-07-09 15:24:59.021 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_005后台配置了限制IP
+2021-07-09 15:24:59.026 | ERROR    | Log.get_log:error:32 - 用例执行失败:Expecting value: line 1 column 1 (char 0)
+2021-07-09 15:24:59.052 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_006渠道提取帐号金额不足
+2021-07-09 15:24:59.057 | ERROR    | Log.get_log:error:32 - 用例执行失败:Expecting value: line 1 column 1 (char 0)
+2021-07-09 15:24:59.083 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_007号码为空
+2021-07-09 15:24:59.088 | ERROR    | Log.get_log:error:32 - 用例执行失败:Expecting value: line 1 column 1 (char 0)
+2021-07-09 15:24:59.115 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_008号码包含字母特殊字符空格
+2021-07-09 15:24:59.119 | ERROR    | Log.get_log:error:32 - 用例执行失败:Expecting value: line 1 column 1 (char 0)
+2021-07-09 15:24:59.149 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_009订单号为空
+2021-07-09 15:24:59.154 | ERROR    | Log.get_log:error:32 - 用例执行失败:Expecting value: line 1 column 1 (char 0)
+2021-07-09 15:24:59.192 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_010订单号包含字母特殊字符空格
+2021-07-09 15:24:59.197 | ERROR    | Log.get_log:error:32 - 用例执行失败:Expecting value: line 1 column 1 (char 0)
+2021-07-09 15:24:59.222 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_011订单已存在
+2021-07-09 15:24:59.227 | ERROR    | Log.get_log:error:32 - 用例执行失败:Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2021-07-09 15:24:59.243 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_012商品编号为空
+2021-07-09 15:24:59.248 | ERROR    | Log.get_log:error:32 - 用例执行失败:Expecting value: line 1 column 1 (char 0)
+2021-07-09 15:24:59.273 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_013商品编码不存在
+2021-07-09 15:24:59.278 | ERROR    | Log.get_log:error:32 - 用例执行失败:Expecting value: line 1 column 1 (char 0)
+2021-07-09 15:24:59.304 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_014商品编码包含字母特殊字符空格
+2021-07-09 15:24:59.309 | ERROR    | Log.get_log:error:32 - 用例执行失败:Expecting value: line 1 column 1 (char 0)
+2021-07-09 15:24:59.336 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_015积分卡数量不足
+2021-07-09 15:24:59.342 | ERROR    | Log.get_log:error:32 - 用例执行失败:Expecting value: line 1 column 1 (char 0)
+2021-07-09 15:24:59.369 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_016购买数为空
+2021-07-09 15:24:59.375 | ERROR    | Log.get_log:error:32 - 用例执行失败:Expecting value: line 1 column 1 (char 0)
+2021-07-09 15:24:59.401 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_017购买数为0
+2021-07-09 15:24:59.406 | ERROR    | Log.get_log:error:32 - 用例执行失败:Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2021-07-09 15:24:59.424 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_018购买数负数
+2021-07-09 15:24:59.429 | ERROR    | Log.get_log:error:32 - 用例执行失败:Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2021-07-09 15:24:59.462 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_019购买数包含字母特殊字符空格
+2021-07-09 15:24:59.467 | ERROR    | Log.get_log:error:32 - 用例执行失败:Expecting value: line 1 column 1 (char 0)
+2021-07-09 15:24:59.502 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_020有效期为空
+2021-07-09 15:24:59.508 | ERROR    | Log.get_log:error:32 - 用例执行失败:Expecting value: line 1 column 1 (char 0)
+2021-07-09 15:24:59.535 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_021有效期格式错误
+2021-07-09 15:24:59.540 | ERROR    | Log.get_log:error:32 - 用例执行失败:Expecting value: line 1 column 1 (char 0)
+2021-07-09 15:24:59.567 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_022有效期过期
+2021-07-09 15:24:59.573 | ERROR    | Log.get_log:error:32 - 用例执行失败:Expecting value: line 1 column 1 (char 0)
+2021-07-09 15:24:59.600 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_023开始时间为空
+2021-07-09 15:24:59.605 | ERROR    | Log.get_log:error:32 - 用例执行失败:Expecting value: line 1 column 1 (char 0)
+2021-07-09 15:24:59.633 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_024开始时间格式错误
+2021-07-09 15:24:59.638 | ERROR    | Log.get_log:error:32 - 用例执行失败:Expecting value: line 1 column 1 (char 0)
+2021-07-09 15:24:59.664 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_025开始时间未开始
+2021-07-09 15:24:59.670 | ERROR    | Log.get_log:error:32 - 用例执行失败:Expecting value: line 1 column 1 (char 0)
+2021-07-09 15:24:59.695 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_026签名为空
+2021-07-09 15:24:59.700 | ERROR    | Log.get_log:error:32 - 用例执行失败:Expecting value: line 1 column 1 (char 0)
+2021-07-09 15:24:59.724 | INFO     | Log.get_log:info:20 - ---积分卡提取用例结束执行---

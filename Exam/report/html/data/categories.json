@@ -1,0 +1,132 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '添加成功' == '添加失败'\n  - 添加失败\n  + 添加成功",
+      "children" : [ {
+        "name" : "msg_add0008-增加留言_2008",
+        "uid" : "40226119b7ba4473",
+        "parentUid" : "15e70659c1b492de28a3749caac8631c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1626766550064,
+          "stop" : 1626766550173,
+          "duration" : 109
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"title\": \"留言标题\", \"content\": \"分的高分经典回顾符合国家和的结果功兑高度风格化的风反对恢复供电和大家思考的风格格关于个环人约特如图杠代光华\"}'", "'msg_add0008'", "'POST'", "'增加留言_2008'", "'{\"flag\":\"松勤教育\",\"code\":\"400\",\"message\":\"添加失败\", \"data\":\"留言内容必须是2-500个字符,可以是汉字字母数字下划线，不能包含特殊字符\"}'", "'/api/message'" ]
+      } ],
+      "uid" : "15e70659c1b492de28a3749caac8631c"
+    }, {
+      "name" : "AssertionError: assert '添加失败' == '添加成功'\n  - 添加成功\n  + 添加失败",
+      "children" : [ {
+        "name" : "msg_reply0001-回复留言_4001",
+        "uid" : "3107531ff22d2005",
+        "parentUid" : "db433301ccaec91c1c4997bc31aef0e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1626766552862,
+          "stop" : 1626766552972,
+          "duration" : 110
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"replay\": \"回复的内容 \", \"messageId\": \"3420\"}'", "'msg_reply0001'", "'POST'", "'回复留言_4001'", "'{\"flag\":\"松勤教育\",\"code\":\"200\",\"message\":\"添加成功\",\"data\":{\"replayId\":\"34\"}}'", "'/api/replay'" ]
+      } ],
+      "uid" : "db433301ccaec91c1c4997bc31aef0e0"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "json.decoder.JSONDecodeError: Expecting ',' delimiter: line 1 column 255 (char 254)",
+      "children" : [ {
+        "name" : "msg_delete0003-删除留言_5003",
+        "uid" : "1a9de89c15333886",
+        "parentUid" : "5dbcdc11a58b5d96156d761bd52c8525",
+        "status" : "broken",
+        "time" : {
+          "start" : 1626766550909,
+          "stop" : 1626766551018,
+          "duration" : 109
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"id\":\"yg\"}'", "'msg_delete0003'", "'DELETE'", "'删除留言_5003'", "'{\"timestamp\":\"2021-07-16T10:24:45.002+0000\",\"status\":\"400\",\"error\":\"Bad Request\",\"message\":\"Failed to convert value of type \\\"java.lang.String\\\" to required type \\\"java.lang.Integer\\\";nested exception is java.lang.NumberFormatException:For input string:\"y\"\",\"path\":\"/api/message/y\"}'", "'/api/message/'" ]
+      } ],
+      "uid" : "5dbcdc11a58b5d96156d761bd52c8525"
+    }, {
+      "name" : "json.decoder.JSONDecodeError: Expecting ',' delimiter: line 1 column 14 (char 13)",
+      "children" : [ {
+        "name" : "msg_list0003-列出留言_3002",
+        "uid" : "997fad14ebaf1735",
+        "parentUid" : "3f4ef77f7a1270e319bf67e20bb9f2f5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1626766551285,
+          "stop" : 1626766551285,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"page\":\"1“,\"value\":\"0\"}'", "'msg_list0003'", "'GET'", "'列出留言_3002'", "'{\"flag\":\"松勤教育\",\"code\":\"200\",\"message\":\"查询所有留言\",\"data\":\"{}\"}'", "'/api/messages/'" ]
+      } ],
+      "uid" : "3f4ef77f7a1270e319bf67e20bb9f2f5"
+    }, {
+      "name" : "json.decoder.JSONDecodeError: Expecting ',' delimiter: line 1 column 251 (char 250)",
+      "children" : [ {
+        "name" : "msg_list0006-列出留言_3005",
+        "uid" : "e7a89bc4d5abc14d",
+        "parentUid" : "6905797929906ecbd73bf32352651c21",
+        "status" : "broken",
+        "time" : {
+          "start" : 1626766551563,
+          "stop" : 1626766551688,
+          "duration" : 125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"page\":\"yj\",\"value\":\"4\"}'", "'msg_list0006'", "'GET'", "'列出留言_3005'", "'{\"timestamp\":\"2021-07-16T11:00:10.286+0000\",\"status\":\"400\",\"error\":\"Bad Request\",\"c\":\"Failed to convert value of type \\\"java.lang.String\\\" to required type \\\"java.lang.Integer\\\";nested exception is java.lang.NumberFormatException: For input string: \"yj\", \"path\": \"/api/messages/yj/4\"}'", "'/api/messages/'" ]
+      } ],
+      "uid" : "6905797929906ecbd73bf32352651c21"
+    }, {
+      "name" : "json.decoder.JSONDecodeError: Expecting ',' delimiter: line 1 column 257 (char 256)",
+      "children" : [ {
+        "name" : "msg_list0007-列出留言_3006",
+        "uid" : "589e3061ac07e173",
+        "parentUid" : "558a82fb529f60c727068092120cdbd7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1626766551719,
+          "stop" : 1626766551862,
+          "duration" : 143
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"page\":\"1\",\"value\":\"tf\"}'", "'msg_list0007'", "'GET'", "'列出留言_3006'", "'{\"timestamp\":\"2021-07-16T11:00:10.286+0000\",\"status\":\"400\",\"error\":\"Bad Request\",\"message\":\"Failed to convert value of type \\\"java.lang.String\\\" to required type \\\"java.lang.Integer\\\";nested exception is java.lang.NumberFormatException: For input string: \"tf\", \"path\": \"/api/messages/1/tf\"}'", "'/api/messages/'" ]
+      } ],
+      "uid" : "558a82fb529f60c727068092120cdbd7"
+    }, {
+      "name" : "json.decoder.JSONDecodeError: Expecting ',' delimiter: line 1 column 177 (char 176)",
+      "children" : [ {
+        "name" : "msg_reply0006-回复留言_4006",
+        "uid" : "3b2ab960fa4e6b17",
+        "parentUid" : "478c2a793e7b1e3feb7910ca6b20bce6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1626766553456,
+          "stop" : 1626766553562,
+          "duration" : 106
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"replay\": \"324十多个 \", \"messageId\": \"sf\"}'", "'msg_reply0006'", "'POST'", "'回复留言_4006'", "'{\"timestamp\":\"2021-07-16T10:35:36.524+0000\",\"status\":\"400\",\"error\":\"Bad Request\",\"message\":\"JSON parse error: Cannot deserialize value of type `java.lang.Integer` from String \"y\": not a valid Integer value; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.lang.Integer from String \"y\": not a valid Integer value\\n at [Source(PushbackInputStream);line: 1,column: 47] (through reference chain: com.exam.entity.Replay[\"messageId\"])\", \"path\": \"/api/replay\"}'", "'/api/replay'" ]
+      } ],
+      "uid" : "478c2a793e7b1e3feb7910ca6b20bce6"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

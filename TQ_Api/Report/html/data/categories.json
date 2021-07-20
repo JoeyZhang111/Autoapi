@@ -1,0 +1,589 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "KeyError: 'CallBackUrl'",
+      "children" : [ {
+        "name" : "Direct_002-收单成功（无回调）",
+        "uid" : "c4df49d7c8ada397",
+        "parentUid" : "1c60252ff6b77da72169505e936f1177",
+        "status" : "broken",
+        "time" : {
+          "start" : 1625818451477,
+          "stop" : 1625818451478,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Direct_002'", "'post'", "'收单成功（无回调）'", "'{\"AppKey\":\"211394680\",\"ProductCode\":\"PLM100016\",\"BuyCount\":\"1\",\"ChargeAccount\":\"18888888888\",\"ChargeAccountType\":\"1\",\"CustomerIP\":\"121.43.39.80\",\"Version\":\"1.0\",\"IsCallback\":\"0\",\"AppSecret\":\"lOqVb8XGUkm1O/ppIxKhsg==\"}'", "'{\"Msg\": \"收单成功\",\"ExtendParam\":\"null\",\"AppKey\": \"211394680\",\"TimesTamp\":\"1605883722957\",\"Sign\": \"1791B02F2893A70D26A07F865239F41B\",\"OrderModel\":\"{'SellPrice':'10.0','OrderId': '201120144842951001'}\",\"Code\":\"999\"}'", "'/Order/DirectOrder'" ]
+      }, {
+        "name" : "Card_002-收单成功（无回调）",
+        "uid" : "5b1ab679f98ebf96",
+        "parentUid" : "1c60252ff6b77da72169505e936f1177",
+        "status" : "broken",
+        "time" : {
+          "start" : 1625818452213,
+          "stop" : 1625818452214,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Card_002'", "'post'", "'收单成功（无回调）'", "'{\"AppKey\":\"211394680\",\"ProductCode\":\"PLM100016\",\"BuyCount\":\"1\",\"ChargeAccount\":\"18888888888\",\"ChargeAccountType\":\"1\",\"CustomerIP\":\"121.43.39.80\",\"Version\":\"1.0\",\"IsCallback\":\"0\",\"AppSecret\":\"lOqVb8XGUkm1O/ppIxKhsg==\",\"PublicKey\":\"-----BEGIN%20PUBLIC%20KEY-----%0AMIIBIDANBgkqhkiG9w0BAQEFAAOCAQ0AMIIBCAKCAQEAliMd9tgh%2F%2Fgi8gE%2F2%2FCR%0ACby3oIshRJWMVvTxZbu5guy53k7tF3wfktIkMveV9ytiLxWnlI9VlV7KB%2FsSAxpt%0A1zs64zOCpX1u4XQKJkvTVmEPOH7%2F36VAHzmCw17mUIterqk8oX7fYWHTHSPMyuii%0AB%2FtqTOvYKOIUOmI1WmnX%2FEZxenBQ9DbEQaccDU2%2B4kJkjvefpEeEpg6ZJpS5pk%2F%2F%0A9GqClOEo0bpCsnjzgcoeuPimLepH6%2FInl14UfczdWFHfTzd%2FZ%2B%2F0LwTk7Da8Jx88%0ARLm76OISoDux6jFkWM6mHAupA9sVDeFVKVkbWJP1fU%2BYSjezKEq0ujQ5e%2BHPaRAg%0ADQIBAw%3D%3D%0A-----END%20PUBLIC%20KEY-----\"}'", "'{\"Msg\": \"收单成功\",\"ExtendParam\":\"null\",\"AppKey\": \"211394680\",\"TimesTamp\":\"1605883722957\",\"Sign\": \"1791B02F2893A70D26A07F865239F41B\",\"OrderModel\":\"{'SellPrice':'10.0','OrderId': '201120144842951001'}\",\"Code\":\"999\"}'", "'/Order/CardOrder'" ]
+      } ],
+      "uid" : "1c60252ff6b77da72169505e936f1177"
+    }, {
+      "name" : "KeyError: 'ProductCode'",
+      "children" : [ {
+        "name" : "Submit_021-无效的产品类型",
+        "uid" : "9a5806b1ef3bfa5e",
+        "parentUid" : "209b3dd0dfe8a40a90b4fe122e08b230",
+        "status" : "broken",
+        "time" : {
+          "start" : 1625818464326,
+          "stop" : 1625818464327,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Submit_021'", "'POST'", "'无效的产品类型'", "'{\"ApiAccount\":\"neibuTest\",\"ParValue\":\"5000\",\"ChargeNum\":\"18884178456\",\"ProductType\":\"10\",\"ApiKey\": \"03C489F7384D296D2289523AA0524FC6\"}'", "'{\"Request\":{\"ApiAccount\":\"neibuTest\",\"MOrderID\":\"1625553368559\",\"ProductCode\":\"null\",\"ChargeNum\":\"18884178456\",\"ParValue\":5000,\"ProductType\":10,\"Quantity\":\"null\",\"TimesTamp\":\"20210706143608\",\"CustomIP\":\"null\",\"CallbackUrl\":\"null\",\"Sign\":\"380C99BDAE384ACC210E2D538A6D6900\",\"ApiRequestIP\":\"125.70.76.207\"},\"Response\":{\"ResponseCode\":\"900009\",\"ResponseMessage\":\"无效的产品类型\",\"ResponseData\":\"null\"}}'", "'/SubmitOrder.ashx'" ]
+      } ],
+      "uid" : "209b3dd0dfe8a40a90b4fe122e08b230"
+    }, {
+      "name" : "json.decoder.JSONDecodeError: Expecting ',' delimiter: line 1 column 51 (char 50)",
+      "children" : [ {
+        "name" : "getcodedata\n_001-所有字段正常传入",
+        "uid" : "328e177f29d512c1",
+        "parentUid" : "ad4f6030a9f0c0896782f5160d794b7e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1625818464335,
+          "stop" : 1625818467886,
+          "duration" : 3551
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'getcodedata\n_001'", "'POST'", "'所有字段正常传入'", "'{\"merchant_id\":\"600000038253\",\"mobile\":\"18888888888\",\"ext_goods_id\":\"17\",\"buy_num\":\"1\",\"expire_time\":\"2021-11-23 15:00:00\",\"start_time\":\"2020-11-22 15:00:00\",\"sign\":\"123\"}'", "'{\"resp_code\":\"0\",\"resp_desc\":\"成功\",\"code_data\":\"卡号\":\"2011241625487945\",\"卡密\":\"ca6ae6a837545748\",\"start_time\":\"2020-11-23 14:25:00\",\"expire_time\":\"2021-11-23 15:25:00\"}'", "'/ExtractPointCards/getcodedata'" ]
+      } ],
+      "uid" : "ad4f6030a9f0c0896782f5160d794b7e"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '收单成功' == '当前产品不支持此格式帐号'\n  - 当前产品不支持此格式帐号\n  + 收单成功",
+      "children" : [ {
+        "name" : "Direct_008-当前产品不支持此格式帐号",
+        "uid" : "c4536894cc56304f",
+        "parentUid" : "922a2c701db7705ec86857acc358d747",
+        "status" : "failed",
+        "time" : {
+          "start" : 1625818451652,
+          "stop" : 1625818451681,
+          "duration" : 29
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Direct_008'", "'post'", "'当前产品不支持此格式帐号'", "'{\"AppKey\":\"211394680\",\"ProductCode\":\"PLM100032\",\"BuyCount\":\"1\",\"ChargeAccount\":\"@er#\",\"ChargeAccountType\":\"1\",\"CustomerIP\":\"121.43.39.80\",\"Version\":\"1.0\",\"IsCallback\":\"1\",\"CallBackUrl\":\"http://192.168.0.198:8033/CallBack/Test\",\"AppSecret\":\"lOqVb8XGUkm1O/ppIxKhsg==\"}'", "'{\"AppKey\":\"211394680\",\"TimesTamp\":\"1601449704850\",\"Sign\":\"null\",\"Code\":\"4\",\"Msg\":\"当前产品不支持此格式帐号\",\"ExtendParam\":\"null\",\"OrderModel\":\"null\"}'", "'/Order/DirectOrder'" ]
+      }, {
+        "name" : "Card_008-当前接口不支持此格式帐号",
+        "uid" : "3d423f86cae7a9d5",
+        "parentUid" : "922a2c701db7705ec86857acc358d747",
+        "status" : "failed",
+        "time" : {
+          "start" : 1625818453388,
+          "stop" : 1625818454416,
+          "duration" : 1028
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Card_008'", "'post'", "'当前接口不支持此格式帐号'", "'{\"AppKey\":\"211394680\",\"ProductCode\":\"PLM100016\",\"BuyCount\":\"1\",\"ChargeAccount\":\"@er#\",\"ChargeAccountType\":\"1\",\"CustomerIP\":\"121.43.39.80\",\"Version\":\"1.0\",\"IsCallback\":\"1\",\"CallBackUrl\":\"http://192.168.0.198:8033/CallBack/Test\",\"AppSecret\":\"lOqVb8XGUkm1O/ppIxKhsg==\",\"PublicKey\":\"-----BEGIN PUBLIC KEY-----MIIBIDANBgkqhkiG9w0BAQEFAAOCAQ0AMIIBCAKCAQEAsKbGhe8NssamZeIczxH9TmDE/rbG+2Bgp9eFhNi9dPVjJUe1hua1Pbxj2hzGrViMBm5fKyYFoPBo5GRRNHud2w4+jLcrtHEnNWhOpR702yxrJdX525hiBm4Uky69RGLkKG6TtpnJryw10r2qD/w2GM5JaWlToBCSL28l3Yd2miE6faL7b9hu9537GiA1jN126TqcK3UD9rSp6IGG4E0QF3fpZKwtwbO2BCVA0yWPZU5Np2EYtYdZ5i/kkooKeRkvWhayw1mYSmXW2Lbn84vysCZrxXiL0OqUCnVo/IMCRl7Ir6YcAYdS/YAS28XTRUje0LVJuYfReTLvwN2uqxPzqQIBAw==-----END PUBLIC KEY-----\"}'", "'{\"AppKey\":\"211394680\",\"TimesTamp\":\"1601449704850\",\"Sign\":\"null\",\"Code\":\"4\",\"Msg\":\"当前产品不支持此格式帐号\",\"ExtendParam\":\"null\",\"OrderModel\":\"null\"}'", "'/Order/CardOrder'" ]
+      } ],
+      "uid" : "922a2c701db7705ec86857acc358d747"
+    }, {
+      "name" : "AssertionError: assert '收单成功' == 'MOrderID不能为空'\n  - MOrderID不能为空\n  + 收单成功",
+      "children" : [ {
+        "name" : "Direct_013-MOrderID不能为空",
+        "uid" : "7c838fb373525d16",
+        "parentUid" : "c26bd82e27cc320abc3fb16abcfcad12",
+        "status" : "failed",
+        "time" : {
+          "start" : 1625818451799,
+          "stop" : 1625818451832,
+          "duration" : 33
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Direct_013'", "'post'", "'MOrderID不能为空'", "'{\"AppKey\":\"211394680\",\"ProductCode\":\"PLM100032\",\"BuyCount\":\"1\",\"MOrderID\":\"\",\"ChargeAccount\":\"18888888888\",\"ChargeAccountType\":\"1\",\"CustomerIP\":\"121.43.39.80\",\"Version\":\"1.0\",\"IsCallback\":\"1\",\"CallBackUrl\":\"http://192.168.0.198:8033/CallBack/Test\",\"AppSecret\":\"lOqVb8XGUkm1O/ppIxKhsg==\"}'", "'{\"AppKey\":\"211394680\",\"TimesTamp\":\"1601449704850\",\"Sign\":\"null\",\"Code\":\"6\",\"Msg\":\"MOrderID不能为空\",\"ExtendParam\":\"null\",\"OrderModel\":\"null\"}'", "'/Order/DirectOrder'" ]
+      }, {
+        "name" : "Card_013-MOrderID不能为空",
+        "uid" : "b268dea4e964473f",
+        "parentUid" : "c26bd82e27cc320abc3fb16abcfcad12",
+        "status" : "failed",
+        "time" : {
+          "start" : 1625818454571,
+          "stop" : 1625818454597,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Card_013'", "'post'", "'MOrderID不能为空'", "'{\"AppKey\":\"211394680\",\"ProductCode\":\"PLM100016\",\"BuyCount\":\"1\",\"MOrderID\":\"\",\"ChargeAccount\":\"18888888888\",\"ChargeAccountType\":\"1\",\"CustomerIP\":\"121.43.39.80\",\"Version\":\"1.0\",\"IsCallback\":\"1\",\"CallBackUrl\":\"http://192.168.0.198:8033/CallBack/Test\",\"AppSecret\":\"lOqVb8XGUkm1O/ppIxKhsg==\",\"PublicKey\":\"-----BEGIN PUBLIC KEY-----MIIBIDANBgkqhkiG9w0BAQEFAAOCAQ0AMIIBCAKCAQEAsKbGhe8NssamZeIczxH9TmDE/rbG+2Bgp9eFhNi9dPVjJUe1hua1Pbxj2hzGrViMBm5fKyYFoPBo5GRRNHud2w4+jLcrtHEnNWhOpR702yxrJdX525hiBm4Uky69RGLkKG6TtpnJryw10r2qD/w2GM5JaWlToBCSL28l3Yd2miE6faL7b9hu9537GiA1jN126TqcK3UD9rSp6IGG4E0QF3fpZKwtwbO2BCVA0yWPZU5Np2EYtYdZ5i/kkooKeRkvWhayw1mYSmXW2Lbn84vysCZrxXiL0OqUCnVo/IMCRl7Ir6YcAYdS/YAS28XTRUje0LVJuYfReTLvwN2uqxPzqQIBAw==-----END PUBLIC KEY-----\"}'", "'{\"AppKey\":\"211394680\",\"TimesTamp\":\"1601449704850\",\"Sign\":\"null\",\"Code\":\"6\",\"Msg\":\"MOrderID不能为空\",\"ExtendParam\":\"null\",\"OrderModel\":\"null\"}'", "'/Order/CardOrder'" ]
+      } ],
+      "uid" : "c26bd82e27cc320abc3fb16abcfcad12"
+    }, {
+      "name" : "AssertionError: assert '收单成功' == 'TimesTamp不能为空'\n  - TimesTamp不能为空\n  + 收单成功",
+      "children" : [ {
+        "name" : "Direct_014-TimesTamp不能为空",
+        "uid" : "bb526d2ea69ad3d",
+        "parentUid" : "91e6ca296a8d7847ad4cae6433a9041a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1625818451839,
+          "stop" : 1625818451870,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Direct_014'", "'post'", "'TimesTamp不能为空'", "'{\"AppKey\":\"211394680\",\"TimesTamp\":\"\",\"ProductCode\":\"PLM100032\",\"BuyCount\":\"1\",\"ChargeAccount\":\"18888888888\",\"ChargeAccountType\":\"1\",\"CustomerIP\":\"121.43.39.80\",\"Version\":\"1.0\",\"IsCallback\": \"1\",\"CallBackUrl\":\"http://192.168.0.198:8033/CallBack/Test\",\"AppSecret\":\"lOqVb8XGUkm1O/ppIxKhsg==\"}'", "'{\"AppKey\":\"211394680\",\"TimesTamp\":\"1601449704850\",\"Sign\":\"null\",\"Code\":\"6\",\"Msg\":\"TimesTamp不能为空\",\"ExtendParam\":\"null\",\"OrderModel\":\"null\"}'", "'/Order/DirectOrder'" ]
+      }, {
+        "name" : "Card_014-TimesTamp不能为空",
+        "uid" : "96f1b63bd0410d27",
+        "parentUid" : "91e6ca296a8d7847ad4cae6433a9041a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1625818454603,
+          "stop" : 1625818454629,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Card_014'", "'post'", "'TimesTamp不能为空'", "'{\"AppKey\":\"211394680\",\"TimesTamp\":\"\",\"ProductCode\":\"PLM100016\",\"BuyCount\":\"1\",\"ChargeAccount\":\"18888888888\",\"ChargeAccountType\":\"1\",\"CustomerIP\":\"121.43.39.80\",\"Version\":\"1.0\",\"IsCallback\": \"1\",\"CallBackUrl\":\"http://192.168.0.198:8033/CallBack/Test\",\"AppSecret\":\"lOqVb8XGUkm1O/ppIxKhsg==\",\"PublicKey\":\"-----BEGIN PUBLIC KEY-----MIIBIDANBgkqhkiG9w0BAQEFAAOCAQ0AMIIBCAKCAQEAsKbGhe8NssamZeIczxH9TmDE/rbG+2Bgp9eFhNi9dPVjJUe1hua1Pbxj2hzGrViMBm5fKyYFoPBo5GRRNHud2w4+jLcrtHEnNWhOpR702yxrJdX525hiBm4Uky69RGLkKG6TtpnJryw10r2qD/w2GM5JaWlToBCSL28l3Yd2miE6faL7b9hu9537GiA1jN126TqcK3UD9rSp6IGG4E0QF3fpZKwtwbO2BCVA0yWPZU5Np2EYtYdZ5i/kkooKeRkvWhayw1mYSmXW2Lbn84vysCZrxXiL0OqUCnVo/IMCRl7Ir6YcAYdS/YAS28XTRUje0LVJuYfReTLvwN2uqxPzqQIBAw==-----END PUBLIC KEY-----\"}'", "'{\"AppKey\":\"211394680\",\"TimesTamp\":\"1601449704850\",\"Sign\":\"null\",\"Code\":\"6\",\"Msg\":\"TimesTamp不能为空\",\"ExtendParam\":\"null\",\"OrderModel\":\"null\"}'", "'/Order/CardOrder'" ]
+      } ],
+      "uid" : "91e6ca296a8d7847ad4cae6433a9041a"
+    }, {
+      "name" : "AssertionError: assert '收单成功' == '会员订单号重复'\n  - 会员订单号重复\n  + 收单成功",
+      "children" : [ {
+        "name" : "Direct_023-合作方单号重复",
+        "uid" : "79aa0a564a4376e7",
+        "parentUid" : "25baa746af9c9a130222575c78f58440",
+        "status" : "failed",
+        "time" : {
+          "start" : 1625818452092,
+          "stop" : 1625818452121,
+          "duration" : 29
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Direct_023'", "'post'", "'合作方单号重复'", "'{\"AppKey\":\"211394680\",\"ProductCode\":\"PLM100015\",\"BuyCount\":\"1\",\"ChargeAccount\":\"18888888888\",\"ChargeAccountType\":\"1\",\"CustomerIP\":\"121.43.39.80\",\"Version\":\"1.0\",\"IsCallback\":\"1\",\"CallBackUrl\":\"http://192.168.0.198:8033/CallBack/Test\",\"AppSecret\":\"lOqVb8XGUkm1O/ppIxKhsg==\"}'", "'{\"AppKey\":\"211394680\",\"TimesTamp\":\"1601449704850\",\"Sign\":\"null\",\"Code\":\"10\",\"Msg\":\"会员订单号重复\",\"ExtendParam\":\"null\",\"OrderModel\":\"null\"}'", "'/Order/DirectOrder'" ]
+      }, {
+        "name" : "Card_023-合作方单号重复",
+        "uid" : "3832bb95bd9aa888",
+        "parentUid" : "25baa746af9c9a130222575c78f58440",
+        "status" : "failed",
+        "time" : {
+          "start" : 1625818455941,
+          "stop" : 1625818456978,
+          "duration" : 1037
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Card_023'", "'post'", "'合作方单号重复'", "'{\"AppKey\":\"211394680\",\"ProductCode\":\"PLM100016\",\"BuyCount\":\"1\",\"ChargeAccount\":\"18888888888\",\"ChargeAccountType\":\"1\",\"CustomerIP\":\"121.43.39.80\",\"Version\":\"1.0\",\"IsCallback\":\"1\",\"CallBackUrl\":\"http://192.168.0.198:8033/CallBack/Test\",\"AppSecret\":\"lOqVb8XGUkm1O/ppIxKhsg==\",\"PublicKey\":\"-----BEGIN PUBLIC KEY-----MIIBIDANBgkqhkiG9w0BAQEFAAOCAQ0AMIIBCAKCAQEAsKbGhe8NssamZeIczxH9TmDE/rbG+2Bgp9eFhNi9dPVjJUe1hua1Pbxj2hzGrViMBm5fKyYFoPBo5GRRNHud2w4+jLcrtHEnNWhOpR702yxrJdX525hiBm4Uky69RGLkKG6TtpnJryw10r2qD/w2GM5JaWlToBCSL28l3Yd2miE6faL7b9hu9537GiA1jN126TqcK3UD9rSp6IGG4E0QF3fpZKwtwbO2BCVA0yWPZU5Np2EYtYdZ5i/kkooKeRkvWhayw1mYSmXW2Lbn84vysCZrxXiL0OqUCnVo/IMCRl7Ir6YcAYdS/YAS28XTRUje0LVJuYfReTLvwN2uqxPzqQIBAw==-----END PUBLIC KEY-----\"}'", "'{\"AppKey\":\"211394680\",\"TimesTamp\":\"1601449704850\",\"Sign\":\"null\",\"Code\":\"10\",\"Msg\":\"会员订单号重复\",\"ExtendParam\":\"null\",\"OrderModel\":\"null\"}'", "'/Order/CardOrder'" ]
+      } ],
+      "uid" : "25baa746af9c9a130222575c78f58440"
+    }, {
+      "name" : "AssertionError: assert '收单成功' == '时间戳失效'\n  - 时间戳失效\n  + 收单成功",
+      "children" : [ {
+        "name" : "Direct_024-时间戳失效",
+        "uid" : "5edf776c218b95d3",
+        "parentUid" : "99db1e293a91517fc463d7db22fa9819",
+        "status" : "failed",
+        "time" : {
+          "start" : 1625818452128,
+          "stop" : 1625818452166,
+          "duration" : 38
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Direct_024'", "'post'", "'时间戳失效'", "'{\"AppKey\":\"211394680\",\"ProductCode\":\"PLM100015\",\"BuyCount\":\"1\",\"ChargeAccount\":\"18888888888\",\"ChargeAccountType\":\"1\",\"CustomerIP\":\"121.43.39.80\",\"Version\":\"1.0\",\"IsCallback\":\"1\",\"CallBackUrl\":\"http://192.168.0.198:8033/CallBack/Test\",\"AppSecret\":\"lOqVb8XGUkm1O/ppIxKhsg==\"}'", "'{\"AppKey\":\"211394680\",\"TimesTamp\":\"1601449704850\",\"Sign\":\"null\",\"Code\":\"13\",\"Msg\":\"时间戳失效\",\"ExtendParam\":\"null\",\"OrderModel\":\"null\"}'", "'/Order/DirectOrder'" ]
+      }, {
+        "name" : "Card_024-时间戳失效",
+        "uid" : "1a9c8027173b2e22",
+        "parentUid" : "99db1e293a91517fc463d7db22fa9819",
+        "status" : "failed",
+        "time" : {
+          "start" : 1625818456985,
+          "stop" : 1625818457011,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Card_024'", "'post'", "'时间戳失效'", "'{\"AppKey\":\"211394680\",\"ProductCode\":\"PLM100016\",\"BuyCount\":\"1\",\"ChargeAccount\":\"18888888888\",\"ChargeAccountType\":\"1\",\"CustomerIP\":\"121.43.39.80\",\"Version\":\"1.0\",\"IsCallback\":\"1\",\"CallBackUrl\":\"http://192.168.0.198:8033/CallBack/Test\",\"AppSecret\":\"lOqVb8XGUkm1O/ppIxKhsg==\",\"PublicKey\":\"-----BEGIN PUBLIC KEY-----MIIBIDANBgkqhkiG9w0BAQEFAAOCAQ0AMIIBCAKCAQEAsKbGhe8NssamZeIczxH9TmDE/rbG+2Bgp9eFhNi9dPVjJUe1hua1Pbxj2hzGrViMBm5fKyYFoPBo5GRRNHud2w4+jLcrtHEnNWhOpR702yxrJdX525hiBm4Uky69RGLkKG6TtpnJryw10r2qD/w2GM5JaWlToBCSL28l3Yd2miE6faL7b9hu9537GiA1jN126TqcK3UD9rSp6IGG4E0QF3fpZKwtwbO2BCVA0yWPZU5Np2EYtYdZ5i/kkooKeRkvWhayw1mYSmXW2Lbn84vysCZrxXiL0OqUCnVo/IMCRl7Ir6YcAYdS/YAS28XTRUje0LVJuYfReTLvwN2uqxPzqQIBAw==-----END PUBLIC KEY-----\"}'", "'{\"AppKey\":\"211394680\",\"TimesTamp\":\"1601449704850\",\"Sign\":\"null\",\"Code\":\"13\",\"Msg\":\"时间戳失效\",\"ExtendParam\":\"null\",\"OrderModel\":\"null\"}'", "'/Order/CardOrder'" ]
+      } ],
+      "uid" : "99db1e293a91517fc463d7db22fa9819"
+    }, {
+      "name" : "AssertionError: assert '收单成功' == 'ChargeAccount不能为空'\n  - ChargeAccount不能为空\n  + 收单成功",
+      "children" : [ {
+        "name" : "Card_012-ChargeAccount不能为空",
+        "uid" : "5cb3138f0468d23f",
+        "parentUid" : "a3ab4ec2e21889619408bcaee1f91839",
+        "status" : "failed",
+        "time" : {
+          "start" : 1625818454526,
+          "stop" : 1625818454564,
+          "duration" : 38
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Card_012'", "'post'", "'ChargeAccount不能为空'", "'{\"AppKey\":\"211394680\",\"ProductCode\":\"PLM100016\",\"BuyCount\":\"1\",\"ChargeAccount\":\"\",\"ChargeAccountType\":\"1\",\"CustomerIP\":\"121.43.39.80\",\"Version\":\"1.0\",\"IsCallback\":\"1\",\"CallBackUrl\":\"http://192.168.0.198:8033/CallBack/Test\",\"AppSecret\":\"lOqVb8XGUkm1O/ppIxKhsg==\",\"PublicKey\":\"-----BEGIN PUBLIC KEY-----MIIBIDANBgkqhkiG9w0BAQEFAAOCAQ0AMIIBCAKCAQEAsKbGhe8NssamZeIczxH9TmDE/rbG+2Bgp9eFhNi9dPVjJUe1hua1Pbxj2hzGrViMBm5fKyYFoPBo5GRRNHud2w4+jLcrtHEnNWhOpR702yxrJdX525hiBm4Uky69RGLkKG6TtpnJryw10r2qD/w2GM5JaWlToBCSL28l3Yd2miE6faL7b9hu9537GiA1jN126TqcK3UD9rSp6IGG4E0QF3fpZKwtwbO2BCVA0yWPZU5Np2EYtYdZ5i/kkooKeRkvWhayw1mYSmXW2Lbn84vysCZrxXiL0OqUCnVo/IMCRl7Ir6YcAYdS/YAS28XTRUje0LVJuYfReTLvwN2uqxPzqQIBAw==-----END PUBLIC KEY-----\"}'", "'{\"AppKey\":\"211394680\",\"TimesTamp\":\"1601449704850\",\"Sign\":\"null\",\"Code\":\"6\",\"Msg\":\"ChargeAccount不能为空\",\"ExtendParam\":\"null\",\"OrderModel\":\"null\"}'", "'/Order/CardOrder'" ]
+      } ],
+      "uid" : "a3ab4ec2e21889619408bcaee1f91839"
+    }, {
+      "name" : "AssertionError: assert '提交成功' == '订单不存在'\n  - 订单不存在\n  + 提交成功",
+      "children" : [ {
+        "name" : "Submit_002-订单重复提交",
+        "uid" : "d5733fa18dd9a184",
+        "parentUid" : "6a75f8a182198661d82867c6e9242d7f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1625818458119,
+          "stop" : 1625818458154,
+          "duration" : 35
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Submit_002'", "'POST'", "'订单重复提交'", "'{\"ApiAccount\":\"InterceptTestApi\",\"ProductCode\":\"ALL_DX_01_000100_0001\",\"ChargeNum\":\"18884178456\",\"Quantity\":\"1\",\"ApiKey\": \"A3FFBB39832D25BBBC6B55A372DA5FDA\"}'", "'{\"Request\":{\"ApiAccount\":\"TestApi\",\"MOrderID\":\"1605079814623\",\"TimesTamp\":\"20201111153014\",\"Sign\":\"E514F637116F5A4E53340F044BEAE104\",\"ApiRequestIP\":\"118.112.58.79\"},\"Response\":{\"ResponseCode\":\"000002\",\"ResponseMessage\":\"订单不存在\",\"ResponseData\":\"null\"}}'", "'/SubmitOrder.ashx'" ]
+      } ],
+      "uid" : "6a75f8a182198661d82867c6e9242d7f"
+    }, {
+      "name" : "AssertionError: assert '提交成功' == '无效的时间戳'\n  - 无效的时间戳\n  + 提交成功",
+      "children" : [ {
+        "name" : "Submit_003-无效的时间戳",
+        "uid" : "feae896ec54496a1",
+        "parentUid" : "f6b1c9d13cc7c325e1c237d5238422aa",
+        "status" : "failed",
+        "time" : {
+          "start" : 1625818458162,
+          "stop" : 1625818458191,
+          "duration" : 29
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Submit_003'", "'POST'", "'无效的时间戳'", "'{\"ApiAccount\":\"TestApi\",\"TimesTamp\":\"01111153503\",\"ProductCode\":\"ALL_DX_01_000100_0001\",\"ChargeNum\":\"18884178456\",\"Quantity\":\"1\",\"ApiKey\": \"A3CD52180AF4EC928465B45FEF15E268\"}'", "'{\"Request\":{\"ApiAccount\":\"TestApi\",\"MOrderID\":\"1605063068460\",\"TimesTamp\":\"0201111105108\",\"Sign\":\"08004F12F3043A738E575D3D358AF1A1\",\"ApiRequestIP\":\"118.112.58.79\"},\"Response\":{\"ResponseCode\":\"100002\",\"ResponseMessage\":\"无效的时间戳\",\"ResponseData\":\"null\"}}'", "'/SubmitOrder.ashx'" ]
+      } ],
+      "uid" : "f6b1c9d13cc7c325e1c237d5238422aa"
+    }, {
+      "name" : "AssertionError: assert '提交成功' == '请求已超时'\n  - 请求已超时\n  + 提交成功",
+      "children" : [ {
+        "name" : "Submit_004-请求已超时",
+        "uid" : "22634c3af1a0db21",
+        "parentUid" : "dce37a91267aee19d75f00f78942215c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1625818458198,
+          "stop" : 1625818458252,
+          "duration" : 54
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Submit_004'", "'POST'", "'请求已超时'", "'{\"ApiAccount\":\"TestApi\",\"ProductCode\":\"ALL_DX_01_000100_0001\",\"ChargeNum\":\"18884178456\",\"TimesTamp\":\"20210704234825\",\"Quantity\":\"1\",\"ApiKey\":\"A3CD52180AF4EC928465B45FEF15E268\"}'", "'{\"Request\":{\"ApiAccount\":\"TestApi\",\"MOrderID\":\"1605063068460\",\"TimesTamp\":\"20201111105108\",\"Sign\":\"B737642DDCBC28085BFC2F2E8E1F17B3\",\"ApiRequestIP\":\"118.112.58.79\"},\"Response\":{\"ResponseCode\":\"100003\",\"ResponseMessage\":\"请求已超时\",\"ResponseData\":\"null\"}}'", "'/SubmitOrder.ashx'" ]
+      } ],
+      "uid" : "dce37a91267aee19d75f00f78942215c"
+    }, {
+      "name" : "AssertionError: assert '提交成功' == '该产品不支持数量'\n  - 该产品不支持数量\n  + 提交成功",
+      "children" : [ {
+        "name" : "Submit_011-该产品不支持数量",
+        "uid" : "d583fa089c51be2d",
+        "parentUid" : "59633cbcc8ab2662560d246983489be5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1625818459455,
+          "stop" : 1625818460489,
+          "duration" : 1034
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Submit_011'", "'POST'", "'该产品不支持数量'", "'{\"ApiAccount\":\"TestApi\",\"ProductCode\":\"ALL_DX_01_000100_0001\",\"ChargeNum\":\"18884178456\",\"Quantity\":\"0\",\"ApiKey\": \"A3CD52180AF4EC928465B45FEF15E268\"}'", "'{\"Request\":{\"ApiAccount\":\"InterceptTestApi\",\"MOrderID\":\"1625549808310\",\"ProductCode\":\"SCC_CDAA_YD_01_000030_0001\",\"ChargeNum\":\"18884178456\",\"ParValue\":\"null\",\"ProductType\":\"null\",\"Quantity\":0,\"TimesTamp\":\"20210706133648\",\"CustomIP\":\"null\",\"CallbackUrl\":\"null\",\"Sign\":\"DD5AEDD2360286F8584DA6AFD985A2E3\",\"ApiRequestIP\":\"125.70.76.207\"},\"Response\":{\"ResponseCode\":\"100012\",\"ResponseMessage\":\"该产品不支持数量\",\"ResponseData\":\"null\"}}'", "'/SubmitOrder.ashx'" ]
+      } ],
+      "uid" : "59633cbcc8ab2662560d246983489be5"
+    }, {
+      "name" : "AssertionError: assert '提交成功' == '会员订单号不能为空'\n  - 会员订单号不能为空\n  + 提交成功",
+      "children" : [ {
+        "name" : "Submit_016-会员订单号不能为空",
+        "uid" : "e5dd95f8af6b2d54",
+        "parentUid" : "cae9495b53ff7666e015f430511d7aec",
+        "status" : "failed",
+        "time" : {
+          "start" : 1625818460656,
+          "stop" : 1625818460704,
+          "duration" : 48
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Submit_016'", "'POST'", "'会员订单号不能为空'", "'{\"ApiAccount\":\"TestApi\",\"MOrderID\":\"\",\"ProductCode\":\"ALL_DX_01_000100_0001\",\"ChargeNum\":\"18884178456\",\"Quantity\":\"1\",\"ApiKey\": \"A3CD52180AF4EC928465B45FEF15E268\"}'", "'{\"Request\":{\"ApiAccount\":\"TestApi\",\"MOrderID\":\"1625552442415\",\"ProductCode\":\"\",\"ChargeNum\":\"18884178456\",\"ParValue\":\"null\",\"ProductType\":\"null\",\"Quantity\":1,\"TimesTamp\":\"20210706142042\",\"CustomIP\":\"null\",\"CallbackUrl\":\"null\",\"Sign\":\"451EBDD8B85BE1CA4BF46961660A05E6\",\"ApiRequestIP\":\"125.70.76.207\"},\"Response\":{\"ResponseCode\":\"900002\",\"ResponseMessage\":\"会员订单号不能为空\",\"ResponseData\":\"null\"}}'", "'/SubmitOrder.ashx'" ]
+      } ],
+      "uid" : "cae9495b53ff7666e015f430511d7aec"
+    }, {
+      "name" : "AssertionError: assert '提交成功' == '时间戳不能为空'\n  - 时间戳不能为空\n  + 提交成功",
+      "children" : [ {
+        "name" : "Submit_018-时间戳不能为空",
+        "uid" : "465703165c18923e",
+        "parentUid" : "b63ce1152b72f12f787c7c7aa9bddfe0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1625818463751,
+          "stop" : 1625818463777,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Submit_018'", "'POST'", "'时间戳不能为空'", "'{\"ApiAccount\":\"TestApi\",\"ProductCode\":\"ALL_DX_01_000100_0001\",\"ChargeNum\":\"14343456\",\"TimesTamp\":\"\",\"Quantity\":\"1\",\"ApiKey\": \"A3CD52180AF4EC928465B45FEF15E268\"}'", "'{\"Request\":{\"ApiAccount\":\"TestApi\",\"MOrderID\":\"1625552442415\",\"ProductCode\":\"\",\"ChargeNum\":\"18884178456\",\"ParValue\":\"null\",\"ProductType\":\"null\",\"Quantity\":1,\"TimesTamp\":\"20210706142042\",\"CustomIP\":\"null\",\"CallbackUrl\":\"null\",\"Sign\":\"451EBDD8B85BE1CA4BF46961660A05E6\",\"ApiRequestIP\":\"125.70.76.207\"},\"Response\":{\"ResponseCode\":\"900004\",\"ResponseMessage\":\"时间戳不能为空\",\"ResponseData\":\"null\"}}'", "'/SubmitOrder.ashx'" ]
+      } ],
+      "uid" : "b63ce1152b72f12f787c7c7aa9bddfe0"
+    }, {
+      "name" : "AssertionError: assert '提交成功' == '签名不能为空'\n  - 签名不能为空\n  + 提交成功",
+      "children" : [ {
+        "name" : "Submit_019-签名不能为空",
+        "uid" : "a5e7a1ac017dbe3c",
+        "parentUid" : "a879df022732fa694df6bde484a70215",
+        "status" : "failed",
+        "time" : {
+          "start" : 1625818463784,
+          "stop" : 1625818463810,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Submit_019'", "'POST'", "'签名不能为空'", "'{\"ApiAccount\":\"TestApi\",\"ProductCode\":\"ALL_DX_01_000100_0001\",\"ChargeNum\":\"14343456\",\"Sign\":\"\",\"Quantity\":\"1\",\"ApiKey\": \"A3CD52180AF4EC928465B45FEF15E268\"}'", "'{\"Request\":{\"ApiAccount\":\"TestApi\",\"MOrderID\":\"1625552442415\",\"ProductCode\":\"\",\"ChargeNum\":\"18884178456\",\"ParValue\":\"null\",\"ProductType\":\"null\",\"Quantity\":1,\"TimesTamp\":\"20210706142042\",\"CustomIP\":\"null\",\"CallbackUrl\":\"null\",\"Sign\":\"451EBDD8B85BE1CA4BF46961660A05E6\",\"ApiRequestIP\":\"125.70.76.207\"},\"Response\":{\"ResponseCode\":\"900005\",\"ResponseMessage\":\"签名不能为空\",\"ResponseData\":\"null\"}}'", "'/SubmitOrder.ashx'" ]
+      } ],
+      "uid" : "a879df022732fa694df6bde484a70215"
+    }, {
+      "name" : "AssertionError: assert '成功' == '其他异常'\n  - 其他异常\n  + 成功",
+      "children" : [ {
+        "name" : "getcodedata\n_008-号码包含字母特殊字符空格",
+        "uid" : "11a114036bbf69c6",
+        "parentUid" : "075a6abab6c8a870489128e6ab9d23c5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1625818468878,
+          "stop" : 1625818469171,
+          "duration" : 293
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'getcodedata\n_008'", "'POST'", "'号码包含字母特殊字符空格'", "'{\"merchant_id\":\"600000038253\",\"mobile\":\"ab@_A\",\"ext_goods_id\":\"17\",\"buy_num\":\"1\",\"expire_time\":\"2021-11-23 15:00:00\",\"start_time\":\"2020-11-22 15:00:00\",\"sign\":\"128\"}'", "'{\"resp_code\":\"-1\",\"resp_desc\":\"其他异常\",\"code_data\":\"null\",\"start_time\":\"null\",\"expire_time\":\"null\"}'", "'/ExtractPointCards/getcodedata'" ]
+      }, {
+        "name" : "getcodedata\n_009-订单号为空",
+        "uid" : "869f8d58ad894356",
+        "parentUid" : "075a6abab6c8a870489128e6ab9d23c5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1625818469179,
+          "stop" : 1625818469459,
+          "duration" : 280
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'getcodedata\n_009'", "'POST'", "'订单号为空'", "'{\"merchant_id\":\"600000038253\",\"mobile\":\"18888888888\",\"ext_goods_id\":\"17\",\"buy_num\":\"1\",\"expire_time\":\"2021-11-23 15:00:00\",\"start_time\":\"2020-11-22 15:00:00\",\"sign\":\"123\"}'", "'{\"resp_code\":\"-1\",\"resp_desc\":\"其他异常\",\"code_data\":\"null\",\"start_time\":\"null\",\"expire_time\":\"null\"}'", "'/ExtractPointCards/getcodedata'" ]
+      } ],
+      "uid" : "075a6abab6c8a870489128e6ab9d23c5"
+    }, {
+      "name" : "AssertionError: assert '重复请求,已制过码,订单已存在' == '其他异常'\n  - 其他异常\n  + 重复请求,已制过码,订单已存在",
+      "children" : [ {
+        "name" : "getcodedata\n_010-订单号包含字母特殊字符空格",
+        "uid" : "cc64383785a67033",
+        "parentUid" : "dfd3340c35c11be141e4a623a0d94026",
+        "status" : "failed",
+        "time" : {
+          "start" : 1625818469466,
+          "stop" : 1625818469677,
+          "duration" : 211
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'getcodedata\n_010'", "'POST'", "'订单号包含字母特殊字符空格'", "'{\"merchant_id\":\"600000038253\",\"mobile\":\"18888888888\",\"ext_goods_id\":\"17\",\"buy_num\":\"1\",\"expire_time\":\"2021-11-23 15:00:00\",\"start_time\":\"2020-11-22 15:00:00\",\"sign\":\"123\"}'", "'{\"resp_code\":\"-1\",\"resp_desc\":\"其他异常\",\"code_data\":\"null\",\"start_time\":\"null\",\"expire_time\":\"null\"}'", "'/ExtractPointCards/getcodedata'" ]
+      }, {
+        "name" : "getcodedata\n_012-商品编号为空",
+        "uid" : "b83869315872d5c2",
+        "parentUid" : "dfd3340c35c11be141e4a623a0d94026",
+        "status" : "failed",
+        "time" : {
+          "start" : 1625818469881,
+          "stop" : 1625818470073,
+          "duration" : 192
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'getcodedata\n_012'", "'POST'", "'商品编号为空'", "'{\"merchant_id\":\"600000038253\",\"mobile\":\"18888888888\",\"ext_goods_id\":\"\",\"buy_num\":\"1\",\"expire_time\":\"2021-11-23 15:00:00\",\"start_time\":\"2020-11-22 15:00:00\",\"sign\":\"126\"}'", "'{\"resp_code\":\"-1\",\"resp_desc\":\"其他异常\",\"code_data\":\"null\",\"start_time\":\"null\",\"expire_time\":\"null\"}'", "'/ExtractPointCards/getcodedata'" ]
+      } ],
+      "uid" : "dfd3340c35c11be141e4a623a0d94026"
+    }, {
+      "name" : "AssertionError: assert '所提取的数量不足' == '其他异常'\n  - 其他异常\n  + 所提取的数量不足",
+      "children" : [ {
+        "name" : "getcodedata\n_013-商品编码不存在",
+        "uid" : "c6c5b5e185caa9a8",
+        "parentUid" : "fe0892663741873f42da8ac9d4399aeb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1625818470080,
+          "stop" : 1625818470366,
+          "duration" : 286
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'getcodedata\n_013'", "'POST'", "'商品编码不存在'", "'{\"merchant_id\":\"600000038253\",\"mobile\":\"18888888888\",\"ext_goods_id\":\"100\",\"buy_num\":\"1\",\"expire_time\":\"2021-11-23 15:00:00\",\"start_time\":\"2020-11-22 15:00:00\",\"sign\":\"126\"}'", "'{\"resp_code\":\"-1\",\"resp_desc\":\"其他异常\",\"code_data\":\"null\",\"start_time\":\"null\",\"expire_time\":\"null\"}'", "'/ExtractPointCards/getcodedata'" ]
+      }, {
+        "name" : "getcodedata\n_014-商品编码包含字母特殊字符空格",
+        "uid" : "123328526cf681ae",
+        "parentUid" : "fe0892663741873f42da8ac9d4399aeb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1625818470373,
+          "stop" : 1625818470664,
+          "duration" : 291
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'getcodedata\n_014'", "'POST'", "'商品编码包含字母特殊字符空格'", "'{\"merchant_id\":\"600000038253\",\"mobile\":\"18888888888\",\"ext_goods_id\":\"1avs#4\",\"buy_num\":\"1\",\"expire_time\":\"2021-11-23 15:00:00\",\"start_time\":\"2020-11-22 15:00:00\",\"sign\":\"127\"}'", "'{\"resp_code\":\"-1\",\"resp_desc\":\"其他异常\",\"code_data\":\"null\",\"start_time\":\"null\",\"expire_time\":\"null\"}'", "'/ExtractPointCards/getcodedata'" ]
+      } ],
+      "uid" : "fe0892663741873f42da8ac9d4399aeb"
+    }, {
+      "name" : "AssertionError: assert '提取数量必须大于1' == '其他异常'\n  - 其他异常\n  + 提取数量必须大于1",
+      "children" : [ {
+        "name" : "getcodedata\n_016-购买数为空",
+        "uid" : "85d54fc759cf7d42",
+        "parentUid" : "a1ca2b8298ca49efff3d9a2ac65d961a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1625818470974,
+          "stop" : 1625818471252,
+          "duration" : 278
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'getcodedata\n_016'", "'POST'", "'购买数为空'", "'{\"merchant_id\":\"600000038253\",\"mobile\":\"18888888888\",\"ext_goods_id\":\"17\",\"buy_num\":\"\",\"expire_time\":\"2021-11-23 15:00:00\",\"start_time\":\"2020-11-22 15:00:00\",\"sign\":\"123\"}'", "'{\"resp_code\":\"-1\",\"resp_desc\":\"其他异常\",\"code_data\":\"null\",\"start_time\":\"null\",\"expire_time\":\"null\"}'", "'/ExtractPointCards/getcodedata'" ]
+      } ],
+      "uid" : "a1ca2b8298ca49efff3d9a2ac65d961a"
+    }, {
+      "name" : "AssertionError: assert '成功' == '参数异常'\n  - 参数异常\n  + 成功",
+      "children" : [ {
+        "name" : "getcodedata\n_021-有效期过期",
+        "uid" : "75253a9b79b75b31",
+        "parentUid" : "a519a81b46e6e6c9b7923e360b37e863",
+        "status" : "failed",
+        "time" : {
+          "start" : 1625818472135,
+          "stop" : 1625818472424,
+          "duration" : 289
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'getcodedata\n_021'", "'POST'", "'有效期过期'", "'{\"merchant_id\":\"600000038253\",\"mobile\":\"1888888888\",\"ext_goods_id\":\"17\",\"buy_num\":\"1\",\"expire_time\":\"2020-11-20 15:00:00\",\"start_time\":\"2020-11-22 15:00:00\",\"sign\":\"129\"}'", "'{\"resp_code\": \"7\", \"resp_desc\": \"参数异常\", \"code_data\": \"None\", \"start_time\": \"None\", \"expire_time\": \"None\"}'", "'/ExtractPointCards/getcodedata'" ]
+      } ],
+      "uid" : "a519a81b46e6e6c9b7923e360b37e863"
+    }, {
+      "name" : "AssertionError: assert '重复请求,已制过码,订单已存在' == '参数异常'\n  - 参数异常\n  + 重复请求,已制过码,订单已存在",
+      "children" : [ {
+        "name" : "getcodedata\n_024-开始时间未开始",
+        "uid" : "b4e7e757dbff3b3e",
+        "parentUid" : "7f337c9f9bb0046940b00a8c5ad18bc8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1625818472739,
+          "stop" : 1625818472942,
+          "duration" : 203
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'getcodedata\n_024'", "'POST'", "'开始时间未开始'", "'{\"merchant_id\":\"600000038253\",\"mobile\":\"1888888888\",\"ext_goods_id\":\"17\",\"buy_num\":\"1\",\"expire_time\":\"2021-11-23 15:00:00\",\"start_time\":\"2021-11-22 15:00:00\",\"sign\":\"129\"}'", "'{\"resp_code\": \"7\", \"resp_desc\": \"参数异常\", \"code_data\": \"None\", \"start_time\": \"None\", \"expire_time\": \"None\"}'", "'/ExtractPointCards/getcodedata'" ]
+      } ],
+      "uid" : "7f337c9f9bb0046940b00a8c5ad18bc8"
+    }, {
+      "name" : "AssertionError: assert '100104' == '100105'\n  - 100105\n  ?      ^\n  + 100104\n  ?      ^",
+      "children" : [ {
+        "name" : "Generate_007-无效的域名",
+        "uid" : "91d72ac768be237d",
+        "parentUid" : "bc04200acbde638616f9c864b69231a7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1625818473190,
+          "stop" : 1625818473198,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Generate_007'", "'POST'", "'无效的域名'", "'{\"DomainName\": \"192.168\",\"Url\":\"http://www.baodusaohu.com\",\"Token\":\"340d2a1ce4334b5face4e78fdab4e70a\",\"validity\":\"\",\"Account\":\"14578454874\"}'", "'{\"ResponseStatus\":\"false\",\"ResponseCode\":\"100105\",\"ResponseMessage\":\"当前没有有效的域名\",\"ExceptionMessage\":\"\",\"ResponseObject\":\"null\",\"ResponseData\":\"null\"}'", "'/Service/Generate'" ]
+      } ],
+      "uid" : "bc04200acbde638616f9c864b69231a7"
+    }, {
+      "name" : "AssertionError: assert '100108' == '100109'\n  - 100109\n  ?      ^\n  + 100108\n  ?      ^",
+      "children" : [ {
+        "name" : "Generate_011-传递参数(timestamp)不能为空",
+        "uid" : "9b7cc5a0ba149a1e",
+        "parentUid" : "dc610ad5b5a06fcedd5145a150045e31",
+        "status" : "failed",
+        "time" : {
+          "start" : 1625818473251,
+          "stop" : 1625818473277,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Generate_011'", "'POST'", "'传递参数(timestamp)不能为空'", "'{\"DomainName\": \"192.168.0.46:8097\",\"Url\":\"http://www.baodusaohu.com\",\"Token\":\"ace987a3d67e4396b22da1377b33580f\",\"validity\":\"\",\"Account\":\"15457454521\"}'", "'{\"ResponseStatus\":\"false\",\"ResponseCode\":\"100109\",\"ResponseMessage\":\"传递参数(timestamp)不能为空\",\"ExceptionMessage\":\"\",\"ResponseObject\":\"null\",\"ResponseData\":\"null\"}'", "'/Service/Generate'" ]
+      } ],
+      "uid" : "dc610ad5b5a06fcedd5145a150045e31"
+    }, {
+      "name" : "AssertionError: assert '100108' == '100110'\n  - 100110\n  ?     -\n  + 100108\n  ?      +",
+      "children" : [ {
+        "name" : "Generate_012-传递参数(Sign)不能为空",
+        "uid" : "2dbfe8dc7ebe7bfe",
+        "parentUid" : "ee9fd061e1dde078c7e4cf465725bf8a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1625818473284,
+          "stop" : 1625818473342,
+          "duration" : 58
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Generate_012'", "'POST'", "'传递参数(Sign)不能为空'", "'{\"DomainName\": \"192.168.0.46:8097\",\"Url\":\"http://www.baodusaohu.com\",\"Token\":\"ace987a3d67e4396b22da1377b33580f\",\"validity\":\"\",\"Account\":\"15457454521\"}'", "'{\"ResponseStatus\":\"false\",\"ResponseCode\":\"100110\",\"ResponseMessage\":\"传递参数(Sign)不能为空\",\"ExceptionMessage\":\"\",\"ResponseObject\":\"null\",\"ResponseData\":\"null\"}'", "'/Service/Generate'" ]
+      } ],
+      "uid" : "ee9fd061e1dde078c7e4cf465725bf8a"
+    }, {
+      "name" : "AssertionError: assert '100108' == '100111'\n  - 100111\n  + 100108",
+      "children" : [ {
+        "name" : "Generate_013-时间戳已失效",
+        "uid" : "db1b1ec80057824d",
+        "parentUid" : "dd3879a4e3f352c682f9036889e5a39c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1625818473349,
+          "stop" : 1625818473376,
+          "duration" : 27
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Generate_013'", "'POST'", "'时间戳已失效'", "'{\"DomainName\": \"192.168.0.46:8097\",\"Url\":\"http://www.baodusaohu.com\",\"Token\":\"ace987a3d67e4396b22da1377b33580f\",\"validity\":\"\",\"Account\":\"15457454521\"}'", "'{\"ResponseStatus\":\"false\",\"ResponseCode\":\"100111\",\"ResponseMessage\":\"时间戳已失效\",\"ExceptionMessage\":\"\",\"ResponseObject\":\"null\",\"ResponseData\":\"null\"}'", "'/Service/Generate'" ]
+      } ],
+      "uid" : "dd3879a4e3f352c682f9036889e5a39c"
+    }, {
+      "name" : "AssertionError: assert '100108' == '100113'\n  - 100113\n  + 100108",
+      "children" : [ {
+        "name" : "Generate_015-时间戳有误",
+        "uid" : "c1640f0bd6bb7e7e",
+        "parentUid" : "665b17329a0d1db1ed50cca8c073c66b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1625818473635,
+          "stop" : 1625818473645,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Generate_015'", "'POST'", "'时间戳有误'", "'{\"DomainName\": \"192.168.0.46:8097\",\"Url\":\"http://www.baodusaohu.com\",\"Token\":\"ace987a3d67e4396b22da1377b33580f\",\"validity\":\"\",\"Account\":\"15457454521\"}'", "'{\"ResponseStatus\":\"false\",\"ResponseCode\":\"100113\",\"ResponseMessage\":\"时间戳有误\",\"ExceptionMessage\":\"\",\"ResponseObject\":\"null\",\"ResponseData\":\"null\"}'", "'/Service/Generate'" ]
+      } ],
+      "uid" : "665b17329a0d1db1ed50cca8c073c66b"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

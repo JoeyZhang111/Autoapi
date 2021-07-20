@@ -1,0 +1,86 @@
+{
+  "uid" : "c76c4b9aaa93d09f",
+  "name" : "Direct_022-签名错误",
+  "fullName" : "TestCase.test_order.TestDirectOrder#test_direct",
+  "historyId" : "cb8720ac040f5bb8f9d54fe69ef895ef",
+  "time" : {
+    "start" : 1625818452063,
+    "stop" : 1625818452087,
+    "duration" : 24
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "直充订单用例"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "订单管理用例"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_order"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDirectOrder"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-M7394K0"
+  }, {
+    "name" : "thread",
+    "value" : "190652-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "id",
+    "value" : "'Direct_022'"
+  }, {
+    "name" : "method",
+    "value" : "'post'"
+  }, {
+    "name" : "name",
+    "value" : "'签名错误'"
+  }, {
+    "name" : "reqbody",
+    "value" : "'{\"AppKey\":\"211394680\",\"ProductCode\":\"PLM100032\",\"BuyCount\":\"1\",\"ChargeAccount\":\"18888888888\",\"ChargeAccountType\":\"1\",\"CustomerIP\":\"121.43.39.80\",\"Version\":\"1.0\",\"IsCallback\":\"1\",\"CallBackUrl\":\"http://192.168.0.198:8033/CallBack/Test\",\"AppSecret\":\"km1O/ppIxKhsg==\"}'"
+  }, {
+    "name" : "respdata",
+    "value" : "'{\"AppKey\":\"211394680\",\"TimesTamp\":\"1601449704850\",\"Sign\":\"null\",\"Code\":\"8\",\"Msg\":\"签名错误\",\"ExtendParam\":\"null\",\"OrderModel\":\"null\"}'"
+  }, {
+    "name" : "url",
+    "value" : "'/Order/DirectOrder'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "c76c4b9aaa93d09f.json",
+  "parameterValues" : [ "'Direct_022'", "'post'", "'签名错误'", "'{\"AppKey\":\"211394680\",\"ProductCode\":\"PLM100032\",\"BuyCount\":\"1\",\"ChargeAccount\":\"18888888888\",\"ChargeAccountType\":\"1\",\"CustomerIP\":\"121.43.39.80\",\"Version\":\"1.0\",\"IsCallback\":\"1\",\"CallBackUrl\":\"http://192.168.0.198:8033/CallBack/Test\",\"AppSecret\":\"km1O/ppIxKhsg==\"}'", "'{\"AppKey\":\"211394680\",\"TimesTamp\":\"1601449704850\",\"Sign\":\"null\",\"Code\":\"8\",\"Msg\":\"签名错误\",\"ExtendParam\":\"null\",\"OrderModel\":\"null\"}'", "'/Order/DirectOrder'" ]
+}

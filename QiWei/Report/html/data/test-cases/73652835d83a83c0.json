@@ -1,0 +1,116 @@
+{
+  "uid" : "73652835d83a83c0",
+  "name" : "Create_008-部门名称包含特殊字符串",
+  "fullName" : "TestCase.test_dep.TestCreatDep#test_create[Create_008-部门名称包含特殊字符串-https://qyapi.weixin.qq.com/cgi-bin/department/create-post-{\"name\": \"采购:部\",\"name_en\": \"CGB\",\"parentid\": \"1\",\"order\": \"1\",\"id\": \"3\"}-{\"errcode\": \"60009\", \"errmsg\": \"department name include invalid char, hint: ",
+  "historyId" : "ef79b49a0453db27e8187c0dfece2383",
+  "time" : {
+    "start" : 1624419698551,
+    "stop" : 1624419698740,
+    "duration" : 189
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_token",
+    "time" : {
+      "start" : 1624419696259,
+      "stop" : 1624419696447,
+      "duration" : 188
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "del_dep",
+    "time" : {
+      "start" : 1624419696447,
+      "stop" : 1624419697072,
+      "duration" : 625
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "新增部门用例"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "部门管理用例"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_dep"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCreatDep"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-M7394K0"
+  }, {
+    "name" : "thread",
+    "value" : "15624-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_dep"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expect",
+    "value" : "'{\"errcode\": \"60009\", \"errmsg\": \"department name include invalid char, hint: [1622450592_197_435ef6a899d694b3b1503ae10f69bcc3], from ip: 125.70.178.38, more info at https://open.work.weixin.qq.com/devtool/query?e=60009\"}'"
+  }, {
+    "name" : "id",
+    "value" : "'Create_008'"
+  }, {
+    "name" : "method",
+    "value" : "'post'"
+  }, {
+    "name" : "name",
+    "value" : "'部门名称包含特殊字符串'"
+  }, {
+    "name" : "reqbody",
+    "value" : "'{\"name\": \"采购:部\",\"name_en\": \"CGB\",\"parentid\": \"1\",\"order\": \"1\",\"id\": \"3\"}'"
+  }, {
+    "name" : "url",
+    "value" : "'https://qyapi.weixin.qq.com/cgi-bin/department/create'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "73652835d83a83c0.json",
+  "parameterValues" : [ "'{\"errcode\": \"60009\", \"errmsg\": \"department name include invalid char, hint: [1622450592_197_435ef6a899d694b3b1503ae10f69bcc3], from ip: 125.70.178.38, more info at https://open.work.weixin.qq.com/devtool/query?e=60009\"}'", "'Create_008'", "'post'", "'部门名称包含特殊字符串'", "'{\"name\": \"采购:部\",\"name_en\": \"CGB\",\"parentid\": \"1\",\"order\": \"1\",\"id\": \"3\"}'", "'https://qyapi.weixin.qq.com/cgi-bin/department/create'" ]
+}

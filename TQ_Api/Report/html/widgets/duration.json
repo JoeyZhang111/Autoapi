@@ -1,0 +1,1121 @@
+[ {
+  "uid" : "cb85c47564cf4a6f",
+  "name" : "Direct_021-CallBackUrl不能为空",
+  "time" : {
+    "start" : 1625818452039,
+    "stop" : 1625818452058,
+    "duration" : 19
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "2e9110f17252b253",
+  "name" : "getcodedata\n_015-积分卡数量不足",
+  "time" : {
+    "start" : 1625818470671,
+    "stop" : 1625818470970,
+    "duration" : 299
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "861709ddad09da78",
+  "name" : "Generate_004-Token为空",
+  "time" : {
+    "start" : 1625818473159,
+    "stop" : 1625818473165,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "7c93d17d3ddba338",
+  "name" : "Direct_018-ChargeAccountType不能为空",
+  "time" : {
+    "start" : 1625818451948,
+    "stop" : 1625818451966,
+    "duration" : 18
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "42429ef363c9322f",
+  "name" : "Card_005-账户余额不足",
+  "time" : {
+    "start" : 1625818452293,
+    "stop" : 1625818452324,
+    "duration" : 31
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "9a48301c06456089",
+  "name" : "Submit_007-接口账户已被禁用",
+  "time" : {
+    "start" : 1625818458342,
+    "stop" : 1625818459366,
+    "duration" : 1024
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "3042967ce82f147f",
+  "name" : "Direct_019-账户类型错误",
+  "time" : {
+    "start" : 1625818451971,
+    "stop" : 1625818452005,
+    "duration" : 34
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "411dc277346d95ae",
+  "name" : "Submit_020-无效的面值",
+  "time" : {
+    "start" : 1625818463817,
+    "stop" : 1625818464321,
+    "duration" : 504
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "328e177f29d512c1",
+  "name" : "getcodedata\n_001-所有字段正常传入",
+  "time" : {
+    "start" : 1625818464335,
+    "stop" : 1625818467886,
+    "duration" : 3551
+  },
+  "status" : "broken",
+  "severity" : "blocker"
+}, {
+  "uid" : "3d59392b86c7d797",
+  "name" : "Submit_013-该产品未配置价格",
+  "time" : {
+    "start" : 1625818460533,
+    "stop" : 1625818460570,
+    "duration" : 37
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "11a114036bbf69c6",
+  "name" : "getcodedata\n_008-号码包含字母特殊字符空格",
+  "time" : {
+    "start" : 1625818468878,
+    "stop" : 1625818469171,
+    "duration" : 293
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "123328526cf681ae",
+  "name" : "getcodedata\n_014-商品编码包含字母特殊字符空格",
+  "time" : {
+    "start" : 1625818470373,
+    "stop" : 1625818470664,
+    "duration" : 291
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "15716d451de527aa",
+  "name" : "Card_006-IP验证失败",
+  "time" : {
+    "start" : 1625818452329,
+    "stop" : 1625818453351,
+    "duration" : 1022
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "aaf22872367a255c",
+  "name" : "getcodedata\n_018-购买数包含字母特殊字符空格",
+  "time" : {
+    "start" : 1625818471544,
+    "stop" : 1625818471833,
+    "duration" : 289
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "96f1b63bd0410d27",
+  "name" : "Card_014-TimesTamp不能为空",
+  "time" : {
+    "start" : 1625818454603,
+    "stop" : 1625818454629,
+    "duration" : 26
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "cacbae48058c082",
+  "name" : "Card_001-收单成功（回调）",
+  "time" : {
+    "start" : 1625818452175,
+    "stop" : 1625818452208,
+    "duration" : 33
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "4abae89104c57e6",
+  "name" : "Card_025-卡密密钥不能为空",
+  "time" : {
+    "start" : 1625818457018,
+    "stop" : 1625818457043,
+    "duration" : 25
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "6649e4e4fd621a15",
+  "name" : "Direct_010-产品编码无法识别",
+  "time" : {
+    "start" : 1625818451716,
+    "stop" : 1625818451740,
+    "duration" : 24
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "8429c74c6ca8f478",
+  "name" : "Direct_017-BuyCount格式错误",
+  "time" : {
+    "start" : 1625818451924,
+    "stop" : 1625818451943,
+    "duration" : 19
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "7002ae53b7362fd0",
+  "name" : "Direct_011-ProductCode不能为空",
+  "time" : {
+    "start" : 1625818451745,
+    "stop" : 1625818451765,
+    "duration" : 20
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "7c838fb373525d16",
+  "name" : "Direct_013-MOrderID不能为空",
+  "time" : {
+    "start" : 1625818451799,
+    "stop" : 1625818451832,
+    "duration" : 33
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "cc042034c696f7a6",
+  "name" : "Submit_009-签名错误(apikey 错误)",
+  "time" : {
+    "start" : 1625818459398,
+    "stop" : 1625818459422,
+    "duration" : 24
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "1299026025551771",
+  "name" : "Generate_003-Url为空",
+  "time" : {
+    "start" : 1625818473150,
+    "stop" : 1625818473155,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "85d54fc759cf7d42",
+  "name" : "getcodedata\n_016-购买数为空",
+  "time" : {
+    "start" : 1625818470974,
+    "stop" : 1625818471252,
+    "duration" : 278
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "ed26b1e295c42c36",
+  "name" : "Direct_012-ChargeAccount不能为空",
+  "time" : {
+    "start" : 1625818451771,
+    "stop" : 1625818451793,
+    "duration" : 22
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "6927084909834422",
+  "name" : "Direct_007-当前接口不支持此产品",
+  "time" : {
+    "start" : 1625818451629,
+    "stop" : 1625818451647,
+    "duration" : 18
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "ea2925cd3f69d1b8",
+  "name" : "Direct_006-IP验证失败",
+  "time" : {
+    "start" : 1625818451591,
+    "stop" : 1625818451622,
+    "duration" : 31
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "5d4ecdda13cc55d9",
+  "name" : "Generate_006-无效Token",
+  "time" : {
+    "start" : 1625818473179,
+    "stop" : 1625818473186,
+    "duration" : 7
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "89597d47df808a38",
+  "name" : "Generate_005-输入错误的Url",
+  "time" : {
+    "start" : 1625818473169,
+    "stop" : 1625818473175,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "e5729801e76fc284",
+  "name" : "Card_015-AppKey不能为空",
+  "time" : {
+    "start" : 1625818454637,
+    "stop" : 1625818455665,
+    "duration" : 1028
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "3832bb95bd9aa888",
+  "name" : "Card_023-合作方单号重复",
+  "time" : {
+    "start" : 1625818455941,
+    "stop" : 1625818456978,
+    "duration" : 1037
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "fc17d1d739f58c4",
+  "name" : "Submit_005-非法的会员",
+  "time" : {
+    "start" : 1625818458259,
+    "stop" : 1625818458305,
+    "duration" : 46
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "2a71673676e5a35",
+  "name" : "Card_004-会员无效",
+  "time" : {
+    "start" : 1625818452258,
+    "stop" : 1625818452288,
+    "duration" : 30
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "7d9bec34545a86e4",
+  "name" : "Card_020-接口版本错误",
+  "time" : {
+    "start" : 1625818455813,
+    "stop" : 1625818455841,
+    "duration" : 28
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "621cf4a501858987",
+  "name" : "Submit_008-请求IP地址与邦定IP地址不符",
+  "time" : {
+    "start" : 1625818459372,
+    "stop" : 1625818459394,
+    "duration" : 22
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "79aa0a564a4376e7",
+  "name" : "Direct_023-合作方单号重复",
+  "time" : {
+    "start" : 1625818452092,
+    "stop" : 1625818452121,
+    "duration" : 29
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "82533ebbe53d78fd",
+  "name" : "Generate_016-传递参数(DomainName)不能为空",
+  "time" : {
+    "start" : 1625818473652,
+    "stop" : 1625818473658,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "5dbe6aaaa35c4666",
+  "name" : "getcodedata\n_020-有效期格式错误",
+  "time" : {
+    "start" : 1625818471990,
+    "stop" : 1625818472131,
+    "duration" : 141
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "adad577cb893e409",
+  "name" : "Submit_017-充值号码不能为空",
+  "time" : {
+    "start" : 1625818460711,
+    "stop" : 1625818463745,
+    "duration" : 3034
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "1a9c8027173b2e22",
+  "name" : "Card_024-时间戳失效",
+  "time" : {
+    "start" : 1625818456985,
+    "stop" : 1625818457011,
+    "duration" : 26
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "13037e2889609e43",
+  "name" : "Generate_009-会员无效",
+  "time" : {
+    "start" : 1625818473220,
+    "stop" : 1625818473233,
+    "duration" : 13
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "58d502fc6e1c6e62",
+  "name" : "getcodedata\n_019-有效期为空",
+  "time" : {
+    "start" : 1625818471838,
+    "stop" : 1625818471985,
+    "duration" : 147
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "fe6e9a4fcd9508e2",
+  "name" : "Generate_008-会员余额不足",
+  "time" : {
+    "start" : 1625818473205,
+    "stop" : 1625818473216,
+    "duration" : 11
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "8a13553ae0517cf1",
+  "name" : "getcodedata\n_023-开始时间格式错误",
+  "time" : {
+    "start" : 1625818472592,
+    "stop" : 1625818472735,
+    "duration" : 143
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "c6c5b5e185caa9a8",
+  "name" : "getcodedata\n_013-商品编码不存在",
+  "time" : {
+    "start" : 1625818470080,
+    "stop" : 1625818470366,
+    "duration" : 286
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "c4df49d7c8ada397",
+  "name" : "Direct_002-收单成功（无回调）",
+  "time" : {
+    "start" : 1625818451477,
+    "stop" : 1625818451478,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "blocker"
+}, {
+  "uid" : "f7ac2d9208dcf1c8",
+  "name" : "getcodedata\n_011-订单已存在",
+  "time" : {
+    "start" : 1625818469684,
+    "stop" : 1625818469876,
+    "duration" : 192
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "db1b1ec80057824d",
+  "name" : "Generate_013-时间戳已失效",
+  "time" : {
+    "start" : 1625818473349,
+    "stop" : 1625818473376,
+    "duration" : 27
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "bb526d2ea69ad3d",
+  "name" : "Direct_014-TimesTamp不能为空",
+  "time" : {
+    "start" : 1625818451839,
+    "stop" : 1625818451870,
+    "duration" : 31
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "b1402346ba2c25d",
+  "name" : "Submit_015-接口帐号不能为空",
+  "time" : {
+    "start" : 1625818460628,
+    "stop" : 1625818460651,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "5b1ab679f98ebf96",
+  "name" : "Card_002-收单成功（无回调）",
+  "time" : {
+    "start" : 1625818452213,
+    "stop" : 1625818452214,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "blocker"
+}, {
+  "uid" : "1a5b718ee990fd2b",
+  "name" : "Card_022-签名错误",
+  "time" : {
+    "start" : 1625818455880,
+    "stop" : 1625818455936,
+    "duration" : 56
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "410eea6fed8e9884",
+  "name" : "getcodedata\n_002-渠道账号为空",
+  "time" : {
+    "start" : 1625818467905,
+    "stop" : 1625818468041,
+    "duration" : 136
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "5cb3138f0468d23f",
+  "name" : "Card_012-ChargeAccount不能为空",
+  "time" : {
+    "start" : 1625818454526,
+    "stop" : 1625818454564,
+    "duration" : 38
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "58f66c5de89c2c9c",
+  "name" : "Card_003-AppKey无效",
+  "time" : {
+    "start" : 1625818452220,
+    "stop" : 1625818452253,
+    "duration" : 33
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "ff6d33df76032552",
+  "name" : "Generate_002-所有必填字段正常传入",
+  "time" : {
+    "start" : 1625818473113,
+    "stop" : 1625818473145,
+    "duration" : 32
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "1eea2c53a2720373",
+  "name" : "getcodedata\n_025-签名为空",
+  "time" : {
+    "start" : 1625818472950,
+    "stop" : 1625818473091,
+    "duration" : 141
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "9df56bcfec3a4cb8",
+  "name" : "Card_010-产品编码无法识别",
+  "time" : {
+    "start" : 1625818454478,
+    "stop" : 1625818454500,
+    "duration" : 22
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "b6df2241bcdbe64",
+  "name" : "Card_016-Version不能为空",
+  "time" : {
+    "start" : 1625818455671,
+    "stop" : 1625818455702,
+    "duration" : 31
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "2dbcbd4922777fee",
+  "name" : "Submit_012-该产品已下架",
+  "time" : {
+    "start" : 1625818460496,
+    "stop" : 1625818460529,
+    "duration" : 33
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "a0a5ab21bf50d77f",
+  "name" : "Generate_001-所有字段正常传入",
+  "time" : {
+    "start" : 1625818473098,
+    "stop" : 1625818473109,
+    "duration" : 11
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "3d423f86cae7a9d5",
+  "name" : "Card_008-当前接口不支持此格式帐号",
+  "time" : {
+    "start" : 1625818453388,
+    "stop" : 1625818454416,
+    "duration" : 1028
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "9b7cc5a0ba149a1e",
+  "name" : "Generate_011-传递参数(timestamp)不能为空",
+  "time" : {
+    "start" : 1625818473251,
+    "stop" : 1625818473277,
+    "duration" : 26
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "d583fa089c51be2d",
+  "name" : "Submit_011-该产品不支持数量",
+  "time" : {
+    "start" : 1625818459455,
+    "stop" : 1625818460489,
+    "duration" : 1034
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "8c6e45840ce5faf4",
+  "name" : "Submit_001-提交成功",
+  "time" : {
+    "start" : 1625818457079,
+    "stop" : 1625818458115,
+    "duration" : 1036
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "38bac1f73d032367",
+  "name" : "Direct_009-产品配置异常",
+  "time" : {
+    "start" : 1625818451688,
+    "stop" : 1625818451711,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "30b5022336a8f9d4",
+  "name" : "Submit_006-会员已被禁用",
+  "time" : {
+    "start" : 1625818458309,
+    "stop" : 1625818458337,
+    "duration" : 28
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "fde579613971d40d",
+  "name" : "Card_009-产品配置异常",
+  "time" : {
+    "start" : 1625818454423,
+    "stop" : 1625818454473,
+    "duration" : 50
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "56fdba460fbaadfa",
+  "name" : "Card_026-卡密密钥不合法",
+  "time" : {
+    "start" : 1625818457047,
+    "stop" : 1625818457072,
+    "duration" : 25
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "3d8363d75a0f9883",
+  "name" : "Submit_010-不支持该产品充值",
+  "time" : {
+    "start" : 1625818459427,
+    "stop" : 1625818459451,
+    "duration" : 24
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "4763c0b4c2faef0a",
+  "name" : "Card_019-账户类型错误",
+  "time" : {
+    "start" : 1625818455784,
+    "stop" : 1625818455808,
+    "duration" : 24
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "cc64383785a67033",
+  "name" : "getcodedata\n_010-订单号包含字母特殊字符空格",
+  "time" : {
+    "start" : 1625818469466,
+    "stop" : 1625818469677,
+    "duration" : 211
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "ef0b2909751c3f97",
+  "name" : "getcodedata\n_005-后台配置了限制IP",
+  "time" : {
+    "start" : 1625818468311,
+    "stop" : 1625818468451,
+    "duration" : 140
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "b268dea4e964473f",
+  "name" : "Card_013-MOrderID不能为空",
+  "time" : {
+    "start" : 1625818454571,
+    "stop" : 1625818454597,
+    "duration" : 26
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "3022b04d52f3bea9",
+  "name" : "getcodedata\n_004-后台渠道提取帐号禁用",
+  "time" : {
+    "start" : 1625818468178,
+    "stop" : 1625818468306,
+    "duration" : 128
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "2f6ddfe17ddc07b0",
+  "name" : "Direct_020-接口版本错误",
+  "time" : {
+    "start" : 1625818452009,
+    "stop" : 1625818452034,
+    "duration" : 25
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "51b03398716b306d",
+  "name" : "Direct_005-账户余额不足",
+  "time" : {
+    "start" : 1625818451566,
+    "stop" : 1625818451586,
+    "duration" : 20
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "d444955ed75de18d",
+  "name" : "Card_011-ProductCode不能为空",
+  "time" : {
+    "start" : 1625818454505,
+    "stop" : 1625818454521,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "d265bf0c80f48211",
+  "name" : "Direct_015-AppKey不能为空",
+  "time" : {
+    "start" : 1625818451877,
+    "stop" : 1625818451896,
+    "duration" : 19
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "a7edab34f4ed2e3a",
+  "name" : "Generate_010-IP验证失败\n（会员接口白名单配置错误的IP）",
+  "time" : {
+    "start" : 1625818473237,
+    "stop" : 1625818473247,
+    "duration" : 10
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "c4536894cc56304f",
+  "name" : "Direct_008-当前产品不支持此格式帐号",
+  "time" : {
+    "start" : 1625818451652,
+    "stop" : 1625818451681,
+    "duration" : 29
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "d02f071320904822",
+  "name" : "getcodedata\n_007-号码为空",
+  "time" : {
+    "start" : 1625818468745,
+    "stop" : 1625818468873,
+    "duration" : 128
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "e5dd95f8af6b2d54",
+  "name" : "Submit_016-会员订单号不能为空",
+  "time" : {
+    "start" : 1625818460656,
+    "stop" : 1625818460704,
+    "duration" : 48
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "98bd66f30299522d",
+  "name" : "getcodedata\n_022-开始时间为空",
+  "time" : {
+    "start" : 1625818472431,
+    "stop" : 1625818472586,
+    "duration" : 155
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "4fdad64da8f76fa5",
+  "name" : "Card_007-当前接口不支持此产品",
+  "time" : {
+    "start" : 1625818453357,
+    "stop" : 1625818453383,
+    "duration" : 26
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "8131a4ea2321d3ee",
+  "name" : "Submit_014-资金账户余额不足",
+  "time" : {
+    "start" : 1625818460574,
+    "stop" : 1625818460623,
+    "duration" : 49
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "75253a9b79b75b31",
+  "name" : "getcodedata\n_021-有效期过期",
+  "time" : {
+    "start" : 1625818472135,
+    "stop" : 1625818472424,
+    "duration" : 289
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "91d72ac768be237d",
+  "name" : "Generate_007-无效的域名",
+  "time" : {
+    "start" : 1625818473190,
+    "stop" : 1625818473198,
+    "duration" : 8
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "b83869315872d5c2",
+  "name" : "getcodedata\n_012-商品编号为空",
+  "time" : {
+    "start" : 1625818469881,
+    "stop" : 1625818470073,
+    "duration" : 192
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "9a5806b1ef3bfa5e",
+  "name" : "Submit_021-无效的产品类型",
+  "time" : {
+    "start" : 1625818464326,
+    "stop" : 1625818464327,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "blocker"
+}, {
+  "uid" : "2dbfe8dc7ebe7bfe",
+  "name" : "Generate_012-传递参数(Sign)不能为空",
+  "time" : {
+    "start" : 1625818473284,
+    "stop" : 1625818473342,
+    "duration" : 58
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "86bcc57c1b95642f",
+  "name" : "getcodedata\n_003-\n传入不存在的渠道账号",
+  "time" : {
+    "start" : 1625818468045,
+    "stop" : 1625818468173,
+    "duration" : 128
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "5d11584d27d25aec",
+  "name" : "Card_018-ChargeAccountType不能为空",
+  "time" : {
+    "start" : 1625818455745,
+    "stop" : 1625818455779,
+    "duration" : 34
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "d5733fa18dd9a184",
+  "name" : "Submit_002-订单重复提交",
+  "time" : {
+    "start" : 1625818458119,
+    "stop" : 1625818458154,
+    "duration" : 35
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "22634c3af1a0db21",
+  "name" : "Submit_004-请求已超时",
+  "time" : {
+    "start" : 1625818458198,
+    "stop" : 1625818458252,
+    "duration" : 54
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "e3b5573d889298fc",
+  "name" : "Card_017-BuyCount格式错误",
+  "time" : {
+    "start" : 1625818455707,
+    "stop" : 1625818455739,
+    "duration" : 32
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "869f8d58ad894356",
+  "name" : "getcodedata\n_009-订单号为空",
+  "time" : {
+    "start" : 1625818469179,
+    "stop" : 1625818469459,
+    "duration" : 280
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "91744b7ca972479",
+  "name" : "Generate_014-签名错误",
+  "time" : {
+    "start" : 1625818473382,
+    "stop" : 1625818473631,
+    "duration" : 249
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "465703165c18923e",
+  "name" : "Submit_018-时间戳不能为空",
+  "time" : {
+    "start" : 1625818463751,
+    "stop" : 1625818463777,
+    "duration" : 26
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "c1640f0bd6bb7e7e",
+  "name" : "Generate_015-时间戳有误",
+  "time" : {
+    "start" : 1625818473635,
+    "stop" : 1625818473645,
+    "duration" : 10
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "b4e7e757dbff3b3e",
+  "name" : "getcodedata\n_024-开始时间未开始",
+  "time" : {
+    "start" : 1625818472739,
+    "stop" : 1625818472942,
+    "duration" : 203
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "c76c4b9aaa93d09f",
+  "name" : "Direct_022-签名错误",
+  "time" : {
+    "start" : 1625818452063,
+    "stop" : 1625818452087,
+    "duration" : 24
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "feae896ec54496a1",
+  "name" : "Submit_003-无效的时间戳",
+  "time" : {
+    "start" : 1625818458162,
+    "stop" : 1625818458191,
+    "duration" : 29
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "c74fdb085ab74110",
+  "name" : "Direct_001-收单成功",
+  "time" : {
+    "start" : 1625818451449,
+    "stop" : 1625818451472,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "11b7d97e4282928b",
+  "name" : "Direct_003-AppKey无效",
+  "time" : {
+    "start" : 1625818451506,
+    "stop" : 1625818451531,
+    "duration" : 25
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "9772b289daafbf47",
+  "name" : "getcodedata\n_017-购买数为0",
+  "time" : {
+    "start" : 1625818471257,
+    "stop" : 1625818471540,
+    "duration" : 283
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "65afe46904720a46",
+  "name" : "Card_021-CallBackUrl不能为空",
+  "time" : {
+    "start" : 1625818455846,
+    "stop" : 1625818455874,
+    "duration" : 28
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "ae6d41528e18dab0",
+  "name" : "Direct_004-会员无效",
+  "time" : {
+    "start" : 1625818451537,
+    "stop" : 1625818451561,
+    "duration" : 24
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "a5e7a1ac017dbe3c",
+  "name" : "Submit_019-签名不能为空",
+  "time" : {
+    "start" : 1625818463784,
+    "stop" : 1625818463810,
+    "duration" : 26
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "5edf776c218b95d3",
+  "name" : "Direct_024-时间戳失效",
+  "time" : {
+    "start" : 1625818452128,
+    "stop" : 1625818452166,
+    "duration" : 38
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "9d12828c58a13c89",
+  "name" : "getcodedata\n_006-渠道提取帐号金额不足",
+  "time" : {
+    "start" : 1625818468456,
+    "stop" : 1625818468741,
+    "duration" : 285
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "bf022b670b832266",
+  "name" : "Direct_016-Version不能为空",
+  "time" : {
+    "start" : 1625818451901,
+    "stop" : 1625818451919,
+    "duration" : 18
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+} ]

@@ -1,0 +1,465 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_case",
+    "children" : [ {
+      "name" : "test_add",
+      "children" : [ {
+        "name" : "TestAdd",
+        "children" : [ {
+          "name" : "msg_add0001-增加留言_2001",
+          "uid" : "773d4b2d8e2ed965",
+          "parentUid" : "c02af21bf25485e9c5d86ba1fcba0f80",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626766549221,
+            "stop" : 1626766549346,
+            "duration" : 125
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"title\": \"留言标题\", \"content\": \"留言内容\"}'", "'msg_add0001'", "'POST'", "'增加留言_2001'", "'{\"flag\":\"松勤教育\",\"code\":\"200\",\"message\":\"添加成功\",\"data\":{\"id\":\"56\"}}'", "'/api/message'" ]
+        }, {
+          "name" : "msg_add0002-增加留言_2002",
+          "uid" : "1bdc61a01332e5ca",
+          "parentUid" : "c02af21bf25485e9c5d86ba1fcba0f80",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626766549362,
+            "stop" : 1626766549473,
+            "duration" : 111
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"title\": \"\", \"content\": \"留言内容\"}'", "'msg_add0002'", "'POST'", "'增加留言_2002'", "'{\"flag\":\"松勤教育\",\"code\":\"400\",\"message\":\"添加失败\",\"data\":\"标题必须是2-50个字符，可以是汉字字母数字下划线\"}'", "'/api/message'" ]
+        }, {
+          "name" : "msg_add0003-增加留言_2003",
+          "uid" : "e07a75e4f32c6f55",
+          "parentUid" : "c02af21bf25485e9c5d86ba1fcba0f80",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626766549478,
+            "stop" : 1626766549581,
+            "duration" : 103
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"title\": \"留言标题\", \"content\": \"\"}'", "'msg_add0003'", "'POST'", "'增加留言_2003'", "'{\"flag\":\"松勤教育\",\"code\":\"400\",\"message\":\"添加失败\", \"data\":\"留言内容必须是2-500个字符,可以是汉字字母数字下划线，不能包含特殊字符\"}'", "'/api/message'" ]
+        }, {
+          "name" : "msg_add0004-增加留言_2004",
+          "uid" : "ed3b03bd9b81656d",
+          "parentUid" : "c02af21bf25485e9c5d86ba1fcba0f80",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626766549581,
+            "stop" : 1626766549681,
+            "duration" : 100
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"title\": \"\", \"content\": \"\"}'", "'msg_add0004'", "'POST'", "'增加留言_2004'", "'{\"flag\":\"松勤教育\",\"code\":\"400\",\"message\":\"添加失败\",\"data\":\"标题必须是2-50个字符，可以是汉字字母数字下划线\"}'", "'/api/message'" ]
+        }, {
+          "name" : "msg_add0005-增加留言_2005",
+          "uid" : "48c9501d1eb5de4e",
+          "parentUid" : "c02af21bf25485e9c5d86ba1fcba0f80",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626766549696,
+            "stop" : 1626766549801,
+            "duration" : 105
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"title\": \"1\", \"content\": \"留言内容\"}'", "'msg_add0005'", "'POST'", "'增加留言_2005'", "'{\"flag\":\"松勤教育\",\"code\":\"400\",\"message\":\"添加失败\",\"data\":\"标题必须是2-50个字符，可以是汉字字母数字下划线\"}'", "'/api/message'" ]
+        }, {
+          "name" : "msg_add0006-增加留言_2006",
+          "uid" : "a132f5f1a634815",
+          "parentUid" : "c02af21bf25485e9c5d86ba1fcba0f80",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626766549811,
+            "stop" : 1626766549933,
+            "duration" : 122
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"title\": \"留言标题\", \"content\": \"1\"}'", "'msg_add0006'", "'POST'", "'增加留言_2006'", "'{\"flag\":\"松勤教育\",\"code\":\"400\",\"message\":\"添加失败\", \"data\":\"留言内容必须是2-500个字符,可以是汉字字母数字下划线，不能包含特殊字符\"}'", "'/api/message'" ]
+        }, {
+          "name" : "msg_add0007-增加留言_2007",
+          "uid" : "2eeceb1c0bfa6d96",
+          "parentUid" : "c02af21bf25485e9c5d86ba1fcba0f80",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626766549951,
+            "stop" : 1626766550048,
+            "duration" : 97
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"title\": \"分的高分经典回顾符合国家和的结果功兑高度风格化的风反对恢复供电和大家思考的风格格关于个环人约特如图杠代光华\", \"content\": \"1\"}'", "'msg_add0007'", "'POST'", "'增加留言_2007'", "'{\"flag\":\"松勤教育\",\"code\":\"400\",\"message\":\"添加失败\",\"data\":\"标题必须是2-50个字符，可以是汉字字母数字下划线\"}'", "'/api/message'" ]
+        }, {
+          "name" : "msg_add0008-增加留言_2008",
+          "uid" : "40226119b7ba4473",
+          "parentUid" : "c02af21bf25485e9c5d86ba1fcba0f80",
+          "status" : "failed",
+          "time" : {
+            "start" : 1626766550064,
+            "stop" : 1626766550173,
+            "duration" : 109
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"title\": \"留言标题\", \"content\": \"分的高分经典回顾符合国家和的结果功兑高度风格化的风反对恢复供电和大家思考的风格格关于个环人约特如图杠代光华\"}'", "'msg_add0008'", "'POST'", "'增加留言_2008'", "'{\"flag\":\"松勤教育\",\"code\":\"400\",\"message\":\"添加失败\", \"data\":\"留言内容必须是2-500个字符,可以是汉字字母数字下划线，不能包含特殊字符\"}'", "'/api/message'" ]
+        }, {
+          "name" : "msg_add0009-增加留言_2009",
+          "uid" : "edfc83351af6398c",
+          "parentUid" : "c02af21bf25485e9c5d86ba1fcba0f80",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626766550204,
+            "stop" : 1626766550314,
+            "duration" : 110
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"title\": \"1234@\", \"content\": \"留言内容\"}'", "'msg_add0009'", "'POST'", "'增加留言_2009'", "'{\"flag\":\"松勤教育\",\"code\":\"400\",\"message\":\"添加失败\",\"data\":\"标题必须是2-50个字符，可以是汉字字母数字下划线\"}'", "'/api/message'" ]
+        }, {
+          "name" : "msg_add0010-增加留言_2010",
+          "uid" : "cc1cef828ee5cf38",
+          "parentUid" : "c02af21bf25485e9c5d86ba1fcba0f80",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626766550329,
+            "stop" : 1626766550439,
+            "duration" : 110
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"title\": \"留言标题\", \"content\": \"1234@\"}'", "'msg_add0010'", "'POST'", "'增加留言_2010'", "'{\"flag\":\"松勤教育\",\"code\":\"400\",\"message\":\"添加失败\", \"data\":\"留言内容必须是2-500个字符,可以是汉字字母数字下划线，不能包含特殊字符\"}'", "'/api/message'" ]
+        } ],
+        "uid" : "c02af21bf25485e9c5d86ba1fcba0f80"
+      } ],
+      "uid" : "5367235f241a23ab896ddb59f454a39d"
+    }, {
+      "name" : "test_delete",
+      "children" : [ {
+        "name" : "TestAdd",
+        "children" : [ {
+          "name" : "msg_delete0001-删除留言_5001",
+          "uid" : "c33b1cfe8d99ca4e",
+          "parentUid" : "d36228b48f188dccefbd54dfca642b4c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626766550562,
+            "stop" : 1626766550784,
+            "duration" : 222
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"id\":\"21\"}'", "'msg_delete0001'", "'DELETE'", "'删除留言_5001'", "'{\"flag\":\"松勤教育\",\"code\":\"200\", \"message\": \"删除成功\"}'", "'/api/message/'" ]
+        }, {
+          "name" : "msg_delete0002-删除留言_5002",
+          "uid" : "b4460c1d52d5faf6",
+          "parentUid" : "d36228b48f188dccefbd54dfca642b4c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626766550784,
+            "stop" : 1626766550893,
+            "duration" : 109
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"id\":\"1\"}'", "'msg_delete0002'", "'DELETE'", "'删除留言_5002'", "'{\"flag\":\"松勤教育\",\"code\":\"400\",\"message\":\"删除失败，该留言不存在\"}'", "'/api/message/'" ]
+        }, {
+          "name" : "msg_delete0003-删除留言_5003",
+          "uid" : "1a9de89c15333886",
+          "parentUid" : "d36228b48f188dccefbd54dfca642b4c",
+          "status" : "broken",
+          "time" : {
+            "start" : 1626766550909,
+            "stop" : 1626766551018,
+            "duration" : 109
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"id\":\"yg\"}'", "'msg_delete0003'", "'DELETE'", "'删除留言_5003'", "'{\"timestamp\":\"2021-07-16T10:24:45.002+0000\",\"status\":\"400\",\"error\":\"Bad Request\",\"message\":\"Failed to convert value of type \\\"java.lang.String\\\" to required type \\\"java.lang.Integer\\\";nested exception is java.lang.NumberFormatException:For input string:\"y\"\",\"path\":\"/api/message/y\"}'", "'/api/message/'" ]
+        } ],
+        "uid" : "d36228b48f188dccefbd54dfca642b4c"
+      } ],
+      "uid" : "9059827ff6fc8cbd2c3135a76145be19"
+    }, {
+      "name" : "test_list",
+      "children" : [ {
+        "name" : "TestAdd",
+        "children" : [ {
+          "name" : "msg_list0002-列出留言_3001",
+          "uid" : "c4f1db37607dd0a",
+          "parentUid" : "73cd172897af6be70f1002269011f031",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626766551159,
+            "stop" : 1626766551284,
+            "duration" : 125
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"page\":\"1\",\"value\":\"4\"}'", "'msg_list0002'", "'GET'", "'列出留言_3001'", "'{\"flag\":\"松勤教育\",\"code\":\"200\",\"message\":\"查询所有留言\",\"data\":\"{}\"}'", "'/api/messages/'" ]
+        }, {
+          "name" : "msg_list0003-列出留言_3002",
+          "uid" : "997fad14ebaf1735",
+          "parentUid" : "73cd172897af6be70f1002269011f031",
+          "status" : "broken",
+          "time" : {
+            "start" : 1626766551285,
+            "stop" : 1626766551285,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"page\":\"1“,\"value\":\"0\"}'", "'msg_list0003'", "'GET'", "'列出留言_3002'", "'{\"flag\":\"松勤教育\",\"code\":\"200\",\"message\":\"查询所有留言\",\"data\":\"{}\"}'", "'/api/messages/'" ]
+        }, {
+          "name" : "msg_list0004-列出留言_3003",
+          "uid" : "f1299bdb56f40548",
+          "parentUid" : "73cd172897af6be70f1002269011f031",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626766551300,
+            "stop" : 1626766551426,
+            "duration" : 126
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"page\":\"0\",\"value\":\"1\"}'", "'msg_list0004'", "'GET'", "'列出留言_3003'", "'{\"flag\":\"松勤教育\",\"code\":\"200\",\"message\":\"查询所有留言\",\"data\":\"{}\"}'", "'/api/messages/'" ]
+        }, {
+          "name" : "msg_list0005-列出留言_3004",
+          "uid" : "cb5bf9e726dfd306",
+          "parentUid" : "73cd172897af6be70f1002269011f031",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626766551426,
+            "stop" : 1626766551547,
+            "duration" : 121
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"page\":\"0\",\"value\":\"0\"}'", "'msg_list0005'", "'GET'", "'列出留言_3004'", "'{\"flag\":\"松勤教育\",\"code\":\"200\",\"message\":\"查询所有留言\",\"data\":\"{}\"}'", "'/api/messages/'" ]
+        }, {
+          "name" : "msg_list0006-列出留言_3005",
+          "uid" : "e7a89bc4d5abc14d",
+          "parentUid" : "73cd172897af6be70f1002269011f031",
+          "status" : "broken",
+          "time" : {
+            "start" : 1626766551563,
+            "stop" : 1626766551688,
+            "duration" : 125
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"page\":\"yj\",\"value\":\"4\"}'", "'msg_list0006'", "'GET'", "'列出留言_3005'", "'{\"timestamp\":\"2021-07-16T11:00:10.286+0000\",\"status\":\"400\",\"error\":\"Bad Request\",\"c\":\"Failed to convert value of type \\\"java.lang.String\\\" to required type \\\"java.lang.Integer\\\";nested exception is java.lang.NumberFormatException: For input string: \"yj\", \"path\": \"/api/messages/yj/4\"}'", "'/api/messages/'" ]
+        }, {
+          "name" : "msg_list0007-列出留言_3006",
+          "uid" : "589e3061ac07e173",
+          "parentUid" : "73cd172897af6be70f1002269011f031",
+          "status" : "broken",
+          "time" : {
+            "start" : 1626766551719,
+            "stop" : 1626766551862,
+            "duration" : 143
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"page\":\"1\",\"value\":\"tf\"}'", "'msg_list0007'", "'GET'", "'列出留言_3006'", "'{\"timestamp\":\"2021-07-16T11:00:10.286+0000\",\"status\":\"400\",\"error\":\"Bad Request\",\"message\":\"Failed to convert value of type \\\"java.lang.String\\\" to required type \\\"java.lang.Integer\\\";nested exception is java.lang.NumberFormatException: For input string: \"tf\", \"path\": \"/api/messages/1/tf\"}'", "'/api/messages/'" ]
+        } ],
+        "uid" : "73cd172897af6be70f1002269011f031"
+      } ],
+      "uid" : "3d4c8cc28a68f87974c9432e0e150f12"
+    }, {
+      "name" : "test_login",
+      "children" : [ {
+        "name" : "TestLogin",
+        "children" : [ {
+          "name" : "login0001-登录接口_1001",
+          "uid" : "a06af93e826ea498",
+          "parentUid" : "0d8e8f730d883d96f0f07d44568a84e6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626766552002,
+            "stop" : 1626766552096,
+            "duration" : 94
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"username\":\"20154084\",\"password\":\"123456\"}'", "'login0001'", "'POST'", "'登录接口_1001'", "'{\"flag\":\"松勤教育\",\"code\":\"200\",\"message\":\"登录成功\",\"data\":{\"studentId\":\"20154084\",\"studentName\":\"sq\",\"grade\":\"2015\",\"major\":\"计算机科学与技术\",\"clazz\":\"2\",\"institute\":\"软件工程学院\",\"tel\":\"13200000000\",\"email\":\"sqqdcl@163.com\",\"pwd\":\"\",\"cardId\":\"124123124535\",\"sex\":\"男\",\"role\":\"2\"},\"token\":\"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJzcSIsInN1YiI6InNxIiwiaWF0IjoxNTk1NzcwNzcyfQ.HlgRI5JtuBzjJv0SiSwvU49CXBzUgvaZA0Hn5Mp_fuU\"}'", "'/api/loginS'" ]
+        }, {
+          "name" : "login0002-登录接口_1002",
+          "uid" : "f5a9ff555d4f440c",
+          "parentUid" : "0d8e8f730d883d96f0f07d44568a84e6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626766552112,
+            "stop" : 1626766552221,
+            "duration" : 109
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"username\":\"\",\"password\":\"123456\"}'", "'login0002'", "'POST'", "'登录接口_1002'", "'{\"flag\":\"松勤教育\",\"code\":400,\"message\":\"用户名不存在\",\"data\":\"null\",\"token\":\"null\"}'", "'/api/loginS'" ]
+        }, {
+          "name" : "login0003-登录接口_1003",
+          "uid" : "7856a53cccd65b2b",
+          "parentUid" : "0d8e8f730d883d96f0f07d44568a84e6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626766552221,
+            "stop" : 1626766552315,
+            "duration" : 94
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"username\":\"123456\",\"password\":\"123456\"}'", "'login0003'", "'POST'", "'登录接口_1003'", "'{\"flag\":\"松勤教育\",\"code\":400,\"message\":\"用户名不存在\",\"data\":\"null\",\"token\":\"null\"}'", "'/api/loginS'" ]
+        }, {
+          "name" : "login0004-登录接口_1004",
+          "uid" : "aab5e9bebe420cad",
+          "parentUid" : "0d8e8f730d883d96f0f07d44568a84e6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626766552330,
+            "stop" : 1626766552424,
+            "duration" : 94
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"username\":\"20154084\",\"password\":\"\"}'", "'login0004'", "'POST'", "'登录接口_1004'", "'{\"flag\":\"松勤教育\",\"code\":\"400\",\"message\":\"密码错误\",\"data\":\"null\",\"token\":\"null\"}'", "'/api/loginS'" ]
+        }, {
+          "name" : "login0005-登录接口_1005",
+          "uid" : "7a8d51db4129724f",
+          "parentUid" : "0d8e8f730d883d96f0f07d44568a84e6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626766552424,
+            "stop" : 1626766552530,
+            "duration" : 106
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"username\":\"20154084\",\"password\":\"123\"}'", "'login0005'", "'POST'", "'登录接口_1005'", "'{\"flag\":\"松勤教育\",\"code\":\"400\",\"message\":\"密码错误\",\"data\":\"null\",\"token\":\"null\"}'", "'/api/loginS'" ]
+        }, {
+          "name" : "login0006-登录接口_1006",
+          "uid" : "a985a42007ffffe5",
+          "parentUid" : "0d8e8f730d883d96f0f07d44568a84e6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626766552546,
+            "stop" : 1626766552640,
+            "duration" : 94
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"username\":\"\",\"password\":\"\"}'", "'login0006'", "'POST'", "'登录接口_1006'", "'{\"flag\":\"松勤教育\",\"code\":\"400\",\"message\":\"用户名不存在\",\"data\":\"null\",\"token\":\"null\"}'", "'/api/loginS'" ]
+        }, {
+          "name" : "login0007-登录接口_1007",
+          "uid" : "28e82190906fba80",
+          "parentUid" : "0d8e8f730d883d96f0f07d44568a84e6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626766552640,
+            "stop" : 1626766552749,
+            "duration" : 109
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"username\":\"1223\",\"password\":\"1123123\"}'", "'login0007'", "'POST'", "'登录接口_1007'", "'{\"flag\":\"松勤教育\",\"code\":\"400\",\"message\":\"用户名不存在\",\"data\":\"null\",\"token\":\"null\"}'", "'/api/loginS'" ]
+        } ],
+        "uid" : "0d8e8f730d883d96f0f07d44568a84e6"
+      } ],
+      "uid" : "b0d25e7592ecf0ad5c1e978c2b721247"
+    }, {
+      "name" : "test_replay",
+      "children" : [ {
+        "name" : "TestAdd",
+        "children" : [ {
+          "name" : "msg_reply0001-回复留言_4001",
+          "uid" : "3107531ff22d2005",
+          "parentUid" : "cbeff1a70447a8c7d431c74523e096ac",
+          "status" : "failed",
+          "time" : {
+            "start" : 1626766552862,
+            "stop" : 1626766552972,
+            "duration" : 110
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"replay\": \"回复的内容 \", \"messageId\": \"3420\"}'", "'msg_reply0001'", "'POST'", "'回复留言_4001'", "'{\"flag\":\"松勤教育\",\"code\":\"200\",\"message\":\"添加成功\",\"data\":{\"replayId\":\"34\"}}'", "'/api/replay'" ]
+        }, {
+          "name" : "msg_reply0002-回复留言_4002",
+          "uid" : "fc0ee0da3bdf0944",
+          "parentUid" : "cbeff1a70447a8c7d431c74523e096ac",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626766552987,
+            "stop" : 1626766553081,
+            "duration" : 94
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"replay\": \"回复的内容 \", \"messageId\": \"1\"}'", "'msg_reply0002'", "'POST'", "'回复留言_4002'", "'{\"flag\":\"松勤教育\",\"code\":\"400\",\"message\":\"添加失败\",\"data\":\"messageID对应的留言不存在\"}'", "'/api/replay'" ]
+        }, {
+          "name" : "msg_reply0003-回复留言_4003",
+          "uid" : "a09a7ce1ac2202c6",
+          "parentUid" : "cbeff1a70447a8c7d431c74523e096ac",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626766553097,
+            "stop" : 1626766553190,
+            "duration" : 93
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"replay\": \"a\", \"messageId\": \"15\"}'", "'msg_reply0003'", "'POST'", "'回复留言_4003'", "'{\"flag\":\"松勤教育\",\"code\":\"400\",\"message\":\"添加失败\",\"data\":\"回复内容必须是2-500个字符，可以是汉字字母数字下划线，不能包含特殊字符\"}'", "'/api/replay'" ]
+        }, {
+          "name" : "msg_reply0004-回复留言_4004",
+          "uid" : "b2702d4263f3c6fc",
+          "parentUid" : "cbeff1a70447a8c7d431c74523e096ac",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626766553206,
+            "stop" : 1626766553316,
+            "duration" : 110
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"replay\": \"幸福，是一个比较宽泛的话题。仁者见仁，智者见智。在我身边，时常有很多朋友在讨论什么是幸福，也引来了我对这个话题的思考。深思浅虑，无法对这个话题归纳出一个固定的概念。据说，好多从事心理学、社会学研究的专家和学者都不能给幸福一个准确的定义。但我认为，幸福一定不是和金钱成正比的。若是给二者画一个函数曲线的话，我相信一定是个抛物线，甚至是波浪线\", \"messageId\": \"3421\"}'", "'msg_reply0004'", "'POST'", "'回复留言_4004'", "'{\"flag\":\"松勤教育\",\"code\":\"400\",\"message\":\"添加失败\",\"data\":\"回复内容必须是2-500个字符，可以是汉字字母数字下划线，不能包含特殊字符\"}'", "'/api/replay'" ]
+        }, {
+          "name" : "msg_reply0005-回复留言_4005",
+          "uid" : "7ce5d83f1c5dc7ae",
+          "parentUid" : "cbeff1a70447a8c7d431c74523e096ac",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626766553316,
+            "stop" : 1626766553425,
+            "duration" : 109
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"replay\": \"@@@ \", \"messageId\": \"20\"}'", "'msg_reply0005'", "'POST'", "'回复留言_4005'", "'{\"flag\":\"松勤教育\",\"code\":\"400\",\"message\":\"添加失败\",\"data\":\"回复内容必须是2-500个字符，可以是汉字字母数字下划线，不能包含特殊字符\"}'", "'/api/replay'" ]
+        }, {
+          "name" : "msg_reply0006-回复留言_4006",
+          "uid" : "3b2ab960fa4e6b17",
+          "parentUid" : "cbeff1a70447a8c7d431c74523e096ac",
+          "status" : "broken",
+          "time" : {
+            "start" : 1626766553456,
+            "stop" : 1626766553562,
+            "duration" : 106
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'{\"replay\": \"324十多个 \", \"messageId\": \"sf\"}'", "'msg_reply0006'", "'POST'", "'回复留言_4006'", "'{\"timestamp\":\"2021-07-16T10:35:36.524+0000\",\"status\":\"400\",\"error\":\"Bad Request\",\"message\":\"JSON parse error: Cannot deserialize value of type `java.lang.Integer` from String \"y\": not a valid Integer value; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.lang.Integer from String \"y\": not a valid Integer value\\n at [Source(PushbackInputStream);line: 1,column: 47] (through reference chain: com.exam.entity.Replay[\"messageId\"])\", \"path\": \"/api/replay\"}'", "'/api/replay'" ]
+        } ],
+        "uid" : "cbeff1a70447a8c7d431c74523e096ac"
+      } ],
+      "uid" : "c4a9c0d0572069452d51749a2a016830"
+    } ],
+    "uid" : "86abcc46617c603d802c3e378b13740e"
+  } ]
+}

@@ -1,0 +1,46 @@
+2021-07-02 14:12:24.949 | INFO     | test_dep:setup_class:43 - ---新增部门用例开始执行---
+2021-07-02 14:12:25.636 | INFO     | test_dep:test_create:56 - 执行用例Create_001部门添加正确
+2021-07-02 14:12:25.826 | ERROR    | test_dep:test_create:67 - 用例执行失败:assert 60008 == 0
+  +60008
+  -0
+2021-07-02 14:12:25.865 | INFO     | test_dep:test_create:56 - 执行用例Create_002部门添加正确--包含子部门
+2021-07-02 14:12:26.097 | INFO     | test_dep:test_create:70 - 用例执行成功
+2021-07-02 14:12:26.103 | INFO     | test_dep:test_create:56 - 执行用例Create_003部门添加正确-只有必填项
+2021-07-02 14:12:26.345 | INFO     | test_dep:test_create:70 - 用例执行成功
+2021-07-02 14:12:26.352 | INFO     | test_dep:test_create:56 - 执行用例Create_004部门已存在
+2021-07-02 14:12:26.542 | INFO     | test_dep:test_create:70 - 用例执行成功
+2021-07-02 14:12:26.565 | INFO     | test_dep:test_create:56 - 执行用例Create_005部门长度不符合限制
+2021-07-02 14:12:26.774 | INFO     | test_dep:test_create:70 - 用例执行成功
+2021-07-02 14:12:26.781 | INFO     | test_dep:test_create:56 - 执行用例Create_006不合法的参数
+2021-07-02 14:12:26.950 | INFO     | test_dep:test_create:70 - 用例执行成功
+2021-07-02 14:12:26.958 | INFO     | test_dep:test_create:56 - 执行用例Create_007部门名称重复
+2021-07-02 14:12:27.153 | INFO     | test_dep:test_create:70 - 用例执行成功
+2021-07-02 14:12:27.159 | INFO     | test_dep:test_create:56 - 执行用例Create_008部门名称包含特殊字符串
+2021-07-02 14:12:27.353 | INFO     | test_dep:test_create:70 - 用例执行成功
+2021-07-02 14:12:27.363 | INFO     | test_dep:test_create:56 - 执行用例Create_009部门英文名称重复
+2021-07-02 14:12:27.570 | INFO     | test_dep:test_create:70 - 用例执行成功
+2021-07-02 14:12:27.583 | INFO     | test_dep:test_create:56 - 执行用例Create_010部门英文名称包含特殊字符串
+2021-07-02 14:12:27.776 | INFO     | test_dep:test_create:70 - 用例执行成功
+2021-07-02 14:12:27.783 | INFO     | test_dep:test_create:56 - 执行用例Create_011部门英文长度不符合限制
+2021-07-02 14:12:27.985 | INFO     | test_dep:test_create:70 - 用例执行成功
+2021-07-02 14:12:27.992 | INFO     | test_dep:test_create:56 - 执行用例Create_012parentid参数是部门id
+2021-07-02 14:12:28.186 | INFO     | test_dep:test_create:70 - 用例执行成功
+2021-07-02 14:12:28.193 | INFO     | test_dep:test_create:56 - 执行用例Create_013父级部门格式无效
+2021-07-02 14:12:28.381 | INFO     | test_dep:test_create:70 - 用例执行成功
+2021-07-02 14:12:28.389 | INFO     | test_dep:test_create:56 - 执行用例Create_014父级部门不存在
+2021-07-02 14:12:28.570 | INFO     | test_dep:test_create:70 - 用例执行成功
+2021-07-02 14:12:28.576 | INFO     | test_dep:test_create:56 - 执行用例Create_015部门id重复
+2021-07-02 14:12:28.781 | INFO     | test_dep:test_create:70 - 用例执行成功
+2021-07-02 14:12:28.789 | INFO     | test_dep:test_create:56 - 执行用例Create_016无效的部门id
+2021-07-02 14:12:28.976 | INFO     | test_dep:test_create:70 - 用例执行成功
+2021-07-02 14:12:28.982 | INFO     | test_dep:teardown_class:46 - ---新增部门用例结束执行---
+2021-07-02 14:12:29.228 | INFO     | test_dep:setup_class:82 - ---删除部门用例开始执行---
+2021-07-02 14:12:29.229 | INFO     | test_dep:test_delete:95 - 执行用例delete_001 删除成功
+2021-07-02 14:12:29.452 | INFO     | test_dep:test_delete:110 - 用例执行成功
+2021-07-02 14:12:29.459 | INFO     | test_dep:test_delete:95 - 执行用例delete_002 删除无效部门
+2021-07-02 14:12:29.668 | INFO     | test_dep:test_delete:110 - 用例执行成功
+2021-07-02 14:12:29.681 | INFO     | test_dep:test_delete:95 - 执行用例delete_003 删除含子部门的部门
+2021-07-02 14:12:29.919 | INFO     | test_dep:test_delete:110 - 用例执行成功
+2021-07-02 14:12:29.925 | INFO     | test_dep:test_delete:95 - 执行用例delete_004 删除部门包含成员
+2021-07-02 14:12:30.134 | INFO     | test_dep:test_delete:110 - 用例执行成功
+2021-07-02 14:12:30.139 | INFO     | test_dep:teardown_class:85 - ---删除部门用例结束执行---

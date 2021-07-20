@@ -1,0 +1,140 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Jul 09 16:14:12 CST 2021","Fri Jul 09 16:14:12 CST 2021","19","TestCase","test_order","TestDirectOrder","","","Direct_021-CallBackUrl不能为空",""
+"passed","Fri Jul 09 16:14:30 CST 2021","Fri Jul 09 16:14:30 CST 2021","299","TestCase","test_exchange","TestGene","","","getcodedata
+_015-积分卡数量不足",""
+"passed","Fri Jul 09 16:14:33 CST 2021","Fri Jul 09 16:14:33 CST 2021","6","TestCase","test_gene","TestGene","","","Generate_004-Token为空",""
+"passed","Fri Jul 09 16:14:11 CST 2021","Fri Jul 09 16:14:11 CST 2021","18","TestCase","test_order","TestDirectOrder","","","Direct_018-ChargeAccountType不能为空",""
+"passed","Fri Jul 09 16:14:12 CST 2021","Fri Jul 09 16:14:12 CST 2021","31","TestCase","test_order","TestCardOrder","","","Card_005-账户余额不足",""
+"passed","Fri Jul 09 16:14:18 CST 2021","Fri Jul 09 16:14:19 CST 2021","1024","TestCase","test_order","TestCredit","","","Submit_007-接口账户已被禁用",""
+"passed","Fri Jul 09 16:14:11 CST 2021","Fri Jul 09 16:14:12 CST 2021","34","TestCase","test_order","TestDirectOrder","","","Direct_019-账户类型错误",""
+"passed","Fri Jul 09 16:14:23 CST 2021","Fri Jul 09 16:14:24 CST 2021","504","TestCase","test_order","TestCredit","","","Submit_020-无效的面值",""
+"broken","Fri Jul 09 16:14:24 CST 2021","Fri Jul 09 16:14:27 CST 2021","3551","TestCase","test_exchange","TestGene","","","getcodedata
+_001-所有字段正常传入",""
+"passed","Fri Jul 09 16:14:20 CST 2021","Fri Jul 09 16:14:20 CST 2021","37","TestCase","test_order","TestCredit","","","Submit_013-该产品未配置价格",""
+"failed","Fri Jul 09 16:14:28 CST 2021","Fri Jul 09 16:14:29 CST 2021","293","TestCase","test_exchange","TestGene","","","getcodedata
+_008-号码包含字母特殊字符空格",""
+"failed","Fri Jul 09 16:14:30 CST 2021","Fri Jul 09 16:14:30 CST 2021","291","TestCase","test_exchange","TestGene","","","getcodedata
+_014-商品编码包含字母特殊字符空格",""
+"passed","Fri Jul 09 16:14:12 CST 2021","Fri Jul 09 16:14:13 CST 2021","1022","TestCase","test_order","TestCardOrder","","","Card_006-IP验证失败",""
+"passed","Fri Jul 09 16:14:31 CST 2021","Fri Jul 09 16:14:31 CST 2021","289","TestCase","test_exchange","TestGene","","","getcodedata
+_018-购买数包含字母特殊字符空格",""
+"failed","Fri Jul 09 16:14:14 CST 2021","Fri Jul 09 16:14:14 CST 2021","26","TestCase","test_order","TestCardOrder","","","Card_014-TimesTamp不能为空",""
+"passed","Fri Jul 09 16:14:12 CST 2021","Fri Jul 09 16:14:12 CST 2021","33","TestCase","test_order","TestCardOrder","","","Card_001-收单成功（回调）",""
+"passed","Fri Jul 09 16:14:17 CST 2021","Fri Jul 09 16:14:17 CST 2021","25","TestCase","test_order","TestCardOrder","","","Card_025-卡密密钥不能为空",""
+"passed","Fri Jul 09 16:14:11 CST 2021","Fri Jul 09 16:14:11 CST 2021","24","TestCase","test_order","TestDirectOrder","","","Direct_010-产品编码无法识别",""
+"passed","Fri Jul 09 16:14:11 CST 2021","Fri Jul 09 16:14:11 CST 2021","19","TestCase","test_order","TestDirectOrder","","","Direct_017-BuyCount格式错误",""
+"passed","Fri Jul 09 16:14:11 CST 2021","Fri Jul 09 16:14:11 CST 2021","20","TestCase","test_order","TestDirectOrder","","","Direct_011-ProductCode不能为空",""
+"failed","Fri Jul 09 16:14:11 CST 2021","Fri Jul 09 16:14:11 CST 2021","33","TestCase","test_order","TestDirectOrder","","","Direct_013-MOrderID不能为空",""
+"passed","Fri Jul 09 16:14:19 CST 2021","Fri Jul 09 16:14:19 CST 2021","24","TestCase","test_order","TestCredit","","","Submit_009-签名错误(apikey 错误)",""
+"passed","Fri Jul 09 16:14:33 CST 2021","Fri Jul 09 16:14:33 CST 2021","5","TestCase","test_gene","TestGene","","","Generate_003-Url为空",""
+"failed","Fri Jul 09 16:14:30 CST 2021","Fri Jul 09 16:14:31 CST 2021","278","TestCase","test_exchange","TestGene","","","getcodedata
+_016-购买数为空",""
+"passed","Fri Jul 09 16:14:11 CST 2021","Fri Jul 09 16:14:11 CST 2021","22","TestCase","test_order","TestDirectOrder","","","Direct_012-ChargeAccount不能为空",""
+"passed","Fri Jul 09 16:14:11 CST 2021","Fri Jul 09 16:14:11 CST 2021","18","TestCase","test_order","TestDirectOrder","","","Direct_007-当前接口不支持此产品",""
+"passed","Fri Jul 09 16:14:11 CST 2021","Fri Jul 09 16:14:11 CST 2021","31","TestCase","test_order","TestDirectOrder","","","Direct_006-IP验证失败",""
+"passed","Fri Jul 09 16:14:33 CST 2021","Fri Jul 09 16:14:33 CST 2021","7","TestCase","test_gene","TestGene","","","Generate_006-无效Token",""
+"passed","Fri Jul 09 16:14:33 CST 2021","Fri Jul 09 16:14:33 CST 2021","6","TestCase","test_gene","TestGene","","","Generate_005-输入错误的Url",""
+"passed","Fri Jul 09 16:14:14 CST 2021","Fri Jul 09 16:14:15 CST 2021","1028","TestCase","test_order","TestCardOrder","","","Card_015-AppKey不能为空",""
+"failed","Fri Jul 09 16:14:15 CST 2021","Fri Jul 09 16:14:16 CST 2021","1037","TestCase","test_order","TestCardOrder","","","Card_023-合作方单号重复",""
+"passed","Fri Jul 09 16:14:18 CST 2021","Fri Jul 09 16:14:18 CST 2021","46","TestCase","test_order","TestCredit","","","Submit_005-非法的会员",""
+"passed","Fri Jul 09 16:14:12 CST 2021","Fri Jul 09 16:14:12 CST 2021","30","TestCase","test_order","TestCardOrder","","","Card_004-会员无效",""
+"passed","Fri Jul 09 16:14:15 CST 2021","Fri Jul 09 16:14:15 CST 2021","28","TestCase","test_order","TestCardOrder","","","Card_020-接口版本错误",""
+"passed","Fri Jul 09 16:14:19 CST 2021","Fri Jul 09 16:14:19 CST 2021","22","TestCase","test_order","TestCredit","","","Submit_008-请求IP地址与邦定IP地址不符",""
+"failed","Fri Jul 09 16:14:12 CST 2021","Fri Jul 09 16:14:12 CST 2021","29","TestCase","test_order","TestDirectOrder","","","Direct_023-合作方单号重复",""
+"passed","Fri Jul 09 16:14:33 CST 2021","Fri Jul 09 16:14:33 CST 2021","6","TestCase","test_gene","TestGene","","","Generate_016-传递参数(DomainName)不能为空",""
+"passed","Fri Jul 09 16:14:31 CST 2021","Fri Jul 09 16:14:32 CST 2021","141","TestCase","test_exchange","TestGene","","","getcodedata
+_020-有效期格式错误",""
+"passed","Fri Jul 09 16:14:20 CST 2021","Fri Jul 09 16:14:23 CST 2021","3034","TestCase","test_order","TestCredit","","","Submit_017-充值号码不能为空",""
+"failed","Fri Jul 09 16:14:16 CST 2021","Fri Jul 09 16:14:17 CST 2021","26","TestCase","test_order","TestCardOrder","","","Card_024-时间戳失效",""
+"passed","Fri Jul 09 16:14:33 CST 2021","Fri Jul 09 16:14:33 CST 2021","13","TestCase","test_gene","TestGene","","","Generate_009-会员无效",""
+"passed","Fri Jul 09 16:14:31 CST 2021","Fri Jul 09 16:14:31 CST 2021","147","TestCase","test_exchange","TestGene","","","getcodedata
+_019-有效期为空",""
+"passed","Fri Jul 09 16:14:33 CST 2021","Fri Jul 09 16:14:33 CST 2021","11","TestCase","test_gene","TestGene","","","Generate_008-会员余额不足",""
+"passed","Fri Jul 09 16:14:32 CST 2021","Fri Jul 09 16:14:32 CST 2021","143","TestCase","test_exchange","TestGene","","","getcodedata
+_023-开始时间格式错误",""
+"failed","Fri Jul 09 16:14:30 CST 2021","Fri Jul 09 16:14:30 CST 2021","286","TestCase","test_exchange","TestGene","","","getcodedata
+_013-商品编码不存在",""
+"broken","Fri Jul 09 16:14:11 CST 2021","Fri Jul 09 16:14:11 CST 2021","1","TestCase","test_order","TestDirectOrder","","","Direct_002-收单成功（无回调）",""
+"passed","Fri Jul 09 16:14:29 CST 2021","Fri Jul 09 16:14:29 CST 2021","192","TestCase","test_exchange","TestGene","","","getcodedata
+_011-订单已存在",""
+"failed","Fri Jul 09 16:14:33 CST 2021","Fri Jul 09 16:14:33 CST 2021","27","TestCase","test_gene","TestGene","","","Generate_013-时间戳已失效",""
+"failed","Fri Jul 09 16:14:11 CST 2021","Fri Jul 09 16:14:11 CST 2021","31","TestCase","test_order","TestDirectOrder","","","Direct_014-TimesTamp不能为空",""
+"passed","Fri Jul 09 16:14:20 CST 2021","Fri Jul 09 16:14:20 CST 2021","23","TestCase","test_order","TestCredit","","","Submit_015-接口帐号不能为空",""
+"broken","Fri Jul 09 16:14:12 CST 2021","Fri Jul 09 16:14:12 CST 2021","1","TestCase","test_order","TestCardOrder","","","Card_002-收单成功（无回调）",""
+"passed","Fri Jul 09 16:14:15 CST 2021","Fri Jul 09 16:14:15 CST 2021","56","TestCase","test_order","TestCardOrder","","","Card_022-签名错误",""
+"passed","Fri Jul 09 16:14:27 CST 2021","Fri Jul 09 16:14:28 CST 2021","136","TestCase","test_exchange","TestGene","","","getcodedata
+_002-渠道账号为空",""
+"failed","Fri Jul 09 16:14:14 CST 2021","Fri Jul 09 16:14:14 CST 2021","38","TestCase","test_order","TestCardOrder","","","Card_012-ChargeAccount不能为空",""
+"passed","Fri Jul 09 16:14:12 CST 2021","Fri Jul 09 16:14:12 CST 2021","33","TestCase","test_order","TestCardOrder","","","Card_003-AppKey无效",""
+"passed","Fri Jul 09 16:14:33 CST 2021","Fri Jul 09 16:14:33 CST 2021","32","TestCase","test_gene","TestGene","","","Generate_002-所有必填字段正常传入",""
+"passed","Fri Jul 09 16:14:32 CST 2021","Fri Jul 09 16:14:33 CST 2021","141","TestCase","test_exchange","TestGene","","","getcodedata
+_025-签名为空",""
+"passed","Fri Jul 09 16:14:14 CST 2021","Fri Jul 09 16:14:14 CST 2021","22","TestCase","test_order","TestCardOrder","","","Card_010-产品编码无法识别",""
+"passed","Fri Jul 09 16:14:15 CST 2021","Fri Jul 09 16:14:15 CST 2021","31","TestCase","test_order","TestCardOrder","","","Card_016-Version不能为空",""
+"passed","Fri Jul 09 16:14:20 CST 2021","Fri Jul 09 16:14:20 CST 2021","33","TestCase","test_order","TestCredit","","","Submit_012-该产品已下架",""
+"passed","Fri Jul 09 16:14:33 CST 2021","Fri Jul 09 16:14:33 CST 2021","11","TestCase","test_gene","TestGene","","","Generate_001-所有字段正常传入",""
+"failed","Fri Jul 09 16:14:13 CST 2021","Fri Jul 09 16:14:14 CST 2021","1028","TestCase","test_order","TestCardOrder","","","Card_008-当前接口不支持此格式帐号",""
+"failed","Fri Jul 09 16:14:33 CST 2021","Fri Jul 09 16:14:33 CST 2021","26","TestCase","test_gene","TestGene","","","Generate_011-传递参数(timestamp)不能为空",""
+"failed","Fri Jul 09 16:14:19 CST 2021","Fri Jul 09 16:14:20 CST 2021","1034","TestCase","test_order","TestCredit","","","Submit_011-该产品不支持数量",""
+"passed","Fri Jul 09 16:14:17 CST 2021","Fri Jul 09 16:14:18 CST 2021","1036","TestCase","test_order","TestCredit","","","Submit_001-提交成功",""
+"passed","Fri Jul 09 16:14:11 CST 2021","Fri Jul 09 16:14:11 CST 2021","23","TestCase","test_order","TestDirectOrder","","","Direct_009-产品配置异常",""
+"passed","Fri Jul 09 16:14:18 CST 2021","Fri Jul 09 16:14:18 CST 2021","28","TestCase","test_order","TestCredit","","","Submit_006-会员已被禁用",""
+"passed","Fri Jul 09 16:14:14 CST 2021","Fri Jul 09 16:14:14 CST 2021","50","TestCase","test_order","TestCardOrder","","","Card_009-产品配置异常",""
+"passed","Fri Jul 09 16:14:17 CST 2021","Fri Jul 09 16:14:17 CST 2021","25","TestCase","test_order","TestCardOrder","","","Card_026-卡密密钥不合法",""
+"passed","Fri Jul 09 16:14:19 CST 2021","Fri Jul 09 16:14:19 CST 2021","24","TestCase","test_order","TestCredit","","","Submit_010-不支持该产品充值",""
+"passed","Fri Jul 09 16:14:15 CST 2021","Fri Jul 09 16:14:15 CST 2021","24","TestCase","test_order","TestCardOrder","","","Card_019-账户类型错误",""
+"failed","Fri Jul 09 16:14:29 CST 2021","Fri Jul 09 16:14:29 CST 2021","211","TestCase","test_exchange","TestGene","","","getcodedata
+_010-订单号包含字母特殊字符空格",""
+"passed","Fri Jul 09 16:14:28 CST 2021","Fri Jul 09 16:14:28 CST 2021","140","TestCase","test_exchange","TestGene","","","getcodedata
+_005-后台配置了限制IP",""
+"failed","Fri Jul 09 16:14:14 CST 2021","Fri Jul 09 16:14:14 CST 2021","26","TestCase","test_order","TestCardOrder","","","Card_013-MOrderID不能为空",""
+"passed","Fri Jul 09 16:14:28 CST 2021","Fri Jul 09 16:14:28 CST 2021","128","TestCase","test_exchange","TestGene","","","getcodedata
+_004-后台渠道提取帐号禁用",""
+"passed","Fri Jul 09 16:14:12 CST 2021","Fri Jul 09 16:14:12 CST 2021","25","TestCase","test_order","TestDirectOrder","","","Direct_020-接口版本错误",""
+"passed","Fri Jul 09 16:14:11 CST 2021","Fri Jul 09 16:14:11 CST 2021","20","TestCase","test_order","TestDirectOrder","","","Direct_005-账户余额不足",""
+"passed","Fri Jul 09 16:14:14 CST 2021","Fri Jul 09 16:14:14 CST 2021","16","TestCase","test_order","TestCardOrder","","","Card_011-ProductCode不能为空",""
+"passed","Fri Jul 09 16:14:11 CST 2021","Fri Jul 09 16:14:11 CST 2021","19","TestCase","test_order","TestDirectOrder","","","Direct_015-AppKey不能为空",""
+"passed","Fri Jul 09 16:14:33 CST 2021","Fri Jul 09 16:14:33 CST 2021","10","TestCase","test_gene","TestGene","","","Generate_010-IP验证失败
+（会员接口白名单配置错误的IP）",""
+"failed","Fri Jul 09 16:14:11 CST 2021","Fri Jul 09 16:14:11 CST 2021","29","TestCase","test_order","TestDirectOrder","","","Direct_008-当前产品不支持此格式帐号",""
+"passed","Fri Jul 09 16:14:28 CST 2021","Fri Jul 09 16:14:28 CST 2021","128","TestCase","test_exchange","TestGene","","","getcodedata
+_007-号码为空",""
+"failed","Fri Jul 09 16:14:20 CST 2021","Fri Jul 09 16:14:20 CST 2021","48","TestCase","test_order","TestCredit","","","Submit_016-会员订单号不能为空",""
+"passed","Fri Jul 09 16:14:32 CST 2021","Fri Jul 09 16:14:32 CST 2021","155","TestCase","test_exchange","TestGene","","","getcodedata
+_022-开始时间为空",""
+"passed","Fri Jul 09 16:14:13 CST 2021","Fri Jul 09 16:14:13 CST 2021","26","TestCase","test_order","TestCardOrder","","","Card_007-当前接口不支持此产品",""
+"passed","Fri Jul 09 16:14:20 CST 2021","Fri Jul 09 16:14:20 CST 2021","49","TestCase","test_order","TestCredit","","","Submit_014-资金账户余额不足",""
+"failed","Fri Jul 09 16:14:32 CST 2021","Fri Jul 09 16:14:32 CST 2021","289","TestCase","test_exchange","TestGene","","","getcodedata
+_021-有效期过期",""
+"failed","Fri Jul 09 16:14:33 CST 2021","Fri Jul 09 16:14:33 CST 2021","8","TestCase","test_gene","TestGene","","","Generate_007-无效的域名",""
+"failed","Fri Jul 09 16:14:29 CST 2021","Fri Jul 09 16:14:30 CST 2021","192","TestCase","test_exchange","TestGene","","","getcodedata
+_012-商品编号为空",""
+"broken","Fri Jul 09 16:14:24 CST 2021","Fri Jul 09 16:14:24 CST 2021","1","TestCase","test_order","TestCredit","","","Submit_021-无效的产品类型",""
+"failed","Fri Jul 09 16:14:33 CST 2021","Fri Jul 09 16:14:33 CST 2021","58","TestCase","test_gene","TestGene","","","Generate_012-传递参数(Sign)不能为空",""
+"passed","Fri Jul 09 16:14:28 CST 2021","Fri Jul 09 16:14:28 CST 2021","128","TestCase","test_exchange","TestGene","","","getcodedata
+_003-
+传入不存在的渠道账号",""
+"passed","Fri Jul 09 16:14:15 CST 2021","Fri Jul 09 16:14:15 CST 2021","34","TestCase","test_order","TestCardOrder","","","Card_018-ChargeAccountType不能为空",""
+"failed","Fri Jul 09 16:14:18 CST 2021","Fri Jul 09 16:14:18 CST 2021","35","TestCase","test_order","TestCredit","","","Submit_002-订单重复提交",""
+"failed","Fri Jul 09 16:14:18 CST 2021","Fri Jul 09 16:14:18 CST 2021","54","TestCase","test_order","TestCredit","","","Submit_004-请求已超时",""
+"passed","Fri Jul 09 16:14:15 CST 2021","Fri Jul 09 16:14:15 CST 2021","32","TestCase","test_order","TestCardOrder","","","Card_017-BuyCount格式错误",""
+"failed","Fri Jul 09 16:14:29 CST 2021","Fri Jul 09 16:14:29 CST 2021","280","TestCase","test_exchange","TestGene","","","getcodedata
+_009-订单号为空",""
+"passed","Fri Jul 09 16:14:33 CST 2021","Fri Jul 09 16:14:33 CST 2021","249","TestCase","test_gene","TestGene","","","Generate_014-签名错误",""
+"failed","Fri Jul 09 16:14:23 CST 2021","Fri Jul 09 16:14:23 CST 2021","26","TestCase","test_order","TestCredit","","","Submit_018-时间戳不能为空",""
+"failed","Fri Jul 09 16:14:33 CST 2021","Fri Jul 09 16:14:33 CST 2021","10","TestCase","test_gene","TestGene","","","Generate_015-时间戳有误",""
+"failed","Fri Jul 09 16:14:32 CST 2021","Fri Jul 09 16:14:32 CST 2021","203","TestCase","test_exchange","TestGene","","","getcodedata
+_024-开始时间未开始",""
+"passed","Fri Jul 09 16:14:12 CST 2021","Fri Jul 09 16:14:12 CST 2021","24","TestCase","test_order","TestDirectOrder","","","Direct_022-签名错误",""
+"failed","Fri Jul 09 16:14:18 CST 2021","Fri Jul 09 16:14:18 CST 2021","29","TestCase","test_order","TestCredit","","","Submit_003-无效的时间戳",""
+"passed","Fri Jul 09 16:14:11 CST 2021","Fri Jul 09 16:14:11 CST 2021","23","TestCase","test_order","TestDirectOrder","","","Direct_001-收单成功",""
+"passed","Fri Jul 09 16:14:11 CST 2021","Fri Jul 09 16:14:11 CST 2021","25","TestCase","test_order","TestDirectOrder","","","Direct_003-AppKey无效",""
+"passed","Fri Jul 09 16:14:31 CST 2021","Fri Jul 09 16:14:31 CST 2021","283","TestCase","test_exchange","TestGene","","","getcodedata
+_017-购买数为0",""
+"passed","Fri Jul 09 16:14:15 CST 2021","Fri Jul 09 16:14:15 CST 2021","28","TestCase","test_order","TestCardOrder","","","Card_021-CallBackUrl不能为空",""
+"passed","Fri Jul 09 16:14:11 CST 2021","Fri Jul 09 16:14:11 CST 2021","24","TestCase","test_order","TestDirectOrder","","","Direct_004-会员无效",""
+"failed","Fri Jul 09 16:14:23 CST 2021","Fri Jul 09 16:14:23 CST 2021","26","TestCase","test_order","TestCredit","","","Submit_019-签名不能为空",""
+"failed","Fri Jul 09 16:14:12 CST 2021","Fri Jul 09 16:14:12 CST 2021","38","TestCase","test_order","TestDirectOrder","","","Direct_024-时间戳失效",""
+"passed","Fri Jul 09 16:14:28 CST 2021","Fri Jul 09 16:14:28 CST 2021","285","TestCase","test_exchange","TestGene","","","getcodedata
+_006-渠道提取帐号金额不足",""
+"passed","Fri Jul 09 16:14:11 CST 2021","Fri Jul 09 16:14:11 CST 2021","18","TestCase","test_order","TestDirectOrder","","","Direct_016-Version不能为空",""

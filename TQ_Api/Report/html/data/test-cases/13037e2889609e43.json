@@ -1,0 +1,86 @@
+{
+  "uid" : "13037e2889609e43",
+  "name" : "Generate_009-会员无效",
+  "fullName" : "TestCase.test_gene.TestGene#test_gene",
+  "historyId" : "9c5b8a8d0defc18b1fd3c0a27029f91d",
+  "time" : {
+    "start" : 1625818473220,
+    "stop" : 1625818473233,
+    "duration" : 13
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "短链接生成订单用例"
+  }, {
+    "name" : "feature",
+    "value" : "短链接生成管理用例"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=4)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_gene"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestGene"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-M7394K0"
+  }, {
+    "name" : "thread",
+    "value" : "190652-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_gene"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "id",
+    "value" : "'Generate_009'"
+  }, {
+    "name" : "method",
+    "value" : "'POST'"
+  }, {
+    "name" : "name",
+    "value" : "'会员无效'"
+  }, {
+    "name" : "reqbody",
+    "value" : "'{\"DomainName\": \"192.168.0.46:8097\",\"Url\":\"http://www.baodusaohu.com\",\"Token\":\"451e7dd7411c4ecbac31fd05763f3b3c\",\"validity\":\"\",\"Account\":\"18845455424\"}'"
+  }, {
+    "name" : "respdata",
+    "value" : "'{\"ResponseStatus\":\"false\",\"ResponseCode\":\"100107\",\"ResponseMessage\":\"会员无效\",\"ExceptionMessage\":\"\",\"ResponseObject\":\"null\",\"ResponseData\":\"null\"}'"
+  }, {
+    "name" : "url",
+    "value" : "'/Service/Generate'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=4)" ]
+  },
+  "source" : "13037e2889609e43.json",
+  "parameterValues" : [ "'Generate_009'", "'POST'", "'会员无效'", "'{\"DomainName\": \"192.168.0.46:8097\",\"Url\":\"http://www.baodusaohu.com\",\"Token\":\"451e7dd7411c4ecbac31fd05763f3b3c\",\"validity\":\"\",\"Account\":\"18845455424\"}'", "'{\"ResponseStatus\":\"false\",\"ResponseCode\":\"100107\",\"ResponseMessage\":\"会员无效\",\"ExceptionMessage\":\"\",\"ResponseObject\":\"null\",\"ResponseData\":\"null\"}'", "'/Service/Generate'" ]
+}

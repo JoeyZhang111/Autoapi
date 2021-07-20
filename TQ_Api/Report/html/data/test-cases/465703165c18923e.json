@@ -1,0 +1,92 @@
+{
+  "uid" : "465703165c18923e",
+  "name" : "Submit_018-时间戳不能为空",
+  "fullName" : "TestCase.test_order.TestCredit#test_credit",
+  "historyId" : "055488767746e13886e1ecd6cce01475",
+  "time" : {
+    "start" : 1625818463751,
+    "stop" : 1625818463777,
+    "duration" : 26
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '提交成功' == '时间戳不能为空'\n  - 时间戳不能为空\n  + 提交成功",
+  "statusTrace" : "self = <test_order.TestCredit object at 0x000002E7D104A688>, id = 'Submit_018'\nname = '时间戳不能为空', url = '/SubmitOrder.ashx', method = 'POST'\nreqbody = '{\"ApiAccount\":\"TestApi\",\"ProductCode\":\"ALL_DX_01_000100_0001\",\"ChargeNum\":\"14343456\",\"TimesTamp\":\"\",\"Quantity\":\"1\",\"ApiKey\": \"A3CD52180AF4EC928465B45FEF15E268\"}'\nrespdata = '{\"Request\":{\"ApiAccount\":\"TestApi\",\"MOrderID\":\"1625552442415\",\"ProductCode\":\"\",\"ChargeNum\":\"18884178456\",\"ParValue\":\"...ApiRequestIP\":\"125.70.76.207\"},\"Response\":{\"ResponseCode\":\"900004\",\"ResponseMessage\":\"时间戳不能为空\",\"ResponseData\":\"null\"}}'\nrandomnum = '7186357844'\n\n>   ???\nE   AssertionError: assert '提交成功' == '时间戳不能为空'\nE     - 时间戳不能为空\nE     + 提交成功\n\nD:\\TqApi\\TestCase\\test_order.py:153: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "话费订单用例"
+  }, {
+    "name" : "feature",
+    "value" : "话费管理用例"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=3)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_order"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCredit"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-M7394K0"
+  }, {
+    "name" : "thread",
+    "value" : "190652-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "id",
+    "value" : "'Submit_018'"
+  }, {
+    "name" : "method",
+    "value" : "'POST'"
+  }, {
+    "name" : "name",
+    "value" : "'时间戳不能为空'"
+  }, {
+    "name" : "reqbody",
+    "value" : "'{\"ApiAccount\":\"TestApi\",\"ProductCode\":\"ALL_DX_01_000100_0001\",\"ChargeNum\":\"14343456\",\"TimesTamp\":\"\",\"Quantity\":\"1\",\"ApiKey\": \"A3CD52180AF4EC928465B45FEF15E268\"}'"
+  }, {
+    "name" : "respdata",
+    "value" : "'{\"Request\":{\"ApiAccount\":\"TestApi\",\"MOrderID\":\"1625552442415\",\"ProductCode\":\"\",\"ChargeNum\":\"18884178456\",\"ParValue\":\"null\",\"ProductType\":\"null\",\"Quantity\":1,\"TimesTamp\":\"20210706142042\",\"CustomIP\":\"null\",\"CallbackUrl\":\"null\",\"Sign\":\"451EBDD8B85BE1CA4BF46961660A05E6\",\"ApiRequestIP\":\"125.70.76.207\"},\"Response\":{\"ResponseCode\":\"900004\",\"ResponseMessage\":\"时间戳不能为空\",\"ResponseData\":\"null\"}}'"
+  }, {
+    "name" : "url",
+    "value" : "'/SubmitOrder.ashx'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "run(order=3)" ]
+  },
+  "source" : "465703165c18923e.json",
+  "parameterValues" : [ "'Submit_018'", "'POST'", "'时间戳不能为空'", "'{\"ApiAccount\":\"TestApi\",\"ProductCode\":\"ALL_DX_01_000100_0001\",\"ChargeNum\":\"14343456\",\"TimesTamp\":\"\",\"Quantity\":\"1\",\"ApiKey\": \"A3CD52180AF4EC928465B45FEF15E268\"}'", "'{\"Request\":{\"ApiAccount\":\"TestApi\",\"MOrderID\":\"1625552442415\",\"ProductCode\":\"\",\"ChargeNum\":\"18884178456\",\"ParValue\":\"null\",\"ProductType\":\"null\",\"Quantity\":1,\"TimesTamp\":\"20210706142042\",\"CustomIP\":\"null\",\"CallbackUrl\":\"null\",\"Sign\":\"451EBDD8B85BE1CA4BF46961660A05E6\",\"ApiRequestIP\":\"125.70.76.207\"},\"Response\":{\"ResponseCode\":\"900004\",\"ResponseMessage\":\"时间戳不能为空\",\"ResponseData\":\"null\"}}'", "'/SubmitOrder.ashx'" ]
+}

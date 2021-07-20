@@ -1,0 +1,92 @@
+{
+  "uid" : "79aa0a564a4376e7",
+  "name" : "Direct_023-合作方单号重复",
+  "fullName" : "TestCase.test_order.TestDirectOrder#test_direct",
+  "historyId" : "17aecf0e101c22b7519e85febced69ec",
+  "time" : {
+    "start" : 1625818452092,
+    "stop" : 1625818452121,
+    "duration" : 29
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '收单成功' == '会员订单号重复'\n  - 会员订单号重复\n  + 收单成功",
+  "statusTrace" : "self = <test_order.TestDirectOrder object at 0x000002E7D101FFC8>\nid = 'Direct_023', name = '合作方单号重复', url = '/Order/DirectOrder', method = 'post'\nreqbody = '{\"AppKey\":\"211394680\",\"ProductCode\":\"PLM100015\",\"BuyCount\":\"1\",\"ChargeAccount\":\"18888888888\",\"ChargeAccountType\":\"1\",...\"1.0\",\"IsCallback\":\"1\",\"CallBackUrl\":\"http://192.168.0.198:8033/CallBack/Test\",\"AppSecret\":\"lOqVb8XGUkm1O/ppIxKhsg==\"}'\nrespdata = '{\"AppKey\":\"211394680\",\"TimesTamp\":\"1601449704850\",\"Sign\":\"null\",\"Code\":\"10\",\"Msg\":\"会员订单号重复\",\"ExtendParam\":\"null\",\"OrderModel\":\"null\"}'\nrandomnum = '4024126688'\n\n>   ???\nE   AssertionError: assert '收单成功' == '会员订单号重复'\nE     - 会员订单号重复\nE     + 收单成功\n\nD:\\TqApi\\TestCase\\test_order.py:65: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "直充订单用例"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "订单管理用例"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_order"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDirectOrder"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-M7394K0"
+  }, {
+    "name" : "thread",
+    "value" : "190652-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "id",
+    "value" : "'Direct_023'"
+  }, {
+    "name" : "method",
+    "value" : "'post'"
+  }, {
+    "name" : "name",
+    "value" : "'合作方单号重复'"
+  }, {
+    "name" : "reqbody",
+    "value" : "'{\"AppKey\":\"211394680\",\"ProductCode\":\"PLM100015\",\"BuyCount\":\"1\",\"ChargeAccount\":\"18888888888\",\"ChargeAccountType\":\"1\",\"CustomerIP\":\"121.43.39.80\",\"Version\":\"1.0\",\"IsCallback\":\"1\",\"CallBackUrl\":\"http://192.168.0.198:8033/CallBack/Test\",\"AppSecret\":\"lOqVb8XGUkm1O/ppIxKhsg==\"}'"
+  }, {
+    "name" : "respdata",
+    "value" : "'{\"AppKey\":\"211394680\",\"TimesTamp\":\"1601449704850\",\"Sign\":\"null\",\"Code\":\"10\",\"Msg\":\"会员订单号重复\",\"ExtendParam\":\"null\",\"OrderModel\":\"null\"}'"
+  }, {
+    "name" : "url",
+    "value" : "'/Order/DirectOrder'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "79aa0a564a4376e7.json",
+  "parameterValues" : [ "'Direct_023'", "'post'", "'合作方单号重复'", "'{\"AppKey\":\"211394680\",\"ProductCode\":\"PLM100015\",\"BuyCount\":\"1\",\"ChargeAccount\":\"18888888888\",\"ChargeAccountType\":\"1\",\"CustomerIP\":\"121.43.39.80\",\"Version\":\"1.0\",\"IsCallback\":\"1\",\"CallBackUrl\":\"http://192.168.0.198:8033/CallBack/Test\",\"AppSecret\":\"lOqVb8XGUkm1O/ppIxKhsg==\"}'", "'{\"AppKey\":\"211394680\",\"TimesTamp\":\"1601449704850\",\"Sign\":\"null\",\"Code\":\"10\",\"Msg\":\"会员订单号重复\",\"ExtendParam\":\"null\",\"OrderModel\":\"null\"}'", "'/Order/DirectOrder'" ]
+}

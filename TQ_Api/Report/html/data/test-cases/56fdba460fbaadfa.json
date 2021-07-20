@@ -1,0 +1,86 @@
+{
+  "uid" : "56fdba460fbaadfa",
+  "name" : "Card_026-卡密密钥不合法",
+  "fullName" : "TestCase.test_order.TestCardOrder#test_Order",
+  "historyId" : "d3b381f44d60254ee28f6c518d3a2192",
+  "time" : {
+    "start" : 1625818457047,
+    "stop" : 1625818457072,
+    "duration" : 25
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "卡密订单用例"
+  }, {
+    "name" : "feature",
+    "value" : "订单管理用例"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=2)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_order"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCardOrder"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-M7394K0"
+  }, {
+    "name" : "thread",
+    "value" : "190652-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "id",
+    "value" : "'Card_026'"
+  }, {
+    "name" : "method",
+    "value" : "'post'"
+  }, {
+    "name" : "name",
+    "value" : "'卡密密钥不合法'"
+  }, {
+    "name" : "reqbody",
+    "value" : "'{\"AppKey\":\"211394680\",\"ProductCode\":\"PLM100016\",\"BuyCount\":\"1\",\"ChargeAccount\":\"18888888888\",\"ChargeAccountType\":\"1\",\"CustomerIP\":\"121.43.39.80\",\"Version\":\"1.0\",\"PublicKey\":\"MIIBIDANBgkqhkiG9w0BAQEFAAOCAQ0AMIIBCAKCAQEAq3XfgBSkaOYtESoE9nxyIB/fhCbn7EGLt0FtLqk9Dww4k/tFBCPP0hxr7xXb21VOLIER4+npcyBGaHXmnp3fGLKGN6s014MQOyCl6P2JFT/iWC1cp6GKSlIMmK1oaNBpcB11xvWa4fCg9E10JgdNBT9G0syxezJn0iIJkE4IxLfV3RciQtYnv7D3TcY38jzKmOcT9sbyWyPNI7UWIvSNMzmu/5Xev2Q4ZKcnlNePIg7aPHQmYp8YekEzRabRnwHfdhjpQI0Hr7YIa6+qsUpmPtEx4jVsJ607VmehfGnnapmrWk0c7iqxhAADARJFLKW97TCUtc6qB5NXvmoXckw0MQIBAw==\",\"IsCallback\":\"1\",\"CallBackUrl\":\"http://192.168.0.198:8033/CallBack/Test\",\"AppSecret\":\"lOqVb8XGUkm1O/ppIxKhsg==\"}'"
+  }, {
+    "name" : "respdata",
+    "value" : "'{\"AppKey\":\"211394680\",\"TimesTamp\":\"1624534276957\",\"Sign\":\"4744AABD1EB54A5047F2C08370235E6C\",\"Code\":\"2\",\"Msg\":\"卡密密钥不合法\",\"ExtendParam\":null,\"OrderModel\":null}'"
+  }, {
+    "name" : "url",
+    "value" : "'/Order/CardOrder'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=2)" ]
+  },
+  "source" : "56fdba460fbaadfa.json",
+  "parameterValues" : [ "'Card_026'", "'post'", "'卡密密钥不合法'", "'{\"AppKey\":\"211394680\",\"ProductCode\":\"PLM100016\",\"BuyCount\":\"1\",\"ChargeAccount\":\"18888888888\",\"ChargeAccountType\":\"1\",\"CustomerIP\":\"121.43.39.80\",\"Version\":\"1.0\",\"PublicKey\":\"MIIBIDANBgkqhkiG9w0BAQEFAAOCAQ0AMIIBCAKCAQEAq3XfgBSkaOYtESoE9nxyIB/fhCbn7EGLt0FtLqk9Dww4k/tFBCPP0hxr7xXb21VOLIER4+npcyBGaHXmnp3fGLKGN6s014MQOyCl6P2JFT/iWC1cp6GKSlIMmK1oaNBpcB11xvWa4fCg9E10JgdNBT9G0syxezJn0iIJkE4IxLfV3RciQtYnv7D3TcY38jzKmOcT9sbyWyPNI7UWIvSNMzmu/5Xev2Q4ZKcnlNePIg7aPHQmYp8YekEzRabRnwHfdhjpQI0Hr7YIa6+qsUpmPtEx4jVsJ607VmehfGnnapmrWk0c7iqxhAADARJFLKW97TCUtc6qB5NXvmoXckw0MQIBAw==\",\"IsCallback\":\"1\",\"CallBackUrl\":\"http://192.168.0.198:8033/CallBack/Test\",\"AppSecret\":\"lOqVb8XGUkm1O/ppIxKhsg==\"}'", "'{\"AppKey\":\"211394680\",\"TimesTamp\":\"1624534276957\",\"Sign\":\"4744AABD1EB54A5047F2C08370235E6C\",\"Code\":\"2\",\"Msg\":\"卡密密钥不合法\",\"ExtendParam\":null,\"OrderModel\":null}'", "'/Order/CardOrder'" ]
+}

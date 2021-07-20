@@ -1,0 +1,104 @@
+{
+  "uid" : "e7a89bc4d5abc14d",
+  "name" : "msg_list0006-列出留言_3005",
+  "fullName" : "test_case.test_list.TestAdd#test_login",
+  "historyId" : "87544d694e3f35e17376a7e2832e444f",
+  "time" : {
+    "start" : 1626766551563,
+    "stop" : 1626766551688,
+    "duration" : 125
+  },
+  "status" : "broken",
+  "statusMessage" : "json.decoder.JSONDecodeError: Expecting ',' delimiter: line 1 column 251 (char 250)",
+  "statusTrace" : "self = <test_case.test_list.TestAdd object at 0x000002F3A7B1D108>\nid = 'msg_list0006', name = '列出留言_3005', url = '/api/messages/', method = 'GET'\nbody = '{\"page\":\"yj\",\"value\":\"4\"}'\nres = '{\"timestamp\":\"2021-07-16T11:00:10.286+0000\",\"status\":\"400\",\"error\":\"Bad Request\",\"c\":\"Failed to convert value of type....Integer\\\\\";nested exception is java.lang.NumberFormatException: For input string: \"yj\", \"path\": \"/api/messages/yj/4\"}'\nget_token = None\n\n    @allure.severity(\"blocker\")\n    @allure.story(\"回复留言用例\")\n    @allure.title(\"{id}-{name}\")\n    @pytest.mark.parametrize(\"id,name,url,method,body,res\",testdata)\n    def test_login(self,id,name,url,method,body,res,get_token):\n        BaseApi.logger.info(\"执行用例{}{}\".format(id,name))\n        relist = List()\n        newbody = json.loads(body)\n        newurl = ini.get(\"url\", \"host\") + url + newbody[\"page\"] + \"/\" + newbody[\"value\"]\n        relist.send(url=newurl,method=method)\n    \n        try:\n>           expect =  json.loads(res)\n\ntest_case\\test_list.py:41: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nD:\\Python\\Python37\\lib\\json\\__init__.py:348: in loads\n    return _default_decoder.decode(s)\nD:\\Python\\Python37\\lib\\json\\decoder.py:337: in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <json.decoder.JSONDecoder object at 0x000002F3A5F73608>\ns = '{\"timestamp\":\"2021-07-16T11:00:10.286+0000\",\"status\":\"400\",\"error\":\"Bad Request\",\"c\":\"Failed to convert value of type....Integer\\\\\";nested exception is java.lang.NumberFormatException: For input string: \"yj\", \"path\": \"/api/messages/yj/4\"}'\nidx = 0\n\n    def raw_decode(self, s, idx=0):\n        \"\"\"Decode a JSON document from ``s`` (a ``str`` beginning with\n        a JSON document) and return a 2-tuple of the Python\n        representation and the index in ``s`` where the document ended.\n    \n        This can be used to decode a JSON document from a string that may\n        have extraneous data at the end.\n    \n        \"\"\"\n        try:\n>           obj, end = self.scan_once(s, idx)\nE           json.decoder.JSONDecodeError: Expecting ',' delimiter: line 1 column 251 (char 250)\n\nD:\\Python\\Python37\\lib\\json\\decoder.py:353: JSONDecodeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_token",
+    "time" : {
+      "start" : 1626766551034,
+      "stop" : 1626766551159,
+      "duration" : 125
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "回复留言用例"
+  }, {
+    "name" : "feature",
+    "value" : "留言板块用例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_list"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAdd"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-M7394K0"
+  }, {
+    "name" : "thread",
+    "value" : "103944-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_list"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "body",
+    "value" : "'{\"page\":\"yj\",\"value\":\"4\"}'"
+  }, {
+    "name" : "id",
+    "value" : "'msg_list0006'"
+  }, {
+    "name" : "method",
+    "value" : "'GET'"
+  }, {
+    "name" : "name",
+    "value" : "'列出留言_3005'"
+  }, {
+    "name" : "res",
+    "value" : "'{\"timestamp\":\"2021-07-16T11:00:10.286+0000\",\"status\":\"400\",\"error\":\"Bad Request\",\"c\":\"Failed to convert value of type \\\"java.lang.String\\\" to required type \\\"java.lang.Integer\\\";nested exception is java.lang.NumberFormatException: For input string: \"yj\", \"path\": \"/api/messages/yj/4\"}'"
+  }, {
+    "name" : "url",
+    "value" : "'/api/messages/'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e7a89bc4d5abc14d.json",
+  "parameterValues" : [ "'{\"page\":\"yj\",\"value\":\"4\"}'", "'msg_list0006'", "'GET'", "'列出留言_3005'", "'{\"timestamp\":\"2021-07-16T11:00:10.286+0000\",\"status\":\"400\",\"error\":\"Bad Request\",\"c\":\"Failed to convert value of type \\\"java.lang.String\\\" to required type \\\"java.lang.Integer\\\";nested exception is java.lang.NumberFormatException: For input string: \"yj\", \"path\": \"/api/messages/yj/4\"}'", "'/api/messages/'" ]
+}

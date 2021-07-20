@@ -1,0 +1,201 @@
+[ {
+  "uid" : "721c47969c9a73b8",
+  "name" : "Create_004-部门已存在",
+  "time" : {
+    "start" : 1624419697768,
+    "stop" : 1624419697970,
+    "duration" : 202
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "f89516138beefb4d",
+  "name" : "delete_004-删除部门包含成员",
+  "time" : {
+    "start" : 1624419701075,
+    "stop" : 1624419701279,
+    "duration" : 204
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "b20687e89cfaa0d5",
+  "name" : "Create_016-无效的部门id",
+  "time" : {
+    "start" : 1624419699996,
+    "stop" : 1624419700185,
+    "duration" : 189
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "50f803012a69c77e",
+  "name" : "Create_005-部门长度不符合限制",
+  "time" : {
+    "start" : 1624419697975,
+    "stop" : 1624419698168,
+    "duration" : 193
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "c2cf35c52cde8283",
+  "name" : "Create_013-父级部门格式无效",
+  "time" : {
+    "start" : 1624419699463,
+    "stop" : 1624419699622,
+    "duration" : 159
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "ebbaed254bca2e23",
+  "name" : "delete_002-删除无效部门",
+  "time" : {
+    "start" : 1624419700669,
+    "stop" : 1624419700872,
+    "duration" : 203
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "4cdf0597d55bd0de",
+  "name" : "Create_015-部门id重复",
+  "time" : {
+    "start" : 1624419699809,
+    "stop" : 1624419699981,
+    "duration" : 172
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "73652835d83a83c0",
+  "name" : "Create_008-部门名称包含特殊字符串",
+  "time" : {
+    "start" : 1624419698551,
+    "stop" : 1624419698740,
+    "duration" : 189
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "9bf807d54468f539",
+  "name" : "Create_003-部门添加正确-只有必填项",
+  "time" : {
+    "start" : 1624419697523,
+    "stop" : 1624419697764,
+    "duration" : 241
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "abd03284cc072047",
+  "name" : "delete_003-删除含子部门的部门",
+  "time" : {
+    "start" : 1624419700872,
+    "stop" : 1624419701075,
+    "duration" : 203
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "794defdcf8f283da",
+  "name" : "Create_001-部门添加正确",
+  "time" : {
+    "start" : 1624419697072,
+    "stop" : 1624419697259,
+    "duration" : 187
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "d20dfea05fea57b7",
+  "name" : "Create_002-部门添加正确--包含子部门",
+  "time" : {
+    "start" : 1624419697290,
+    "stop" : 1624419697519,
+    "duration" : 229
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "1a733aaa97b40614",
+  "name" : "Create_006-不合法的参数",
+  "time" : {
+    "start" : 1624419698168,
+    "stop" : 1624419698352,
+    "duration" : 184
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "3bbc46cee9d3e0bc",
+  "name" : "Create_014-父级部门不存在",
+  "time" : {
+    "start" : 1624419699637,
+    "stop" : 1624419699793,
+    "duration" : 156
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "5df48ff7c294404d",
+  "name" : "Create_012-parentid参数是部门id",
+  "time" : {
+    "start" : 1624419699284,
+    "stop" : 1624419699459,
+    "duration" : 175
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "b035bfa353d9c682",
+  "name" : "Create_009-部门英文名称重复",
+  "time" : {
+    "start" : 1624419698744,
+    "stop" : 1624419698925,
+    "duration" : 181
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "cae0177626093e8a",
+  "name" : "delete_001-删除成功",
+  "time" : {
+    "start" : 1624419700419,
+    "stop" : 1624419700653,
+    "duration" : 234
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "ea33fd9bfa9eef64",
+  "name" : "Create_007-部门名称重复",
+  "time" : {
+    "start" : 1624419698356,
+    "stop" : 1624419698544,
+    "duration" : 188
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "9bb510259653a59f",
+  "name" : "Create_010-部门英文名称包含特殊字符串",
+  "time" : {
+    "start" : 1624419698930,
+    "stop" : 1624419699102,
+    "duration" : 172
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "29c3e10fc2ed3798",
+  "name" : "Create_011-部门英文长度不符合限制",
+  "time" : {
+    "start" : 1624419699108,
+    "stop" : 1624419699279,
+    "duration" : 171
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+} ]

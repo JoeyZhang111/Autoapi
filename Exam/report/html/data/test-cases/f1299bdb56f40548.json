@@ -1,0 +1,98 @@
+{
+  "uid" : "f1299bdb56f40548",
+  "name" : "msg_list0004-列出留言_3003",
+  "fullName" : "test_case.test_list.TestAdd#test_login",
+  "historyId" : "0e70b53b333b6300cb646c5e4bdbf79e",
+  "time" : {
+    "start" : 1626766551300,
+    "stop" : 1626766551426,
+    "duration" : 126
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_token",
+    "time" : {
+      "start" : 1626766551034,
+      "stop" : 1626766551159,
+      "duration" : 125
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "回复留言用例"
+  }, {
+    "name" : "feature",
+    "value" : "留言板块用例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_list"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAdd"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-M7394K0"
+  }, {
+    "name" : "thread",
+    "value" : "103944-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_list"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "body",
+    "value" : "'{\"page\":\"0\",\"value\":\"1\"}'"
+  }, {
+    "name" : "id",
+    "value" : "'msg_list0004'"
+  }, {
+    "name" : "method",
+    "value" : "'GET'"
+  }, {
+    "name" : "name",
+    "value" : "'列出留言_3003'"
+  }, {
+    "name" : "res",
+    "value" : "'{\"flag\":\"松勤教育\",\"code\":\"200\",\"message\":\"查询所有留言\",\"data\":\"{}\"}'"
+  }, {
+    "name" : "url",
+    "value" : "'/api/messages/'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f1299bdb56f40548.json",
+  "parameterValues" : [ "'{\"page\":\"0\",\"value\":\"1\"}'", "'msg_list0004'", "'GET'", "'列出留言_3003'", "'{\"flag\":\"松勤教育\",\"code\":\"200\",\"message\":\"查询所有留言\",\"data\":\"{}\"}'", "'/api/messages/'" ]
+}

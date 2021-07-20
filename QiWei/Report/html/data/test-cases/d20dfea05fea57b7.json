@@ -1,0 +1,116 @@
+{
+  "uid" : "d20dfea05fea57b7",
+  "name" : "Create_002-部门添加正确--包含子部门",
+  "fullName" : "TestCase.test_dep.TestCreatDep#test_create",
+  "historyId" : "36fd1cd6ee8d6626a9927cb66c869867",
+  "time" : {
+    "start" : 1624419697290,
+    "stop" : 1624419697519,
+    "duration" : 229
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_token",
+    "time" : {
+      "start" : 1624419696259,
+      "stop" : 1624419696447,
+      "duration" : 188
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "del_dep",
+    "time" : {
+      "start" : 1624419696447,
+      "stop" : 1624419697072,
+      "duration" : 625
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "新增部门用例"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "部门管理用例"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_dep"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCreatDep"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-M7394K0"
+  }, {
+    "name" : "thread",
+    "value" : "15624-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_dep"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expect",
+    "value" : "'{\"errcode\": \"0\", \"errmsg\": \"created\", \"id\": \"5\"}'"
+  }, {
+    "name" : "id",
+    "value" : "'Create_002'"
+  }, {
+    "name" : "method",
+    "value" : "'post'"
+  }, {
+    "name" : "name",
+    "value" : "'部门添加正确--包含子部门'"
+  }, {
+    "name" : "reqbody",
+    "value" : "'{\"name\": \"研发部\",\"name_en\": \"YFB\",\"parentid\":\"2\",\"order\": \"1\",\"id\": \"3\"}'"
+  }, {
+    "name" : "url",
+    "value" : "'https://qyapi.weixin.qq.com/cgi-bin/department/create'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "d20dfea05fea57b7.json",
+  "parameterValues" : [ "'{\"errcode\": \"0\", \"errmsg\": \"created\", \"id\": \"5\"}'", "'Create_002'", "'post'", "'部门添加正确--包含子部门'", "'{\"name\": \"研发部\",\"name_en\": \"YFB\",\"parentid\":\"2\",\"order\": \"1\",\"id\": \"3\"}'", "'https://qyapi.weixin.qq.com/cgi-bin/department/create'" ]
+}

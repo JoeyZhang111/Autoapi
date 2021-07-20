@@ -1,0 +1,321 @@
+[ {
+  "uid" : "e7a89bc4d5abc14d",
+  "name" : "msg_list0006-列出留言_3005",
+  "time" : {
+    "start" : 1626766551563,
+    "stop" : 1626766551688,
+    "duration" : 125
+  },
+  "status" : "broken",
+  "severity" : "blocker"
+}, {
+  "uid" : "1bdc61a01332e5ca",
+  "name" : "msg_add0002-增加留言_2002",
+  "time" : {
+    "start" : 1626766549362,
+    "stop" : 1626766549473,
+    "duration" : 111
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "b2702d4263f3c6fc",
+  "name" : "msg_reply0004-回复留言_4004",
+  "time" : {
+    "start" : 1626766553206,
+    "stop" : 1626766553316,
+    "duration" : 110
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "b4460c1d52d5faf6",
+  "name" : "msg_delete0002-删除留言_5002",
+  "time" : {
+    "start" : 1626766550784,
+    "stop" : 1626766550893,
+    "duration" : 109
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "a132f5f1a634815",
+  "name" : "msg_add0006-增加留言_2006",
+  "time" : {
+    "start" : 1626766549811,
+    "stop" : 1626766549933,
+    "duration" : 122
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "1a9de89c15333886",
+  "name" : "msg_delete0003-删除留言_5003",
+  "time" : {
+    "start" : 1626766550909,
+    "stop" : 1626766551018,
+    "duration" : 109
+  },
+  "status" : "broken",
+  "severity" : "blocker"
+}, {
+  "uid" : "a06af93e826ea498",
+  "name" : "login0001-登录接口_1001",
+  "time" : {
+    "start" : 1626766552002,
+    "stop" : 1626766552096,
+    "duration" : 94
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "f5a9ff555d4f440c",
+  "name" : "login0002-登录接口_1002",
+  "time" : {
+    "start" : 1626766552112,
+    "stop" : 1626766552221,
+    "duration" : 109
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "28e82190906fba80",
+  "name" : "login0007-登录接口_1007",
+  "time" : {
+    "start" : 1626766552640,
+    "stop" : 1626766552749,
+    "duration" : 109
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "3107531ff22d2005",
+  "name" : "msg_reply0001-回复留言_4001",
+  "time" : {
+    "start" : 1626766552862,
+    "stop" : 1626766552972,
+    "duration" : 110
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "f1299bdb56f40548",
+  "name" : "msg_list0004-列出留言_3003",
+  "time" : {
+    "start" : 1626766551300,
+    "stop" : 1626766551426,
+    "duration" : 126
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "7856a53cccd65b2b",
+  "name" : "login0003-登录接口_1003",
+  "time" : {
+    "start" : 1626766552221,
+    "stop" : 1626766552315,
+    "duration" : 94
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "c33b1cfe8d99ca4e",
+  "name" : "msg_delete0001-删除留言_5001",
+  "time" : {
+    "start" : 1626766550562,
+    "stop" : 1626766550784,
+    "duration" : 222
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "773d4b2d8e2ed965",
+  "name" : "msg_add0001-增加留言_2001",
+  "time" : {
+    "start" : 1626766549221,
+    "stop" : 1626766549346,
+    "duration" : 125
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "48c9501d1eb5de4e",
+  "name" : "msg_add0005-增加留言_2005",
+  "time" : {
+    "start" : 1626766549696,
+    "stop" : 1626766549801,
+    "duration" : 105
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "ed3b03bd9b81656d",
+  "name" : "msg_add0004-增加留言_2004",
+  "time" : {
+    "start" : 1626766549581,
+    "stop" : 1626766549681,
+    "duration" : 100
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "7ce5d83f1c5dc7ae",
+  "name" : "msg_reply0005-回复留言_4005",
+  "time" : {
+    "start" : 1626766553316,
+    "stop" : 1626766553425,
+    "duration" : 109
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "997fad14ebaf1735",
+  "name" : "msg_list0003-列出留言_3002",
+  "time" : {
+    "start" : 1626766551285,
+    "stop" : 1626766551285,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "blocker"
+}, {
+  "uid" : "aab5e9bebe420cad",
+  "name" : "login0004-登录接口_1004",
+  "time" : {
+    "start" : 1626766552330,
+    "stop" : 1626766552424,
+    "duration" : 94
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "cb5bf9e726dfd306",
+  "name" : "msg_list0005-列出留言_3004",
+  "time" : {
+    "start" : 1626766551426,
+    "stop" : 1626766551547,
+    "duration" : 121
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "589e3061ac07e173",
+  "name" : "msg_list0007-列出留言_3006",
+  "time" : {
+    "start" : 1626766551719,
+    "stop" : 1626766551862,
+    "duration" : 143
+  },
+  "status" : "broken",
+  "severity" : "blocker"
+}, {
+  "uid" : "7a8d51db4129724f",
+  "name" : "login0005-登录接口_1005",
+  "time" : {
+    "start" : 1626766552424,
+    "stop" : 1626766552530,
+    "duration" : 106
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "c4f1db37607dd0a",
+  "name" : "msg_list0002-列出留言_3001",
+  "time" : {
+    "start" : 1626766551159,
+    "stop" : 1626766551284,
+    "duration" : 125
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "2eeceb1c0bfa6d96",
+  "name" : "msg_add0007-增加留言_2007",
+  "time" : {
+    "start" : 1626766549951,
+    "stop" : 1626766550048,
+    "duration" : 97
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "a985a42007ffffe5",
+  "name" : "login0006-登录接口_1006",
+  "time" : {
+    "start" : 1626766552546,
+    "stop" : 1626766552640,
+    "duration" : 94
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "40226119b7ba4473",
+  "name" : "msg_add0008-增加留言_2008",
+  "time" : {
+    "start" : 1626766550064,
+    "stop" : 1626766550173,
+    "duration" : 109
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "a09a7ce1ac2202c6",
+  "name" : "msg_reply0003-回复留言_4003",
+  "time" : {
+    "start" : 1626766553097,
+    "stop" : 1626766553190,
+    "duration" : 93
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "e07a75e4f32c6f55",
+  "name" : "msg_add0003-增加留言_2003",
+  "time" : {
+    "start" : 1626766549478,
+    "stop" : 1626766549581,
+    "duration" : 103
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "fc0ee0da3bdf0944",
+  "name" : "msg_reply0002-回复留言_4002",
+  "time" : {
+    "start" : 1626766552987,
+    "stop" : 1626766553081,
+    "duration" : 94
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "3b2ab960fa4e6b17",
+  "name" : "msg_reply0006-回复留言_4006",
+  "time" : {
+    "start" : 1626766553456,
+    "stop" : 1626766553562,
+    "duration" : 106
+  },
+  "status" : "broken",
+  "severity" : "blocker"
+}, {
+  "uid" : "edfc83351af6398c",
+  "name" : "msg_add0009-增加留言_2009",
+  "time" : {
+    "start" : 1626766550204,
+    "stop" : 1626766550314,
+    "duration" : 110
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "cc1cef828ee5cf38",
+  "name" : "msg_add0010-增加留言_2010",
+  "time" : {
+    "start" : 1626766550329,
+    "stop" : 1626766550439,
+    "duration" : 110
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+} ]

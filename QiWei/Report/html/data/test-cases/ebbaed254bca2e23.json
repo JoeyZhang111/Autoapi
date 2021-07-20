@@ -1,0 +1,101 @@
+{
+  "uid" : "ebbaed254bca2e23",
+  "name" : "delete_002-删除无效部门",
+  "fullName" : "TestCase.test_dep.TestDeleteDep#test_delete[delete_002-删除无效部门-https://qyapi.weixin.qq.com/cgi-bin/department/delete-get-{\"id\":\"15\"}-{\"errcode\":60123,\"errmsg\":\"invalid party id, hint: ",
+  "historyId" : "1befce95b49188a1053ce72774ca8846",
+  "time" : {
+    "start" : 1624419700669,
+    "stop" : 1624419700872,
+    "duration" : 203
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_token",
+    "time" : {
+      "start" : 1624419700200,
+      "stop" : 1624419700419,
+      "duration" : 219
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "删除部门用例"
+  }, {
+    "name" : "feature",
+    "value" : "部门管理用例"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=2)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_dep"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDeleteDep"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-M7394K0"
+  }, {
+    "name" : "thread",
+    "value" : "15624-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_dep"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expect",
+    "value" : "'{\"errcode\":60123,\"errmsg\":\"invalid party id, hint: [1623312263_197_23e732a8ee307e7b25b2e8032a62ef60], from ip: 118.112.56.90, more info at https://open.work.weixin.qq.com/devtool/query?e=60123\"}'"
+  }, {
+    "name" : "id",
+    "value" : "'delete_002'"
+  }, {
+    "name" : "method",
+    "value" : "'get'"
+  }, {
+    "name" : "name",
+    "value" : "'删除无效部门'"
+  }, {
+    "name" : "reqbody",
+    "value" : "'{\"id\":\"15\"}'"
+  }, {
+    "name" : "url",
+    "value" : "'https://qyapi.weixin.qq.com/cgi-bin/department/delete'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=2)" ]
+  },
+  "source" : "ebbaed254bca2e23.json",
+  "parameterValues" : [ "'{\"errcode\":60123,\"errmsg\":\"invalid party id, hint: [1623312263_197_23e732a8ee307e7b25b2e8032a62ef60], from ip: 118.112.56.90, more info at https://open.work.weixin.qq.com/devtool/query?e=60123\"}'", "'delete_002'", "'get'", "'删除无效部门'", "'{\"id\":\"15\"}'", "'https://qyapi.weixin.qq.com/cgi-bin/department/delete'" ]
+}

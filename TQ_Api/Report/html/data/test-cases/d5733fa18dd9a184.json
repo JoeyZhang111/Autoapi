@@ -1,0 +1,92 @@
+{
+  "uid" : "d5733fa18dd9a184",
+  "name" : "Submit_002-订单重复提交",
+  "fullName" : "TestCase.test_order.TestCredit#test_credit",
+  "historyId" : "4da7ba52f77a54b8834cd56472030141",
+  "time" : {
+    "start" : 1625818458119,
+    "stop" : 1625818458154,
+    "duration" : 35
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '提交成功' == '订单不存在'\n  - 订单不存在\n  + 提交成功",
+  "statusTrace" : "self = <test_order.TestCredit object at 0x000002E7D0F75048>, id = 'Submit_002'\nname = '订单重复提交', url = '/SubmitOrder.ashx', method = 'POST'\nreqbody = '{\"ApiAccount\":\"InterceptTestApi\",\"ProductCode\":\"ALL_DX_01_000100_0001\",\"ChargeNum\":\"18884178456\",\"Quantity\":\"1\",\"ApiKey\": \"A3FFBB39832D25BBBC6B55A372DA5FDA\"}'\nrespdata = '{\"Request\":{\"ApiAccount\":\"TestApi\",\"MOrderID\":\"1605079814623\",\"TimesTamp\":\"20201111153014\",\"Sign\":\"E514F637116F5A4E53...,\"ApiRequestIP\":\"118.112.58.79\"},\"Response\":{\"ResponseCode\":\"000002\",\"ResponseMessage\":\"订单不存在\",\"ResponseData\":\"null\"}}'\nrandomnum = '3825935884'\n\n>   ???\nE   AssertionError: assert '提交成功' == '订单不存在'\nE     - 订单不存在\nE     + 提交成功\n\nD:\\TqApi\\TestCase\\test_order.py:153: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "话费订单用例"
+  }, {
+    "name" : "feature",
+    "value" : "话费管理用例"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=3)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_order"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCredit"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-M7394K0"
+  }, {
+    "name" : "thread",
+    "value" : "190652-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "id",
+    "value" : "'Submit_002'"
+  }, {
+    "name" : "method",
+    "value" : "'POST'"
+  }, {
+    "name" : "name",
+    "value" : "'订单重复提交'"
+  }, {
+    "name" : "reqbody",
+    "value" : "'{\"ApiAccount\":\"InterceptTestApi\",\"ProductCode\":\"ALL_DX_01_000100_0001\",\"ChargeNum\":\"18884178456\",\"Quantity\":\"1\",\"ApiKey\": \"A3FFBB39832D25BBBC6B55A372DA5FDA\"}'"
+  }, {
+    "name" : "respdata",
+    "value" : "'{\"Request\":{\"ApiAccount\":\"TestApi\",\"MOrderID\":\"1605079814623\",\"TimesTamp\":\"20201111153014\",\"Sign\":\"E514F637116F5A4E53340F044BEAE104\",\"ApiRequestIP\":\"118.112.58.79\"},\"Response\":{\"ResponseCode\":\"000002\",\"ResponseMessage\":\"订单不存在\",\"ResponseData\":\"null\"}}'"
+  }, {
+    "name" : "url",
+    "value" : "'/SubmitOrder.ashx'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "run(order=3)" ]
+  },
+  "source" : "d5733fa18dd9a184.json",
+  "parameterValues" : [ "'Submit_002'", "'POST'", "'订单重复提交'", "'{\"ApiAccount\":\"InterceptTestApi\",\"ProductCode\":\"ALL_DX_01_000100_0001\",\"ChargeNum\":\"18884178456\",\"Quantity\":\"1\",\"ApiKey\": \"A3FFBB39832D25BBBC6B55A372DA5FDA\"}'", "'{\"Request\":{\"ApiAccount\":\"TestApi\",\"MOrderID\":\"1605079814623\",\"TimesTamp\":\"20201111153014\",\"Sign\":\"E514F637116F5A4E53340F044BEAE104\",\"ApiRequestIP\":\"118.112.58.79\"},\"Response\":{\"ResponseCode\":\"000002\",\"ResponseMessage\":\"订单不存在\",\"ResponseData\":\"null\"}}'", "'/SubmitOrder.ashx'" ]
+}

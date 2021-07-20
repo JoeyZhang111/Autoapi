@@ -1,0 +1,243 @@
+2021-07-08 17:32:40.001 | INFO     | Log.get_log:info:20 - ---直充订单用例开始执行---
+2021-07-08 17:32:40.002 | INFO     | Log.get_log:info:20 - 执行用例Direct_001收单成功
+2021-07-08 17:32:40.022 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:32:40.029 | INFO     | Log.get_log:info:20 - 执行用例Direct_002收单成功（无回调）
+2021-07-08 17:32:40.061 | INFO     | Log.get_log:info:20 - 执行用例Direct_003AppKey无效
+2021-07-08 17:32:40.080 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:32:40.086 | INFO     | Log.get_log:info:20 - 执行用例Direct_004会员无效
+2021-07-08 17:32:40.103 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:32:40.108 | INFO     | Log.get_log:info:20 - 执行用例Direct_005账户余额不足
+2021-07-08 17:32:40.130 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:32:40.135 | INFO     | Log.get_log:info:20 - 执行用例Direct_006IP验证失败
+2021-07-08 17:32:40.151 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:32:40.157 | INFO     | Log.get_log:info:20 - 执行用例Direct_007当前接口不支持此产品
+2021-07-08 17:33:01.273 | INFO     | Log.get_log:info:20 - 执行用例Direct_008当前产品不支持此格式帐号
+2021-07-08 17:33:01.296 | ERROR    | Log.get_log:error:32 - 用例执行失败:assert '收单成功' == '当前产品不支持此格式帐号'
+  - 当前产品不支持此格式帐号
+  + 收单成功
+2021-07-08 17:33:01.306 | INFO     | Log.get_log:info:20 - 执行用例Direct_009产品配置异常
+2021-07-08 17:33:01.329 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:01.334 | INFO     | Log.get_log:info:20 - 执行用例Direct_010产品编码无法识别
+2021-07-08 17:33:01.351 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:01.357 | INFO     | Log.get_log:info:20 - 执行用例Direct_011ProductCode不能为空
+2021-07-08 17:33:01.425 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:01.432 | INFO     | Log.get_log:info:20 - 执行用例Direct_012ChargeAccount不能为空
+2021-07-08 17:33:01.455 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:01.461 | INFO     | Log.get_log:info:20 - 执行用例Direct_013MOrderID不能为空
+2021-07-08 17:33:01.498 | ERROR    | Log.get_log:error:32 - 用例执行失败:assert '收单成功' == 'MOrderID不能为空'
+  - MOrderID不能为空
+  + 收单成功
+2021-07-08 17:33:01.508 | INFO     | Log.get_log:info:20 - 执行用例Direct_014TimesTamp不能为空
+2021-07-08 17:33:01.542 | ERROR    | Log.get_log:error:32 - 用例执行失败:assert '收单成功' == 'TimesTamp不能为空'
+  - TimesTamp不能为空
+  + 收单成功
+2021-07-08 17:33:01.552 | INFO     | Log.get_log:info:20 - 执行用例Direct_015AppKey不能为空
+2021-07-08 17:33:01.579 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:01.585 | INFO     | Log.get_log:info:20 - 执行用例Direct_016Version不能为空
+2021-07-08 17:33:01.607 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:01.612 | INFO     | Log.get_log:info:20 - 执行用例Direct_017BuyCount格式错误
+2021-07-08 17:33:01.631 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:01.637 | INFO     | Log.get_log:info:20 - 执行用例Direct_018ChargeAccountType不能为空
+2021-07-08 17:33:01.662 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:01.667 | INFO     | Log.get_log:info:20 - 执行用例Direct_019账户类型错误
+2021-07-08 17:33:01.703 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:01.709 | INFO     | Log.get_log:info:20 - 执行用例Direct_020接口版本错误
+2021-07-08 17:33:01.738 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:01.744 | INFO     | Log.get_log:info:20 - 执行用例Direct_021CallBackUrl不能为空
+2021-07-08 17:33:01.766 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:01.772 | INFO     | Log.get_log:info:20 - 执行用例Direct_022签名错误
+2021-07-08 17:33:01.792 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:01.797 | INFO     | Log.get_log:info:20 - 执行用例Direct_023合作方单号重复
+2021-07-08 17:33:01.822 | ERROR    | Log.get_log:error:32 - 用例执行失败:assert '收单成功' == '会员订单号重复'
+  - 会员订单号重复
+  + 收单成功
+2021-07-08 17:33:01.832 | INFO     | Log.get_log:info:20 - 执行用例Direct_024时间戳失效
+2021-07-08 17:33:01.855 | ERROR    | Log.get_log:error:32 - 用例执行失败:assert '收单成功' == '时间戳失效'
+  - 时间戳失效
+  + 收单成功
+2021-07-08 17:33:01.863 | INFO     | Log.get_log:info:20 - ---直充订单用例结束执行---
+2021-07-08 17:33:01.866 | INFO     | Log.get_log:info:20 - ---卡密订单用例开始执行---
+2021-07-08 17:33:01.867 | INFO     | Log.get_log:info:20 - 执行用例Card_001收单成功（回调）
+2021-07-08 17:33:01.895 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:01.900 | INFO     | Log.get_log:info:20 - 执行用例Card_002收单成功（无回调）
+2021-07-08 17:33:01.911 | INFO     | Log.get_log:info:20 - 执行用例Card_003AppKey无效
+2021-07-08 17:33:01.927 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:01.933 | INFO     | Log.get_log:info:20 - 执行用例Card_004会员无效
+2021-07-08 17:33:01.960 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:01.965 | INFO     | Log.get_log:info:20 - 执行用例Card_005账户余额不足
+2021-07-08 17:33:01.997 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:02.003 | INFO     | Log.get_log:info:20 - 执行用例Card_006IP验证失败
+2021-07-08 17:33:02.022 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:02.028 | INFO     | Log.get_log:info:20 - 执行用例Card_007当前接口不支持此产品
+2021-07-08 17:33:02.051 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:02.057 | INFO     | Log.get_log:info:20 - 执行用例Card_008当前接口不支持此格式帐号
+2021-07-08 17:33:02.082 | ERROR    | Log.get_log:error:32 - 用例执行失败:assert '收单成功' == '当前产品不支持此格式帐号'
+  - 当前产品不支持此格式帐号
+  + 收单成功
+2021-07-08 17:33:02.092 | INFO     | Log.get_log:info:20 - 执行用例Card_009产品配置异常
+2021-07-08 17:33:02.119 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:02.124 | INFO     | Log.get_log:info:20 - 执行用例Card_010产品编码无法识别
+2021-07-08 17:33:02.147 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:02.152 | INFO     | Log.get_log:info:20 - 执行用例Card_011ProductCode不能为空
+2021-07-08 17:33:02.168 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:02.173 | INFO     | Log.get_log:info:20 - 执行用例Card_012ChargeAccount不能为空
+2021-07-08 17:33:02.200 | ERROR    | Log.get_log:error:32 - 用例执行失败:assert '收单成功' == 'ChargeAccount不能为空'
+  - ChargeAccount不能为空
+  + 收单成功
+2021-07-08 17:33:02.211 | INFO     | Log.get_log:info:20 - 执行用例Card_013MOrderID不能为空
+2021-07-08 17:33:02.233 | ERROR    | Log.get_log:error:32 - 用例执行失败:assert '收单成功' == 'MOrderID不能为空'
+  - MOrderID不能为空
+  + 收单成功
+2021-07-08 17:33:02.243 | INFO     | Log.get_log:info:20 - 执行用例Card_014TimesTamp不能为空
+2021-07-08 17:33:02.274 | ERROR    | Log.get_log:error:32 - 用例执行失败:assert '收单成功' == 'TimesTamp不能为空'
+  - TimesTamp不能为空
+  + 收单成功
+2021-07-08 17:33:02.285 | INFO     | Log.get_log:info:20 - 执行用例Card_015AppKey不能为空
+2021-07-08 17:33:02.306 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:02.312 | INFO     | Log.get_log:info:20 - 执行用例Card_016Version不能为空
+2021-07-08 17:33:02.342 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:02.347 | INFO     | Log.get_log:info:20 - 执行用例Card_017BuyCount格式错误
+2021-07-08 17:33:02.366 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:02.371 | INFO     | Log.get_log:info:20 - 执行用例Card_018ChargeAccountType不能为空
+2021-07-08 17:33:02.397 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:02.402 | INFO     | Log.get_log:info:20 - 执行用例Card_019账户类型错误
+2021-07-08 17:33:02.422 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:02.427 | INFO     | Log.get_log:info:20 - 执行用例Card_020接口版本错误
+2021-07-08 17:33:02.448 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:02.455 | INFO     | Log.get_log:info:20 - 执行用例Card_021CallBackUrl不能为空
+2021-07-08 17:33:02.472 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:02.477 | INFO     | Log.get_log:info:20 - 执行用例Card_022签名错误
+2021-07-08 17:33:02.502 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:02.508 | INFO     | Log.get_log:info:20 - 执行用例Card_023合作方单号重复
+2021-07-08 17:33:02.530 | ERROR    | Log.get_log:error:32 - 用例执行失败:assert '收单成功' == '会员订单号重复'
+  - 会员订单号重复
+  + 收单成功
+2021-07-08 17:33:02.540 | INFO     | Log.get_log:info:20 - 执行用例Card_024时间戳失效
+2021-07-08 17:33:02.564 | ERROR    | Log.get_log:error:32 - 用例执行失败:assert '收单成功' == '时间戳失效'
+  - 时间戳失效
+  + 收单成功
+2021-07-08 17:33:02.594 | INFO     | Log.get_log:info:20 - 执行用例Card_025卡密密钥不能为空
+2021-07-08 17:33:02.618 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:02.623 | INFO     | Log.get_log:info:20 - 执行用例Card_026卡密密钥不合法
+2021-07-08 17:33:02.648 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:02.652 | INFO     | Log.get_log:info:20 - ---卡密订单用例结束执行---
+2021-07-08 17:33:02.654 | INFO     | Log.get_log:info:20 - ---话费订单用例开始执行---
+2021-07-08 17:33:02.656 | INFO     | Log.get_log:info:20 - 执行用例Submit_001提交成功
+2021-07-08 17:33:02.691 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:02.696 | INFO     | Log.get_log:info:20 - 执行用例Submit_002订单重复提交
+2021-07-08 17:33:02.723 | ERROR    | Log.get_log:error:32 - 用例执行失败:assert '提交成功' == '订单不存在'
+  - 订单不存在
+  + 提交成功
+2021-07-08 17:33:02.733 | INFO     | Log.get_log:info:20 - 执行用例Submit_003无效的时间戳
+2021-07-08 17:33:02.759 | ERROR    | Log.get_log:error:32 - 用例执行失败:assert '提交成功' == '无效的时间戳'
+  - 无效的时间戳
+  + 提交成功
+2021-07-08 17:33:02.779 | INFO     | Log.get_log:info:20 - 执行用例Submit_004请求已超时
+2021-07-08 17:33:02.807 | ERROR    | Log.get_log:error:32 - 用例执行失败:assert '提交成功' == '请求已超时'
+  - 请求已超时
+  + 提交成功
+2021-07-08 17:33:02.817 | INFO     | Log.get_log:info:20 - 执行用例Submit_005非法的会员
+2021-07-08 17:33:02.849 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:02.855 | INFO     | Log.get_log:info:20 - 执行用例Submit_006会员已被禁用
+2021-07-08 17:33:02.874 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:02.879 | INFO     | Log.get_log:info:20 - 执行用例Submit_007接口账户已被禁用
+2021-07-08 17:33:02.901 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:02.906 | INFO     | Log.get_log:info:20 - 执行用例Submit_008请求IP地址与邦定IP地址不符
+2021-07-08 17:33:02.923 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:02.929 | INFO     | Log.get_log:info:20 - 执行用例Submit_009签名错误(apikey 错误)
+2021-07-08 17:33:02.952 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:02.957 | INFO     | Log.get_log:info:20 - 执行用例Submit_010不支持该产品充值
+2021-07-08 17:33:02.985 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:02.991 | INFO     | Log.get_log:info:20 - 执行用例Submit_011该产品不支持数量
+2021-07-08 17:33:03.019 | ERROR    | Log.get_log:error:32 - 用例执行失败:assert '提交成功' == '该产品不支持数量'
+  - 该产品不支持数量
+  + 提交成功
+2021-07-08 17:33:03.030 | INFO     | Log.get_log:info:20 - 执行用例Submit_012该产品已下架
+2021-07-08 17:33:03.048 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:03.053 | INFO     | Log.get_log:info:20 - 执行用例Submit_013该产品未配置价格
+2021-07-08 17:33:03.080 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:03.085 | INFO     | Log.get_log:info:20 - 执行用例Submit_014资金账户余额不足
+2021-07-08 17:33:03.112 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:03.117 | INFO     | Log.get_log:info:20 - 执行用例Submit_015接口帐号不能为空
+2021-07-08 17:33:03.147 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:03.153 | INFO     | Log.get_log:info:20 - 执行用例Submit_016会员订单号不能为空
+2021-07-08 17:33:03.204 | ERROR    | Log.get_log:error:32 - 用例执行失败:assert '提交成功' == '会员订单号不能为空'
+  - 会员订单号不能为空
+  + 提交成功
+2021-07-08 17:33:03.214 | INFO     | Log.get_log:info:20 - 执行用例Submit_017充值号码不能为空
+2021-07-08 17:33:03.238 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:03.243 | INFO     | Log.get_log:info:20 - 执行用例Submit_018时间戳不能为空
+2021-07-08 17:33:03.274 | ERROR    | Log.get_log:error:32 - 用例执行失败:assert '提交成功' == '时间戳不能为空'
+  - 时间戳不能为空
+  + 提交成功
+2021-07-08 17:33:03.284 | INFO     | Log.get_log:info:20 - 执行用例Submit_019签名不能为空
+2021-07-08 17:33:03.336 | ERROR    | Log.get_log:error:32 - 用例执行失败:assert '提交成功' == '签名不能为空'
+  - 签名不能为空
+  + 提交成功
+2021-07-08 17:33:03.346 | INFO     | Log.get_log:info:20 - 执行用例Submit_020无效的面值
+2021-07-08 17:33:03.369 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:03.374 | INFO     | Log.get_log:info:20 - 执行用例Submit_021无效的产品类型
+2021-07-08 17:33:03.383 | INFO     | Log.get_log:info:20 - ---话费订单用例结束执行---
+2021-07-08 17:33:03.385 | INFO     | Log.get_log:info:20 - ---短链接生成用例开始执行---
+2021-07-08 17:33:03.386 | INFO     | Log.get_log:info:20 - 执行用例Generate_001所有字段正常传入
+2021-07-08 17:33:03.415 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:03.420 | INFO     | Log.get_log:info:20 - 执行用例Generate_002所有必填字段正常传入
+2021-07-08 17:33:03.493 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:03.498 | INFO     | Log.get_log:info:20 - 执行用例Generate_003Url为空
+2021-07-08 17:33:03.503 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:03.508 | INFO     | Log.get_log:info:20 - 执行用例Generate_004Token为空
+2021-07-08 17:33:03.513 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:03.517 | INFO     | Log.get_log:info:20 - 执行用例Generate_005输入错误的Url
+2021-07-08 17:33:03.522 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:03.526 | INFO     | Log.get_log:info:20 - 执行用例Generate_006无效Token
+2021-07-08 17:33:03.531 | ERROR    | Log.get_log:error:32 - 用例执行失败:assert '100101' == '100104'
+  - 100104
+  ?      ^
+  + 100101
+  ?      ^
+2021-07-08 17:33:03.540 | INFO     | Log.get_log:info:20 - 执行用例Generate_007无效的域名
+2021-07-08 17:33:03.544 | ERROR    | Log.get_log:error:32 - 用例执行失败:assert '100101' == '100105'
+  - 100105
+  ?      ^
+  + 100101
+  ?      ^
+2021-07-08 17:33:03.554 | INFO     | Log.get_log:info:20 - 执行用例Generate_008会员余额不足
+2021-07-08 17:33:03.559 | ERROR    | Log.get_log:error:32 - 用例执行失败:assert '100101' == '100106'
+  - 100106
+  ?      ^
+  + 100101
+  ?      ^
+2021-07-08 17:33:03.568 | INFO     | Log.get_log:info:20 - 执行用例Generate_009会员无效
+2021-07-08 17:33:03.573 | ERROR    | Log.get_log:error:32 - 用例执行失败:assert '100101' == '100107'
+  - 100107
+  ?      ^
+  + 100101
+  ?      ^
+2021-07-08 17:33:03.582 | INFO     | Log.get_log:info:20 - 执行用例Generate_010IP验证失败
+（会员接口白名单配置错误的IP）
+2021-07-08 17:33:03.597 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:03.602 | INFO     | Log.get_log:info:20 - 执行用例Generate_011传递参数(timestamp)不能为空
+2021-07-08 17:33:03.611 | ERROR    | Log.get_log:error:32 - 用例执行失败:assert '100108' == '100109'
+  - 100109
+  ?      ^
+  + 100108
+  ?      ^
+2021-07-08 17:33:03.620 | INFO     | Log.get_log:info:20 - 执行用例Generate_012传递参数(Sign)不能为空
+2021-07-08 17:33:03.630 | ERROR    | Log.get_log:error:32 - 用例执行失败:assert '100108' == '100110'
+  - 100110
+  ?     -
+  + 100108
+  ?      +
+2021-07-08 17:33:03.640 | INFO     | Log.get_log:info:20 - 执行用例Generate_013时间戳已失效
+2021-07-08 17:33:03.649 | ERROR    | Log.get_log:error:32 - 用例执行失败:assert '100108' == '100111'
+  - 100111
+  + 100108
+2021-07-08 17:33:03.658 | INFO     | Log.get_log:info:20 - 执行用例Generate_014签名错误
+2021-07-08 17:33:03.893 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:03.901 | INFO     | Log.get_log:info:20 - 执行用例Generate_015时间戳有误
+2021-07-08 17:33:03.910 | ERROR    | Log.get_log:error:32 - 用例执行失败:assert '100108' == '100113'
+  - 100113
+  + 100108
+2021-07-08 17:33:03.920 | INFO     | Log.get_log:info:20 - 执行用例Generate_016传递参数(DomainName)不能为空
+2021-07-08 17:33:03.925 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-08 17:33:03.928 | INFO     | Log.get_log:info:20 - ---短链接生成用例结束执行---

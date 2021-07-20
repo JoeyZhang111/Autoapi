@@ -1,0 +1,101 @@
+2021-07-09 15:25:53.651 | INFO     | Log.get_log:info:20 - ---积分卡提取用例开始执行---
+2021-07-09 15:25:53.652 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_001所有字段正常传入
+2021-07-09 15:25:53.936 | ERROR    | Log.get_log:error:32 - 用例执行失败:Expecting ',' delimiter: line 1 column 51 (char 50)
+2021-07-09 15:25:53.977 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_002渠道账号为空
+2021-07-09 15:25:54.125 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-09 15:25:54.130 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_003
+传入不存在的渠道账号
+2021-07-09 15:25:54.274 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-09 15:25:54.279 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_004后台渠道提取帐号禁用
+2021-07-09 15:25:54.416 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-09 15:25:54.422 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_005后台配置了限制IP
+2021-07-09 15:25:54.577 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-09 15:25:54.583 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_006渠道提取帐号金额不足
+2021-07-09 15:25:54.868 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-09 15:25:54.874 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_007号码为空
+2021-07-09 15:25:55.029 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-09 15:25:55.033 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_008号码包含字母特殊字符空格
+2021-07-09 15:25:55.330 | ERROR    | Log.get_log:error:32 - 用例执行失败:assert '成功' == '其他异常'
+  - 其他异常
+  + 成功
+2021-07-09 15:25:55.338 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_009订单号为空
+2021-07-09 15:25:55.540 | ERROR    | Log.get_log:error:32 - 用例执行失败:assert '重复请求,已制过码,订单已存在' == '其他异常'
+  - 其他异常
+  + 重复请求,已制过码,订单已存在
+2021-07-09 15:25:55.548 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_010订单号包含字母特殊字符空格
+2021-07-09 15:25:55.735 | ERROR    | Log.get_log:error:32 - 用例执行失败:assert '重复请求,已制过码,订单已存在' == '其他异常'
+  - 其他异常
+  + 重复请求,已制过码,订单已存在
+2021-07-09 15:25:55.744 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_011订单已存在
+2021-07-09 15:25:55.932 | ERROR    | Log.get_log:error:32 - 用例执行失败:Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2021-07-09 15:25:55.947 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_012商品编号为空
+2021-07-09 15:25:56.160 | ERROR    | Log.get_log:error:32 - 用例执行失败:assert '重复请求,已制过码,订单已存在' == '其他异常'
+  - 其他异常
+  + 重复请求,已制过码,订单已存在
+2021-07-09 15:25:56.168 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_013商品编码不存在
+2021-07-09 15:25:56.447 | ERROR    | Log.get_log:error:32 - 用例执行失败:assert '所提取的数量不足' == '其他异常'
+  - 其他异常
+  + 所提取的数量不足
+2021-07-09 15:25:56.456 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_014商品编码包含字母特殊字符空格
+2021-07-09 15:25:56.730 | ERROR    | Log.get_log:error:32 - 用例执行失败:assert '所提取的数量不足' == '其他异常'
+  - 其他异常
+  + 所提取的数量不足
+2021-07-09 15:25:56.737 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_015积分卡数量不足
+2021-07-09 15:25:57.021 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-09 15:25:57.026 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_016购买数为空
+2021-07-09 15:25:57.308 | ERROR    | Log.get_log:error:32 - 用例执行失败:assert '提取数量必须大于1' == '其他异常'
+  - 其他异常
+  + 提取数量必须大于1
+2021-07-09 15:25:57.315 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_017购买数为0
+2021-07-09 15:25:57.612 | ERROR    | Log.get_log:error:32 - 用例执行失败:Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2021-07-09 15:25:57.629 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_018购买数负数
+2021-07-09 15:25:57.927 | ERROR    | Log.get_log:error:32 - 用例执行失败:Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2021-07-09 15:25:57.942 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_019购买数包含字母特殊字符空格
+2021-07-09 15:25:58.383 | ERROR    | Log.get_log:error:32 - 用例执行失败:assert '提取数量必须大于1' == '其他异常'
+  - 其他异常
+  + 提取数量必须大于1
+2021-07-09 15:25:58.391 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_020有效期为空
+2021-07-09 15:25:58.541 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-09 15:25:58.546 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_021有效期格式错误
+2021-07-09 15:25:58.692 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-09 15:25:58.698 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_022有效期过期
+2021-07-09 15:25:58.972 | ERROR    | Log.get_log:error:32 - 用例执行失败:assert '成功' == '参数异常'
+  - 参数异常
+  + 成功
+2021-07-09 15:25:58.980 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_023开始时间为空
+2021-07-09 15:25:59.124 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-09 15:25:59.130 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_024开始时间格式错误
+2021-07-09 15:25:59.277 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-09 15:25:59.283 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_025开始时间未开始
+2021-07-09 15:25:59.577 | ERROR    | Log.get_log:error:32 - 用例执行失败:assert '成功' == '参数异常'
+  - 参数异常
+  + 成功
+2021-07-09 15:25:59.587 | INFO     | Log.get_log:info:20 - 执行用例getcodedata
+_026签名为空
+2021-07-09 15:25:59.776 | INFO     | Log.get_log:info:20 - 用例执行成功
+2021-07-09 15:25:59.779 | INFO     | Log.get_log:info:20 - ---积分卡提取用例结束执行---

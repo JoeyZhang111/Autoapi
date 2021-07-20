@@ -1,0 +1,12 @@
+2021-07-02 14:13:58.395 | INFO     | test_dep:setup_class:82 - ---删除部门用例开始执行---
+2021-07-02 14:13:58.397 | INFO     | test_dep:test_delete:95 - 执行用例delete_001 删除成功
+2021-07-02 14:13:58.603 | ERROR    | test_dep:test_delete:106 - 用例执行失败:assert 60123 == 0
+  +60123
+  -0
+2021-07-02 14:13:58.635 | INFO     | test_dep:test_delete:95 - 执行用例delete_002 删除无效部门
+2021-07-02 14:13:58.849 | INFO     | test_dep:test_delete:109 - 用例执行成功
+2021-07-02 14:13:58.855 | INFO     | test_dep:test_delete:95 - 执行用例delete_003 删除含子部门的部门
+2021-07-02 14:13:59.088 | INFO     | test_dep:test_delete:109 - 用例执行成功
+2021-07-02 14:13:59.094 | INFO     | test_dep:test_delete:95 - 执行用例delete_004 删除部门包含成员
+2021-07-02 14:13:59.325 | INFO     | test_dep:test_delete:109 - 用例执行成功
+2021-07-02 14:13:59.329 | INFO     | test_dep:teardown_class:85 - ---删除部门用例结束执行---

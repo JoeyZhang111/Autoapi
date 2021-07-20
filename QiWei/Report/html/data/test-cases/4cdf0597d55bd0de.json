@@ -1,0 +1,116 @@
+{
+  "uid" : "4cdf0597d55bd0de",
+  "name" : "Create_015-部门id重复",
+  "fullName" : "TestCase.test_dep.TestCreatDep#test_create[Create_015-部门id重复-https://qyapi.weixin.qq.com/cgi-bin/department/create-post-{\"name\": \"市场部\",\"name_en\": \"SCB\",\"parentid\": \"1\",\"order\": \"1\",\"id\": \"2\"}-{\"errcode\": \"60008\", \"errmsg\": \"department existed, hint: ",
+  "historyId" : "d5e30dda3dd2dedace71d0f694b981ee",
+  "time" : {
+    "start" : 1624419699809,
+    "stop" : 1624419699981,
+    "duration" : 172
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_token",
+    "time" : {
+      "start" : 1624419696259,
+      "stop" : 1624419696447,
+      "duration" : 188
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "del_dep",
+    "time" : {
+      "start" : 1624419696447,
+      "stop" : 1624419697072,
+      "duration" : 625
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "新增部门用例"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "部门管理用例"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_dep"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCreatDep"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-M7394K0"
+  }, {
+    "name" : "thread",
+    "value" : "15624-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_dep"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expect",
+    "value" : "'{\"errcode\": \"60008\", \"errmsg\": \"department existed, hint: [1622450488_197_103b9398b6b512a3fd616bc4eda4da0d], from ip: 125.70.178.38, more info at https://open.work.weixin.qq.com/devtool/query?e=60008\"}'"
+  }, {
+    "name" : "id",
+    "value" : "'Create_015'"
+  }, {
+    "name" : "method",
+    "value" : "'post'"
+  }, {
+    "name" : "name",
+    "value" : "'部门id重复'"
+  }, {
+    "name" : "reqbody",
+    "value" : "'{\"name\": \"市场部\",\"name_en\": \"SCB\",\"parentid\": \"1\",\"order\": \"1\",\"id\": \"2\"}'"
+  }, {
+    "name" : "url",
+    "value" : "'https://qyapi.weixin.qq.com/cgi-bin/department/create'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "4cdf0597d55bd0de.json",
+  "parameterValues" : [ "'{\"errcode\": \"60008\", \"errmsg\": \"department existed, hint: [1622450488_197_103b9398b6b512a3fd616bc4eda4da0d], from ip: 125.70.178.38, more info at https://open.work.weixin.qq.com/devtool/query?e=60008\"}'", "'Create_015'", "'post'", "'部门id重复'", "'{\"name\": \"市场部\",\"name_en\": \"SCB\",\"parentid\": \"1\",\"order\": \"1\",\"id\": \"2\"}'", "'https://qyapi.weixin.qq.com/cgi-bin/department/create'" ]
+}
